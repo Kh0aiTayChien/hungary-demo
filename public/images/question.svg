@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="212.628" viewBox="0 0 480 212.628">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 37.575px;
+        font-family: BeautiqueDisplay-Light, Beautique Display;
+        font-weight: 300;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        letter-spacing: 0.028em;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        fill: #bc202e;
+      }
+
+      .cls-2 {
+        font-size: 39.395px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: BeautiqueDisplay-Bold, Beautique Display;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        font-size: 41.29px;
+      }
+
+      .cls-4 {
+        font-size: 28.233px;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: BeautiqueDisplay-Medium, Beautique Display;
+        font-weight: 500;
+      }
+
+      .cls-5 {
+        font-size: 55.603px;
+      }
+    </style>
+  </defs>
+  <g id="Group_27" data-name="Group 27" transform="translate(-353.893 -149.788)">
+    <text id="Điều_gì_khiến" data-name="Điều gì khiến" class="cls-1" transform="translate(354.894 180.788)"><tspan x="0" y="0">Điều gì khiến</tspan></text>
+    <text id="ĐẦU_TƯ_BẤT_ĐỘNG_SẢN" data-name="ĐẦU TƯ BẤT ĐỘNG SẢN" class="cls-2" transform="translate(354.894 235.825)"><tspan x="0" y="0">ĐẦU TƯ BẤT ĐỘNG SẢN</tspan></text>
+    <text id="CƯ_TRÚ" data-name="CƯ TRÚ" class="cls-3" transform="translate(354.894 288.87)"><tspan x="0" y="0">CƯ TRÚ</tspan></text>
+    <text id="đang_trở_thành" data-name="đang trở thành" class="cls-4" transform="translate(533.822 289.635)"><tspan x="0" y="0">đang trở thành</tspan></text>
+    <text id="Xu_hướng" data-name="Xu hướng" class="cls-5" transform="translate(354.893 349.417)"><tspan x="0" y="0">Xu hướng</tspan></text>
+  </g>
+</svg>

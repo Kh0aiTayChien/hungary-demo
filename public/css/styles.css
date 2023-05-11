@@ -1,0 +1,295 @@
+@font-face {
+    font-family: 'BeautiqueDisplay-Black-BF63fd5fa82b67d';
+    src: url("/font/BeautiqueDisplay-Black-BF63fd5fa82b67d.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'BeautiqueDisplay-Light-BF63fd5fa808682';
+    src: url("/font/BeautiqueDisplay-Light-BF63fd5fa808682.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Mulish-SemiBold';
+    src: url("/font/Mulish-SemiBold.ttf") format("opentype");
+}
+
+.section1 {
+    background-image: url("/images/backgroundSec1.png");
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.backGround1 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.logoCen {
+    height: 150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    opacity: 90%;
+    transition: background-color 0.5s ease;
+}
+
+.menu {
+    display: none;
+}
+
+.cenlogo {
+    position: absolute;
+    width: 25vw;
+    bottom: -100px;
+}
+
+
+.name {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin-top: 13%;
+    font-size: 2.75vw;
+    font-family: BeautiqueDisplay-Black, sans-serif;
+}
+
+
+.name1 {
+    margin-right: 5px;
+}
+
+
+.line1 {
+    margin-top: 2%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.slogan1 {
+    color: white;
+    font-size: 3vw;
+    font-family: BeautiqueDisplay-Light, sans-serif;
+}
+
+.slogan1Right {
+    font-size: 5vw;
+    color: #E7C57E;
+    font-family: BeautiqueDisplay-Black, sans-serif;
+}
+
+.line2 {
+    margin-top: -1%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.slogan2 {
+    color: white;
+    font-size: 3vw;
+    font-family: BeautiqueDisplay-Light, sans-serif;
+}
+
+.slogan2Right {
+    font-size: 5vw;
+    color: #E7C57E;
+    font-family: BeautiqueDisplay-Black, sans-serif;
+}
+
+.button1Pos {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.button1 {
+    margin-top: 2%;
+    width: 20vw;
+    height: 8vh;
+    font-size: 1.75vw;
+    background: #E7C57E;
+    color: black;
+    font-family: Mulish-SemiBold, sans-serif;
+    font-weight: lighter;
+    /*letter-spacing: 10px;*/
+}
+
+.iconfb {
+    margin-top: 10%;
+    position: fixed;
+    width: 5vw;
+    right: 5%;
+    z-index: 9999;
+}
+
+.icontiktok {
+    margin-top: 17.5%;
+    right: 5%;
+    position: fixed;
+    width: 5vw;
+    z-index: 9999;
+}
+
+.iconzalo {
+    margin-top: 25%;
+    right: 5%;
+    position: fixed;
+    width: 5vw;
+    z-index: 9999;
+}
+
+.phone {
+    display: inline;
+    position: fixed;
+    right: 5%;
+    margin-top: -1%;
+    z-index: 9999;
+}
+
+.phoneNumber {
+    width: 12vw;
+}
+
+.phoneIcon {
+    width: 5vw;
+}
+
+ul.hide {
+    display: none;
+}
+
+ul.iconmb {
+    /*display: none;*/
+    position: fixed;
+    background: #121624;
+    opacity: 90%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .iconpc {
+        display: none;
+    }
+    .iconmb {
+        display: block;
+    }
+    .logoCen {
+        margin-top: -3%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        opacity: 90%;
+        height: 8%;
+        transition: background-color 0.5s ease;
+    }
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .cenlogo {
+        position: relative;
+        width: 50vw;
+        margin: 0 auto;
+        margin-top: 5%;
+        transform: translateX(20%);
+        bottom: 0
+    }
+
+    .contact {
+        display: flex;
+        justify-content: center;
+    }
+    .iconfb {
+        position: absolute;
+        transform: translateX(-100%);
+        width: 30vw;
+        margin-top: 20%;
+        z-index: 99999;
+    }
+    .icontiktok {
+        position: absolute;
+        transform: translateX(-100%);
+        width: 30vw;
+        margin-top: 60%;
+        z-index: 99999;
+    }
+    .iconzalo {
+        position: absolute;
+        transform: translateX(-100%);
+        width: 30vw;
+        margin-top: 110%;
+        z-index: 99999;
+    }
+    .menu {
+        display: block;
+        width: 7vw;
+        margin-right: 5%;
+    }
+    .name {
+        margin-top: 50%;
+    }
+    .name span{
+        display: block;
+    }
+    .name1 {
+        font-size: 10vw;
+    }
+    .name2 {
+        font-size: 5vw;
+    }
+    .line1 {
+        margin-top: 10%;
+    }
+    .slogan1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    .slogan1Right {
+        font-size: 10vw;
+        margin-top: -5%;
+    }
+
+    .slogan2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 5vw;
+        margin-top: -3%;
+    }
+
+    .slogan2Right {
+        font-size: 10vw;
+        margin-top: -5%;
+    }
+    .button1 {
+        margin-top: 15%;
+        width: 50vw;
+        height: 6vh;
+        font-size: 5vw;
+    }
+
+    a.phone {
+        text-decoration: none;
+        position: fixed;
+        bottom: 15%;
+        right: 5%;
+    }
+
+    .phoneIcon {
+        width: 10vw;
+    }
+    .phoneNumber {
+        width: 25vw;
+    }
+}
