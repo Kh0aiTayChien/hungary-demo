@@ -3,11 +3,29 @@
         overflow-x: hidden;
     }
 
-    @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+    @font-face {
+        font-family: 'Mulish-SemiBold';
+        src: url({{asset('fonts/Mulish-SemiBold.ttf')}});
+    }
+    @font-face {
+        font-family: 'Mulish-ExtraBold';
+        src: url({{asset('fonts/Mulish-ExtraBold.ttf')}});
+    }
 
+    h5{
+        font-family: 'Mulish-ExtraBold', sans-serif;
+    }
+
+    .btn:focus {
+        box-shadow: none !important;
+    }
+
+    .text-justify{
+        text-align: justify
+    }
     .rectangle {
         width: 110px;
-        height: 8.038px;
+        height: 5.038px;
         background-color: #bc202e;
     }
 
@@ -20,7 +38,7 @@
     }
 
     .text-grey {
-        color: #404041;
+        color: #D0D2D3;
     }
 
     .side-img {
@@ -30,7 +48,7 @@
     }
 
     .content {
-        font-family: 'Mulish', sans-serif;
+        font-family: 'Mulish-SemiBold', sans-serif;
     }
 
     .fade-out {
@@ -46,7 +64,7 @@
     .next-img {
         width: 200%;
         height: 80%;
-        margin: 25% 0 0 20%;
+        margin: 25% 0 0 2%;
         opacity: 50%;
     }
 
@@ -118,7 +136,6 @@
         overflow-x: hidden;
         margin: 0;
         padding: 0;
-        /*height: 100%;*/
     }
 
 </style>
@@ -128,10 +145,9 @@
         <div class=" content first_content">
             <div class=" text-danger h5 header-1" style="margin-top: 5%;">
                 DẠNG ĐỊNH CƯ ƯU VIỆT NHẤT
-                <hr>
             </div>
-
-            <div class="text_content_1">
+            <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 52%; height: 2rem">
+            <div class="text_content_1 text-justify">
                 Vượt trên các dạng định cư ĐOÀN TỤ - KỸ NĂNG - DU HỌC - DOANH NHÂN (ĐẦU TƯ) đều có những điểm khó khăn
                 nhất
                 định. Và việc làm thẻ cư trú kèm mua BDS đang là ƯU VIỆT NHẤT.
@@ -147,10 +163,9 @@
         <div class=" content d-none">
             <div class=" text-danger h5 header-2" style="margin-top: 5%;">
                 BẢO VỆ NHÀ ĐẦU TƯ - TẠM TRÚ TRƯỚC BIẾN ĐỘNG
-                <hr>
             </div>
-
-            <div class="text_content_2">
+            <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 75%">
+            <div class="text_content_2 text-justify">
                 Các hoạt động đầu cơ, thổi giá, thị trường bất động sản trong nước đã chạm đỉnh và sẽ khó xuất hiện
                 những bước nhảy vọt trong thời gian sắp tới. Sự thiếu uy tín của nhiều chủ đầu tư lại càng
                 đẩy giới đầu tư vào trạng thái hoang mang, phải “thắt dây an toàn”.
@@ -165,10 +180,9 @@
         <div class=" content d-none">
             <div class=" text-danger h5 header-3 " style="margin-top: 5%;">
                 MÓN QUÀ ƯU GIÁ TRỊ - PHƯƠNG ÁN B - CỦA ĐỂ DÀNH
-                <hr>
             </div>
-
-            <div class="text_content_3">
+            <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 80%">
+            <div class="text_content_3 text-justify" >
                 Một món quà tinh thần mang ý nghĩa sâu sắc khi giúp thế hệ mai sau
                 được tiếp cận với nền văn minh hiện đại, được tiếp thu những tư tưởng tân tiến,
                 xu hướng ngày càng nhiều gia đình Việt Nam tạo điều kiện cho con em học tập và sinh sống ở nước ngoài.
@@ -181,10 +195,9 @@
         <div class=" content d-none">
             <div class=" text-danger h5 header-4" style="margin-top: 5%;">
                 DU LỊCH MIỄN THỊ THỰC - TỰ DO KHÁM PHÁ
-                <hr>
             </div>
-
-            <div class="text_content_4">
+            <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 65%">
+            <div class="text_content_4 text-justify">
                 Người thành công trong xã hội đều mong muốn đạt được mục tiêu: mang lại
                 cho gia đình mình cơ hội di chuyển tự do khắp thế giới,
                 đặc biệt là ở khu vực Châu Âu.
@@ -196,7 +209,7 @@
             </div>
         </div>
 
-        <div class="rectangle-dot row w-75 mt-5 gx-1">
+        <div class="rectangle-dot row mt-5 gx-1" style="width: 60%">
             <div class="col-3">
                 <div class="text-center number fw-bold  text-red first_text">01</div>
                 <div class="rectangle w-100 first_rectangle"></div>
@@ -220,15 +233,13 @@
         <img src="{{asset('images/pic_2.png')}}" alt="" class="img-fluid h-100 side-img col-8 d-none">
         <img src="{{asset('images/pic_3.png')}}" alt="" class="img-fluid h-100 side-img col-8 d-none">
         <img src="{{asset('images/pic_4.png')}}" alt="" class="img-fluid h-100 side-img col-8 d-none">
+
         <div class="col-4 position-relative next_img_content">
-            <img src="{{asset('images/pic_2.png')}}" alt="" style=""
-                 class="next-img first_img ">
-            <img src="{{asset('images/pic_3.png')}}" alt="" style=""
-                 class="next-img  d-none">
-            <img src="{{asset('images/pic_4.png')}}" alt="" style=""
-                 class="next-img d-none">
-            <img src="{{asset('images/pic_1.png')}}" alt="" style=""
-                 class="next-img  d-none">
+            <img src="{{asset('images/pic_2.png')}}" alt="" class="next-img first_img ">
+            <img src="{{asset('images/pic_3.png')}}" alt="" class="next-img  d-none">
+            <img src="{{asset('images/pic_4.png')}}" alt="" class="next-img d-none">
+            <img src="{{asset('images/pic_1.png')}}" alt="" class="next-img  d-none">
+
             <button class="btn btn-outline position-absolute top-50 start-50 translate-middle next">
                 <img src="{{asset('images/arrow.png')}}" alt=""></button>
         </div>
@@ -270,14 +281,14 @@
 
         </div>
         <div class="ps-5 pe-5">
-            <div class=" content first_content">
-                <div
-                    class=" text-danger header-1 center d-flex justify-content-center align-items-center pt-3 pb-3">
-                    DẠNG ĐỊNH CƯ ƯU VIỆT NHẤT
-
+            <div class=" content first_content ">
+                <div class=" text-danger header-1 d-flex justify-content-center align-items-center pt-3 ">
+                    <p class="text-center">DẠNG ĐỊNH CƯ ƯU VIỆT NHẤT</p>
                 </div>
-                <hr class="text-red">
-                <div class="text_content_1">
+                <div class="d-flex justify-content-center pb-3">
+                    <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 60%;">
+                </div>
+                <div class="text_content_1 text-justify">
                     Vượt trên các dạng định cư ĐOÀN TỤ - KỸ NĂNG - DU HỌC - DOANH NHÂN (ĐẦU TƯ) đều có những điểm khó
                     khăn
                     nhất
@@ -293,13 +304,13 @@
             </div>
 
             <div class=" content d-none">
-                <div
-                    class=" text-danger  header-2 center d-flex justify-content-center align-items-center pt-3 pb-3"
-                    style="margin-top: 5%;">
-                    BẢO VỆ NHÀ ĐẦU TƯ - TẠM TRÚ TRƯỚC BIẾN ĐỘNG
+                <div class=" text-danger  header-2 center d-flex justify-content-center align-items-center pt-3 " style="margin-top: 5%;">
+                    <p class="text-center">BẢO VỆ NHÀ ĐẦU TƯ - TẠM TRÚ TRƯỚC BIỂN ĐỘNG</p>
                 </div>
-                <hr class="text-red">
-                <div class="text_content_2">
+                <div class="d-flex justify-content-center pb-3">
+                    <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 50%;">
+                </div>
+                <div class="text_content_2 text-justify">
                     Các hoạt động đầu cơ, thổi giá, thị trường bất động sản trong nước đã chạm đỉnh và sẽ khó xuất hiện
                     những bước nhảy vọt trong thời gian sắp tới. Sự thiếu uy tín của nhiều chủ đầu tư lại càng
                     đẩy giới đầu tư vào trạng thái hoang mang, phải “thắt dây an toàn”.
@@ -312,13 +323,14 @@
             </div>
 
             <div class=" content d-none">
-                <div
-                    class=" text-danger  header-3 center d-flex justify-content-center align-items-center pt-3 pb-3"
+                <div class=" text-danger  header-3 center d-flex justify-content-center align-items-center pt-3 "
                     style="margin-top: 5%;">
-                    MÓN QUÀ ƯU GIÁ TRỊ - PHƯƠNG ÁN B - CỦA ĐỂ DÀNH
+                    <p class="text-center">MÓN QUÀ ƯU GIÁ TRỊ PHƯƠNG ÁN B - CỦA ĐỂ DÀNH</p>
                 </div>
-                <hr class="text-red">
-                <div class="text_content_3">
+                <div class="d-flex justify-content-center pb-3 ">
+                    <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 50%;">
+                </div>
+                <div class="text_content_3 text-justify">
                     Một món quà tinh thần mang ý nghĩa sâu sắc khi giúp thế hệ mai sau
                     được tiếp cận với nền văn minh hiện đại, được tiếp thu những tư tưởng tân tiến,
                     xu hướng ngày càng nhiều gia đình Việt Nam tạo điều kiện cho con em học tập và sinh sống ở nước
@@ -331,12 +343,15 @@
 
             <div class=" content d-none last_content">
                 <div
-                    class=" text-danger header-4 center d-flex justify-content-center align-items-center pt-3 pb-3"
+                    class=" text-danger header-4 center d-flex justify-content-center align-items-center pt-3"
                     style="margin-top: 5%;">
-                    DU LỊCH MIỄN THỊ THỰC - TỰ DO KHÁM PHÁ
+                    <p class="text-center">DU LỊCH MIỄN THỊ THỰC- TỰ DO KHÁM PHÁ</p>
                 </div>
-                <hr class="text-red">
-                <div class="text_content_4">
+
+                <div class="d-flex justify-content-center pb-3 ">
+                    <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 50%;">
+                </div>
+                <div class="text_content_4 text-justify">
                     Người thành công trong xã hội đều mong muốn đạt được mục tiêu: mang lại
                     cho gia đình mình cơ hội di chuyển tự do khắp thế giới,
                     đặc biệt là ở khu vực Châu Âu.
@@ -509,6 +524,12 @@
             });
 
             $('.next').hover(function () {
+                stopAutoPlay();
+            }, function () {
+                startAutoPlay();
+            });
+
+            $('.prev').hover(function () {
                 stopAutoPlay();
             }, function () {
                 startAutoPlay();
