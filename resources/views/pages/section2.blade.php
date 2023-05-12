@@ -7,16 +7,18 @@
         font-family: 'Mulish-SemiBold';
         src: url({{asset('fonts/Mulish-SemiBold.ttf')}});
     }
+
     @font-face {
         font-family: 'Mulish-ExtraBold';
         src: url({{asset('fonts/Mulish-ExtraBold.ttf')}});
     }
 
-    .mulish-bold{
+    .mulish-bold {
         font-family: 'Mulish-ExtraBold', sans-serif;
         font-weight: bold;
     }
-    .start-30{
+
+    .start-30 {
         margin-left: 30%
     }
 
@@ -24,9 +26,10 @@
         box-shadow: none !important;
     }
 
-    .text-justify{
+    .text-justify {
         text-align: justify
     }
+
     .rectangle {
         width: 110px;
         height: 5.038px;
@@ -57,7 +60,7 @@
         object-fit: contain;
     }
 
-    .number{
+    .number {
         font-size: 1rem;
     }
 
@@ -196,7 +199,7 @@
                 MÓN QUÀ ƯU GIÁ TRỊ - PHƯƠNG ÁN B - CỦA ĐỂ DÀNH
             </div>
             <div class="header-rectangle" style="width: 75%"></div>
-            <div class="text_content_3 text-justify" >
+            <div class="text_content_3 text-justify">
                 Một món quà tinh thần mang ý nghĩa sâu sắc khi giúp thế hệ mai sau
                 được tiếp cận với nền văn minh hiện đại, được tiếp thu những tư tưởng tân tiến,
                 xu hướng ngày càng nhiều gia đình Việt Nam tạo điều kiện cho con em học tập và sinh sống ở nước ngoài.
@@ -223,7 +226,8 @@
             </div>
         </div>
 
-        <div class="rectangle-dot row mt-5 gx-1" style="width: 40%; font-size: 25px;  font-family: 'Mulish-SemiBold', sans-serif;">
+        <div class="rectangle-dot row mt-5 gx-1"
+             style="width: 40%; font-size: 25px;  font-family: 'Mulish-SemiBold', sans-serif;">
             <div class="col-3">
                 <div class="text-center number fw-bold  text-red first_text mulish-bold">01</div>
                 <div class="rectangle w-100 first_rectangle"></div>
@@ -338,7 +342,7 @@
             <div class=" content d-none">
                 <div class=" text-danger  header-3 center d-flex justify-content-center
                 align-items-center pt-3 mulish-bold"
-                    style="margin-top: 5%;">
+                     style="margin-top: 5%;">
                     <p class="text-center">MÓN QUÀ ƯU GIÁ TRỊ PHƯƠNG ÁN B - CỦA ĐỂ DÀNH</p>
                 </div>
                 <div class="d-flex justify-content-center pb-3 ">
@@ -402,6 +406,87 @@
     <script>
         $(document).ready(function () {
             $('.next').click(function () {
+                console.log('next')
+                slideToNextImage();
+            });
+            $('.prev').click(function () {
+                console.log('prev')
+                slideToPrevImage();
+            });
+            let intervalId;
+
+            function startAutoPlay() {
+                intervalId = setInterval(function () {
+                    slideToNextImage();
+                }, 15000); // Thời gian giữa các lần click (ở đây là 2000ms = 2 giây)
+            }
+
+            function stopAutoPlay() {
+                clearInterval(intervalId);
+            }
+
+            startAutoPlay(); // Bắt đầu auto play khi trang được tải
+
+            $('.next').hover(function () {
+                stopAutoPlay();
+            }, function () {
+                startAutoPlay();
+            });
+
+            $('.prev').hover(function () {
+                stopAutoPlay();
+            }, function () {
+                startAutoPlay();
+            });
+            var isTouching = false;
+            var touchStartX = 0;
+            var touchEndX = 0;
+            var threshold = 50; // Ngưỡng di chuyển tối thiểu để kích hoạt hành động
+            var touch_area = $('.section_2_mobile');
+
+            touch_area.on('touchstart', function (event) {
+                touchStartX = event.touches[0].clientX;
+                isTouching = true;
+            });
+
+            touch_area.on('touchmove', function (event) {
+                if (isTouching) {
+                    touchEndX = event.touches[event.touches.length - 1].clientX;
+                }
+            });
+
+            touch_area.on('touchend', function (event) {
+                if (isTouching) {
+                    isTouching = false;
+                    touchEndX = event.changedTouches[event.changedTouches.length - 1].clientX;
+                    var swipeLength = touchEndX - touchStartX;
+                    console.log(swipeLength);
+                    if (swipeLength > threshold) {
+                        // Lướt chạm sang phải
+                        // Kích hoạt hành động cho nút bấm sang phải
+                        console.log('next_mobile');
+                        $('.next').prop('disabled', true);
+                        stopAutoPlay();
+                        slideToNextImage();
+                        setTimeout(function () {
+                            $('.next').prop('disabled', false);
+                        }, 500);
+                    }
+                    if (swipeLength < -threshold) {
+                        // Lướt chạm sang trái
+                        // Kích hoạt hành động cho nút bấm sang trái
+                        console.log('prev_mobile');
+                        $('.prev').prop('disabled', true);
+                        stopAutoPlay();
+                        slideToPrevImage();
+                        setTimeout(function () {
+                            $('.prev').prop('disabled', false);
+                        }, 500);
+                    }
+                }
+            });
+
+            function slideToNextImage() {
                 let currentImage = $('.side-img:not(.d-none)');
                 let nextImage = currentImage.next('.side-img');
 
@@ -456,8 +541,10 @@
 
                 currentContent.addClass('d-none');
                 nextContent.removeClass('d-none');
-            });
-            $('.prev').click(function () {
+            }
+
+            function slideToPrevImage() {
+
                 let currentImage = $('.side-img:not(.d-none)');
                 let prevImage = currentImage.prev('.side-img');
 
@@ -511,44 +598,6 @@
 
                 currentContent.addClass('d-none');
                 prevContent.removeClass('d-none');
-            });
-            let intervalId;
-
-            function startAutoPlay() {
-                intervalId = setInterval(function () {
-                    $('.next').trigger('click');
-                }, 10000); // Thời gian giữa các lần click (ở đây là 2000ms = 2 giây)
             }
-
-            function stopAutoPlay() {
-                clearInterval(intervalId);
-            }
-
-            $('#next').click(function () {
-                // Đoạn code xử lý khi click next ở đây
-                // ...
-            });
-
-            startAutoPlay(); // Bắt đầu auto play khi trang được tải
-
-            // Tạm dừng auto play khi di chuột vào div chứa ảnh
-            $('.parent-container').hover(function () {
-                stopAutoPlay();
-            }, function () {
-                startAutoPlay();
-            });
-
-            $('.next').hover(function () {
-                stopAutoPlay();
-            }, function () {
-                startAutoPlay();
-            });
-
-            $('.prev').hover(function () {
-                stopAutoPlay();
-            }, function () {
-                startAutoPlay();
-            });
         });
-
     </script>

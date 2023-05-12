@@ -17,8 +17,15 @@
     background-image: url("/images/backgroundSec1.png");
     width: 100vw;
     height: 100vh;
-    height: var(--window-height);
     overflow-x: hidden;
+}
+@supports (-webkit-touch-callout: none) {
+    @media not all and (min-resolution:.001dpcm) {
+        /* Safari 9+ */
+        .section1 {
+            height: var(--window-height);
+        }
+    }
 }
 
 .backGround1 {
