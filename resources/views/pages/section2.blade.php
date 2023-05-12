@@ -16,6 +16,10 @@
         font-family: 'Mulish-ExtraBold', sans-serif;
     }
 
+    .start-30{
+        margin-left: 30%
+    }
+
     .btn:focus {
         box-shadow: none !important;
     }
@@ -246,7 +250,7 @@
             <img src="{{asset('images/pic_4.png')}}" alt="" class="next-img d-none">
             <img src="{{asset('images/pic_1.png')}}" alt="" class="next-img  d-none">
 
-            <button class="btn btn-outline position-absolute top-50 start-50 translate-middle next">
+            <button class="btn btn-outline position-absolute top-50 start-30 translate-middle next">
                 <img src="{{asset('images/arrow.png')}}" alt=""></button>
         </div>
 
@@ -281,7 +285,7 @@
                      class="next-img d-none">
                 <img src="{{asset('images/pic_1.png')}}" alt="" style=""
                      class="next-img  last_img d-none">
-                <button class="btn btn-outline position-absolute top-50 start-50 translate-middle next">
+                <button class="btn btn-outline position-absolute top-50 start-40 translate-middle next">
                     <img src="{{asset('images/arrow.png')}}" alt=""></button>
             </div>
 
