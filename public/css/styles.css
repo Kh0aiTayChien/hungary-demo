@@ -31,8 +31,8 @@
     position: relative;
     display: flex;
     justify-content: center;
-    opacity: 90%;
-    transition: background-color 0.5s ease;
+    background-color: rgba(17, 21, 35, 0.9);
+    transition: background-color 1000s ease;
 }
 
 .menu {
@@ -43,61 +43,46 @@
     position: absolute;
     width: 25vw;
     bottom: -100px;
+    opacity: 100%;
 }
-
 
 .name {
     position: relative;
     text-align: center;
     justify-content: center;
     color: white;
-    margin-top: 13%;
-    font-size: 2.75vw;
-    font-family: BeautiqueDisplay-Black, sans-serif;
+    margin-top: 7%;
 }
 
-
-.name1 {
-    margin-right: 5px;
+.introName {
+    width: 50vw;
 }
-
 
 .line1 {
-    margin-top: 2%;
+    margin-top: 4%;
     position: relative;
     display: flex;
     justify-content: center;
 }
 
 .slogan1 {
-    color: white;
-    font-size: 3vw;
-    font-family: BeautiqueDisplay-Light, sans-serif;
+    width: 52vw;
 }
 
-.slogan1Right {
-    font-size: 5vw;
-    color: #E7C57E;
-    font-family: BeautiqueDisplay-Black, sans-serif;
-}
 
 .line2 {
-    margin-top: -1%;
+    margin-top: 2%;
     position: relative;
     display: flex;
     justify-content: center;
 }
 
 .slogan2 {
-    color: white;
-    font-size: 3vw;
-    font-family: BeautiqueDisplay-Light, sans-serif;
+    width: 43vw;
 }
 
-.slogan2Right {
-    font-size: 5vw;
-    color: #E7C57E;
-    font-family: BeautiqueDisplay-Black, sans-serif;
+.sloganmb {
+    display: none;
 }
 
 .button1Pos {
@@ -107,46 +92,51 @@
 }
 
 .button1 {
-    margin-top: 2%;
-    width: 20vw;
-    height: 8vh;
-    font-size: 1.75vw;
+    margin-top: 5%;
+    width: 30vw;
+    height: 9vh;
     background: #E7C57E;
-    color: black;
-    font-family: Mulish-SemiBold, sans-serif;
-    font-weight: lighter;
-    /*letter-spacing: 10px;*/
+}
+
+.buttonIMG {
+    width: 25vw;
 }
 
 .iconfb {
-    margin-top: 10%;
+    margin-top: 12%;
     position: fixed;
-    width: 5vw;
-    right: 5%;
+    width: 4vw;
+    right: 1.5%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
     z-index: 9999;
 }
 
 .icontiktok {
-    margin-top: 17.5%;
-    right: 5%;
+    margin-top: 19.5%;
+    right: 1.5%;
     position: fixed;
-    width: 5vw;
+    width: 4vw;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
     z-index: 9999;
 }
 
 .iconzalo {
-    margin-top: 25%;
-    right: 5%;
+    margin-top: 27%;
+    right: 1.5%;
     position: fixed;
-    width: 5vw;
+    width: 4vw;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
     z-index: 9999;
 }
 
 .phone {
     display: inline;
     position: fixed;
-    right: 5%;
-    margin-top: -1%;
+    right: 1.5%;
+
     z-index: 9999;
 }
 
@@ -155,7 +145,7 @@
 }
 
 .phoneIcon {
-    width: 5vw;
+    width: 4vw;
 }
 
 ul.hide {
@@ -211,21 +201,21 @@ ul.iconmb {
         position: absolute;
         transform: translateX(-100%);
         width: 30vw;
-        margin-top: 20%;
+        margin-top: 30%;
         z-index: 99999;
     }
     .icontiktok {
         position: absolute;
         transform: translateX(-100%);
         width: 30vw;
-        margin-top: 60%;
+        margin-top: 75%;
         z-index: 99999;
     }
     .iconzalo {
         position: absolute;
         transform: translateX(-100%);
         width: 30vw;
-        margin-top: 110%;
+        margin-top: 120%;
         z-index: 99999;
     }
     .menu {
@@ -234,58 +224,47 @@ ul.iconmb {
         margin-right: 5%;
     }
     .name {
-        margin-top: 50%;
-    }
-    .name span{
-        display: block;
-    }
-    .name1 {
-        font-size: 10vw;
-    }
-    .name2 {
-        font-size: 5vw;
+        display: none;
     }
     .line1 {
-        margin-top: 10%;
+        display: none;
     }
-    .slogan1 {
+    .line2 {
+        display: none;
+    }
+    .sloganmb {
+        display: block;
+        margin-top: 50%;
+    }
+    .namemb {
         display: flex;
-        flex-direction: column;
-        text-align: center;
-        font-size: 5vw;
+        justify-content: center;
     }
-
-    .slogan1Right {
-        font-size: 10vw;
-        margin-top: -5%;
+    .introNameMb {
+        width: 70vw;
     }
-
-    .slogan2 {
+    .line12Mb {
         display: flex;
-        flex-direction: column;
-        text-align: center;
-        font-size: 5vw;
-        margin-top: -3%;
+        justify-content: center;
+        margin-top: 15%;
     }
-
-    .slogan2Right {
-        font-size: 10vw;
-        margin-top: -5%;
+    .slogan12mb {
+        width: 60vw;
     }
     .button1 {
-        margin-top: 15%;
-        width: 50vw;
+        margin-top: 25%;
+        width: 55vw;
         height: 6vh;
-        font-size: 5vw;
     }
-
+    .buttonIMG {
+        width: 50vw;
+    }
     a.phone {
         text-decoration: none;
         position: fixed;
-        bottom: 15%;
-        right: 5%;
+        bottom: 2%;
+        right: 2%;
     }
-
     .phoneIcon {
         width: 10vw;
     }

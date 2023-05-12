@@ -44,53 +44,62 @@
             </li>
         </ul>
     </nav>
-    <h1 class="name">
-        <span class="name1">BẤT ĐỘNG SẢN</span>
-        <span class="name2">CƯ TRÚ HUNGARRY</span>
-    </h1>
+    <div class="name">
+        <img src="{{asset('images/introName.png')}}" class="introName">
+    </div>
     <div class="line1">
-        <p class="slogan1">Quản trị <span class="slogan1Right">THỊNH VƯỢNG</span></p>
+        <img src="{{asset('images/slogan1.png')}}" class="slogan1">
     </div>
     <div class="line2">
-        <p class="slogan2">Kiến tạo <span class="slogan2Right">TƯƠNG LAI</span></p>
+        <img src="{{asset('images/slogan2.png')}}" class="slogan2">
+    </div>
+    <div class="sloganmb">
+        <div class="namemb">
+            <img src="{{asset('images/introNameMb.png')}}" class="introNameMb">
+        </div>
+        <div class="line12Mb">
+            <img src="{{asset('images/slogan12Mb.png')}}" class="slogan12mb">
+        </div>
     </div>
     <div class="button1Pos">
         <button class="button1">
-            <p class="textButton">Nhận thông tin</p>
+            <img src="{{asset('images/button.png')}}" class="buttonIMG">
         </button>
     </div>
-
     <div>
         <a href="#" class="phone">
             <img class="phoneNumber" src="{{asset('images/phoneNumber.png')}}">
             <img class="phoneIcon" src="{{asset('images/phoneIcon.png')}}">
         </a>
-
     </div>
 </div>
 
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         const menu = $('.menu');
         const hiddenList = $('.hide');
         const navLinks = $('nav ul li a');
         const navMenu = $('nav ul');
 
         // Thêm trình nghe sự kiện click cho menu element
-        menu.on('click', function() {
+        menu.on('click', function () {
             // Toggle class "hide" trên phần tử ul
             hiddenList.toggleClass('hide');
         });
 
         // Thêm trình nghe sự kiện click cho mỗi liên kết trong danh sách
-        navLinks.on('click', function() {
+        navLinks.on('click', function () {
             hiddenList.addClass('hide'); // Thêm class 'hide' để ẩn danh sách
         });
 
-        $(window).scroll(function() {
+        $(window).scroll(function () {
             var header = $('.logoCen');
             header.css('backgroundColor', (window.pageYOffset > 0) ? '#111523' : 'transparent');
         });
+        // $(window).scroll(function () {
+        //     var header = $('.logoCen');
+        //     var scrollPosition = $(window).scrollTop();
+        // });
 
     });
 </script>
