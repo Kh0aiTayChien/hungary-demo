@@ -29,6 +29,12 @@
         background-color: #bc202e;
     }
 
+    .header-rectangle {
+        width: 110px;
+        height: 5.038px;
+        background-color: #bc202e;
+    }
+
     .grey {
         background-color: #404041;
     }
@@ -146,7 +152,7 @@
             <div class=" text-danger h5 header-1" style="margin-top: 5%;">
                 DẠNG ĐỊNH CƯ ƯU VIỆT NHẤT
             </div>
-            <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 52%; height: 2rem">
+            <div class="header-rectangle" style="width: 40%"></div>
             <div class="text_content_1 text-justify">
                 Vượt trên các dạng định cư ĐOÀN TỤ - KỸ NĂNG - DU HỌC - DOANH NHÂN (ĐẦU TƯ) đều có những điểm khó khăn
                 nhất
@@ -164,7 +170,7 @@
             <div class=" text-danger h5 header-2" style="margin-top: 5%;">
                 BẢO VỆ NHÀ ĐẦU TƯ - TẠM TRÚ TRƯỚC BIẾN ĐỘNG
             </div>
-            <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 75%">
+            <div class="header-rectangle" style="width: 70%"></div>
             <div class="text_content_2 text-justify">
                 Các hoạt động đầu cơ, thổi giá, thị trường bất động sản trong nước đã chạm đỉnh và sẽ khó xuất hiện
                 những bước nhảy vọt trong thời gian sắp tới. Sự thiếu uy tín của nhiều chủ đầu tư lại càng
@@ -181,7 +187,7 @@
             <div class=" text-danger h5 header-3 " style="margin-top: 5%;">
                 MÓN QUÀ ƯU GIÁ TRỊ - PHƯƠNG ÁN B - CỦA ĐỂ DÀNH
             </div>
-            <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 80%">
+            <div class="header-rectangle" style="width: 75%"></div>
             <div class="text_content_3 text-justify" >
                 Một món quà tinh thần mang ý nghĩa sâu sắc khi giúp thế hệ mai sau
                 được tiếp cận với nền văn minh hiện đại, được tiếp thu những tư tưởng tân tiến,
@@ -196,7 +202,7 @@
             <div class=" text-danger h5 header-4" style="margin-top: 5%;">
                 DU LỊCH MIỄN THỊ THỰC - TỰ DO KHÁM PHÁ
             </div>
-            <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 65%">
+            <div class="header-rectangle" style="width: 65%"></div>
             <div class="text_content_4 text-justify">
                 Người thành công trong xã hội đều mong muốn đạt được mục tiêu: mang lại
                 cho gia đình mình cơ hội di chuyển tự do khắp thế giới,
@@ -209,7 +215,7 @@
             </div>
         </div>
 
-        <div class="rectangle-dot row mt-5 gx-1" style="width: 60%">
+        <div class="rectangle-dot row mt-5 gx-1" style="width: 40%; font-size: 25px;  font-family: 'Mulish-SemiBold', sans-serif;">
             <div class="col-3">
                 <div class="text-center number fw-bold  text-red first_text">01</div>
                 <div class="rectangle w-100 first_rectangle"></div>
