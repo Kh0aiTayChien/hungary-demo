@@ -12,10 +12,10 @@
         src: url({{asset('fonts/Mulish-ExtraBold.ttf')}});
     }
 
-    h5{
+    .mulish-bold{
         font-family: 'Mulish-ExtraBold', sans-serif;
+        font-weight: bold;
     }
-
     .start-30{
         margin-left: 30%
     }
@@ -55,6 +55,10 @@
         max-width: 100%;
         max-height: 100%;
         object-fit: contain;
+    }
+
+    .number{
+        font-size: 1rem;
     }
 
     .content {
@@ -153,7 +157,7 @@
     <div class="side_content col-6 h-100 " style="padding: 8% 0 0 18.6%  ">
         <img src="{{asset('images/question.svg')}}" alt="" class="img-fluid">
         <div class=" content first_content">
-            <div class=" text-danger h5 header-1" style="margin-top: 5%;">
+            <div class=" text-danger h5 header-1 mulish-bold" style="margin-top: 5%;">
                 DẠNG ĐỊNH CƯ ƯU VIỆT NHẤT
             </div>
             <div class="header-rectangle" style="width: 40%"></div>
@@ -171,7 +175,7 @@
         </div>
 
         <div class=" content d-none">
-            <div class=" text-danger h5 header-2" style="margin-top: 5%;">
+            <div class=" text-danger h5 header-2 mulish-bold" style="margin-top: 5%;">
                 BẢO VỆ NHÀ ĐẦU TƯ - TẠM TRÚ TRƯỚC BIẾN ĐỘNG
             </div>
             <div class="header-rectangle" style="width: 70%"></div>
@@ -188,7 +192,7 @@
         </div>
 
         <div class=" content d-none">
-            <div class=" text-danger h5 header-3 " style="margin-top: 5%;">
+            <div class=" text-danger h5 header-3 mulish-bold " style="margin-top: 5%;">
                 MÓN QUÀ ƯU GIÁ TRỊ - PHƯƠNG ÁN B - CỦA ĐỂ DÀNH
             </div>
             <div class="header-rectangle" style="width: 75%"></div>
@@ -203,7 +207,7 @@
         </div>
 
         <div class=" content d-none">
-            <div class=" text-danger h5 header-4" style="margin-top: 5%;">
+            <div class=" text-danger h5 header-4 mulish-bold" style="margin-top: 5%;">
                 DU LỊCH MIỄN THỊ THỰC - TỰ DO KHÁM PHÁ
             </div>
             <div class="header-rectangle" style="width: 65%"></div>
@@ -221,19 +225,19 @@
 
         <div class="rectangle-dot row mt-5 gx-1" style="width: 40%; font-size: 25px;  font-family: 'Mulish-SemiBold', sans-serif;">
             <div class="col-3">
-                <div class="text-center number fw-bold  text-red first_text">01</div>
+                <div class="text-center number fw-bold  text-red first_text mulish-bold">01</div>
                 <div class="rectangle w-100 first_rectangle"></div>
             </div>
             <div class="col-3">
-                <div class="text-center number fw-bold text-grey ">02</div>
+                <div class="text-center number fw-bold text-grey mulish-bold">02</div>
                 <div class="rectangle grey w-100"></div>
             </div>
             <div class="col-3">
-                <div class="text-center number fw-bold text-grey">03</div>
+                <div class="text-center number fw-bold text-grey mulish-bold">03</div>
                 <div class="rectangle grey w-100"></div>
             </div>
             <div class="col-3">
-                <div class="text-center number fw-bold text-grey">04</div>
+                <div class="text-center number fw-bold text-grey mulish-bold">04</div>
                 <div class="rectangle  grey w-100"></div>
             </div>
         </div>
@@ -285,36 +289,35 @@
                      class="next-img d-none">
                 <img src="{{asset('images/pic_1.png')}}" alt="" style=""
                      class="next-img  last_img d-none">
-                <button class="btn btn-outline position-absolute top-50 start-40 translate-middle next">
+                <button class="btn btn-outline position-absolute top-50 start-50 translate-middle next">
                     <img src="{{asset('images/arrow.png')}}" alt=""></button>
             </div>
 
         </div>
         <div class="ps-5 pe-5">
             <div class=" content first_content ">
-                <div class=" text-danger header-1 d-flex justify-content-center align-items-center pt-3 ">
+                <div class=" text-danger header-1 d-flex justify-content-center
+                align-items-center pt-3 mulish-bold">
                     <p class="text-center">DẠNG ĐỊNH CƯ ƯU VIỆT NHẤT</p>
                 </div>
                 <div class="d-flex justify-content-center pb-3">
                     <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 60%;">
                 </div>
                 <div class="text_content_1 text-justify">
-                    Vượt trên các dạng định cư ĐOÀN TỤ - KỸ NĂNG - DU HỌC - DOANH NHÂN (ĐẦU TƯ) đều có những điểm khó
-                    khăn
-                    nhất
-                    định. Và việc làm thẻ cư trú kèm mua BDS đang là ƯU VIỆT NHẤT.
+                    Vượt trên các dạng định cư ĐOÀN TỤ - KỸ NĂNG - DU HỌC - DOANH NHÂN (ĐẦU TƯ)
+                    đều có những điểm khó khăn nhất định. Và việc làm thẻ cư trú kèm mua BDS
+                    đang là ƯU VIỆT NHẤT.
                     <br><br>
-                    Thủ tục dễ dàng nhất - Chi phí đăng ký và duy trì thẻ hợp lý - Con đường rẻ hơn để vào Châu Âu so
-                    với
-                    các
-                    chương trình/ đất nước khác.
+                    Thủ tục dễ dàng nhất - Chi phí đăng ký và duy trì thẻ hợp lý - Con đường rẻ hơn
+                    để vào Châu Âu so với các chương trình/ đất nước khác.
                     <br><br>
                     Hungary có mức chi tiêu rẻ và người dân bản địa thân thiện với người nhập cư.
                 </div>
             </div>
 
             <div class=" content d-none">
-                <div class=" text-danger  header-2 center d-flex justify-content-center align-items-center pt-3 " style="margin-top: 5%;">
+                <div class="text-danger  header-2 center d-flex justify-content-center
+                align-items-center pt-3 mulish-bold" style="margin-top: 5%;">
                     <p class="text-center">BẢO VỆ NHÀ ĐẦU TƯ - TẠM TRÚ TRƯỚC BIỂN ĐỘNG</p>
                 </div>
                 <div class="d-flex justify-content-center pb-3">
@@ -333,7 +336,8 @@
             </div>
 
             <div class=" content d-none">
-                <div class=" text-danger  header-3 center d-flex justify-content-center align-items-center pt-3 "
+                <div class=" text-danger  header-3 center d-flex justify-content-center
+                align-items-center pt-3 mulish-bold"
                     style="margin-top: 5%;">
                     <p class="text-center">MÓN QUÀ ƯU GIÁ TRỊ PHƯƠNG ÁN B - CỦA ĐỂ DÀNH</p>
                 </div>
@@ -353,7 +357,8 @@
 
             <div class=" content d-none last_content">
                 <div
-                    class=" text-danger header-4 center d-flex justify-content-center align-items-center pt-3"
+                    class=" text-danger header-4 center d-flex justify-content-center
+                    align-items-center pt-3 mulish-bold"
                     style="margin-top: 5%;">
                     <p class="text-center">DU LỊCH MIỄN THỊ THỰC- TỰ DO KHÁM PHÁ</p>
                 </div>
@@ -376,19 +381,19 @@
 
             <div class="rectangle-dot row  mt-5 mb-5 gx-1 d-flex justify-content-center">
                 <div class="col-3">
-                    <div class="text-center number fw-bold first_text text-red">01</div>
+                    <div class="text-center number fw-bold first_text text-red mulish-bold">01</div>
                     <div class="rectangle w-100 first_rectangle "></div>
                 </div>
                 <div class="col-3">
-                    <div class="text-center number fw-bold text-grey">02</div>
+                    <div class="text-center number fw-bold text-grey mulish-bold">02</div>
                     <div class="rectangle w-100 grey"></div>
                 </div>
                 <div class="col-3">
-                    <div class="text-center number fw-bold text-grey">03</div>
+                    <div class="text-center number fw-bold text-grey mulish-bold">03</div>
                     <div class="rectangle w-100 grey"></div>
                 </div>
                 <div class="col-3">
-                    <div class="text-center number fw-bold text-grey last_text">04</div>
+                    <div class="text-center number fw-bold text-grey mulish-bold last_text">04</div>
                     <div class="rectangle w-100 grey last_rectangle"></div>
                 </div>
             </div>

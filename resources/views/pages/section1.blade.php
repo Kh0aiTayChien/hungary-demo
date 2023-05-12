@@ -96,6 +96,15 @@
             var header = $('.logoCen');
             header.css('backgroundColor', (window.pageYOffset > 0) ? '#111523' : 'transparent');
         });
+
+        const windowHeight = () => {
+            const $doc = $(':root'); // Chọn phần tử gốc của tài liệu
+            $doc.css('--window-height', $(window).innerHeight() + 'px');
+        };
+
+        $(window).on('resize', windowHeight);
+        windowHeight();
+
         // $(window).scroll(function () {
         //     var header = $('.logoCen');
         //     var scrollPosition = $(window).scrollTop();
