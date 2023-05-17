@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="562.024" height="83" viewBox="0 0 570.024 83">
+    <g id="Group_118" data-name="Group 118" transform="translate(-354.894 -1700.294)">
+        <g id="Group_86" data-name="Group 86">
+            <path id="Path_1488" data-name="Path 1488"
+                  d="M384.239,1716.918a14.673,14.673,0,1,1-14.673-14.673A14.672,14.672,0,0,1,384.239,1716.918Z"
+                  fill="#be1e2d"/>
+            <g id="Group_85" data-name="Group 85">
+                <path id="Path_1489" data-name="Path 1489"
+                      d="M370.457,1719.967a3.117,3.117,0,0,1-2.208-.912L364.192,1715a1.9,1.9,0,0,1,2.688-2.688l3.577,3.578,11.026-11.027a1.9,1.9,0,0,1,2.688,2.688l-11.506,11.506A3.11,3.11,0,0,1,370.457,1719.967Z"
+                      fill="#fff"/>
+            </g>
+        </g>
+        <text id="Thị_trường_bất_động_sản_sôi_động_với_giá_trị_tăng_trưởng_lợi_nhuận_cho_thuê_cực_kì_cao"
+              data-name="Thị trường bất động sản sôi động với giá trị tăng trưởng &amp; lợi nhuận cho thuê cực kì cao"
+              transform="translate(400.918 1700.294)" fill="#595a5a" font-size="18.243"
+              font-family="'Mulish-SemiBold', sans-serif" font-weight="500" letter-spacing="0.025em">
+            <tspan x="0" y="18">Thị trường bất động sản sôi động với giá trị tăng trưởng &amp;</tspan>
+            <tspan x="0" y="46.504">lợi nhuận cho thuê cực kì cao</tspan>
+        </text>
+    </g>
+</svg>
