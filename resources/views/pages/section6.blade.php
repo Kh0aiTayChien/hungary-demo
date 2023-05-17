@@ -32,7 +32,7 @@
     }
 
     .start-85 {
-        margin-left: 85%
+        margin-left: 88%
     }
 
     .btn:focus {
@@ -72,7 +72,7 @@
 
 
     .section_6 {
-        /*height: 70vh;*/
+        height: 70vh;
         width: 100vw;
         background-image: url('{{asset('images/sec6/sec6-2.png')}}');
         background-repeat: no-repeat;
@@ -88,7 +88,7 @@
     }
 
     .section_6-2 {
-        /*height: 70vh;*/
+        height: 70vh;
         width: 100vw;
         background-image: url('{{asset('images/sec6/sec6-1.png')}}');
         background-repeat: no-repeat;
@@ -99,7 +99,7 @@
         background-size: cover;
         display: flex;
         align-items: stretch;
-        overflow-y: auto;
+        /*overflow-y: auto;*/
         overflow-x: hidden;
         margin: 0;
         padding: 0;
@@ -117,7 +117,7 @@
         background-size: cover;
         display: flex;
         align-items: stretch;
-        overflow-y: auto;
+        /*overflow-y: auto;*/
         overflow-x: hidden;
         margin: 0;
         padding: 0;
@@ -135,7 +135,7 @@
         background-size: cover;
         display: flex;
         align-items: stretch;
-        /*overflow-x: hidden;*/
+        overflow-x: hidden;
         /*overflow: hidden;*/
         margin: 0;
         padding: 0;
@@ -181,21 +181,20 @@
         max-width: 100%; /* Đặt kích thước tùy ý, ví dụ: 50% */
         height: auto; /* Đảm bảo tỷ lệ hình ảnh không bị méo */
     }
-
-    .carousel-control-start {
-        left: 10px; /* Điều chỉnh khoảng cách từ lề trái */
+     .text_content_1{
+        font-size: 15px;
     }
-
-    .carousel-control-end {
-        right: 10px; /* Điều chỉnh khoảng cách từ lề phải */
+    .s6p1-img{
+        height: 80%;
     }
-
-    .carousel-indicators-start {
-        left: 10px; /* Điều chỉnh khoảng cách từ lề trái */
+    .s6p2-img{
+        height: 80%;
+     }
+    .sp6-height{
+        height: 12rem;
     }
-
-    .carousel-indicators-end {
-        right: 10px; /* Điều chỉnh khoảng cách từ lề phải */
+    .sp6-height-m{
+        height: 12rem;
     }
 </style>
 
@@ -208,7 +207,7 @@
         <img src="{{asset('images/sec6/pic5.png')}}" alt="" class="s6p1-img img-fluid  d-none">
         <img src="{{asset('images/sec6/pic6.png')}}" alt="" class="s6p1-img img-fluid  s6p1-img-last d-none">
         <button class="btn btn-outline position-absolute top-50 start-0 start-20 translate-middle prev-6-1">
-            <img src="{{asset('images/left_arrow.png')}}" alt=""></button>
+            <img src="{{asset('images/left-arrow.svg')}}" alt="" style="width: 70px"></button>
     </div>
     <div class="col-6 p-5 position-relative " style="height: 100%; margin-top: 2%">
         <img src="{{asset('images/sec6/header-1.svg')}}" alt="" class="img-fluid header-1 pb-3 sm-image-header">
@@ -221,7 +220,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 MỨC GIÁ HỢP LÝ
             </div>
-            <div class="text_content_1 text-justify text-white pt-1" style="width: 50%">
+            <div class="text_content_1 text-justify text-white pt-1 sp6-height" style="width: 50%">
                 Chỉ từ 175.000 eur đã có thể sở hữu ngay bđs vĩnh viễn,
                 có thể khai thác cho thuê ngay
             </div>
@@ -230,7 +229,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 PHÁP LÝ BĐS
             </div>
-            <div class="text_content_1 text-justify text-white pt-1" style="width: 50%">
+            <div class="text_content_1 text-justify text-white pt-1 sp6-height" style="width: 50%">
                 Sở hữu vĩnh viễn, pháp lý được công khai minh bạch trên hệ thống dữ liệu của chính phủ Hungary
             </div>
         </div>
@@ -238,7 +237,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 VỊ TRÍ ĐẮC ĐỊA
             </div>
-            <div class="text_content_1 text-justify text-white pt-1" style="width: 50%">
+            <div class="text_content_1 text-justify text-white pt-1 sp6-height" style="width: 50%">
                 Nằm giữa trung tâm downtown thủ đô Budapest – thành phố cổ kính
                 được mệnh danh là “Paris vùng Đông Âu” với nhiều điểm du lịch nổi tiếng,
                 nhà hàng, trung tâm mua sắm
@@ -248,7 +247,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 LỢI NHUẬN CHO THUÊ
             </div>
-            <div class="text_content_1 text-justify text-white pt-1" style="width: 50%">
+            <div class="text_content_1 text-justify text-white pt-1 sp6-height" style="width: 50%">
                 Cam kết tỷ suất lợi nhuận cho thuê cao nhất Châu Âu
                 (trung bình 5.8% - 8.4%/ năm tuỳ vị trí & diện tích)
             </div>
@@ -257,7 +256,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 HỖ TRỢ QUẢN LÝ VÀ VẬN HÀNH
             </div>
-            <div class="text_content_1 text-justify text-white pt-1" style="width: 50%">
+            <div class="text_content_1 text-justify text-white pt-1 sp6-height" style="width: 50%">
                 Có đội ngũ quản lý & vận hành cho thuê trọn gói, đảm bảo uy tín
                 và khai thác tiềm năng BĐS tối đa
             </div>
@@ -266,7 +265,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 GIÁ TRỊ TĂNG TRƯỞNG
             </div>
-            <div class="text_content_1 text-justify text-white pt-1" style="width: 50%">
+            <div class="text_content_1 text-justify text-white pt-1 sp6-height" style="width: 50%">
                 BĐS Hungary tăng giá top 2 Châu Âu. Tỷ lệ tăng giá trong 5 năm
                 từ 2018 – 2022 là 45.64%, trung bình tăng 9.1%/ năm.
             </div>
@@ -291,8 +290,8 @@
                 <div class="yellow-rectangle grey w-100 last_rectangle_y"></div>
             </div>
         </div>
-        <button class="btn btn-outline position-absolute top-50 start-80 translate-middle next-6-1">
-            <img src="{{asset('images/arrow.png')}}" alt=""></button>
+        <button class="btn btn-outline position-absolute top-50 start-80 translate-middle next-6-1 pb-5">
+            <img src="{{asset('images/arrow.svg')}}" alt="" style=" width: 70px"></button>
     </div>
 </div>
 
@@ -309,7 +308,7 @@
                 1 NGƯỜi ĐẦU TƯ - 3 THẾ HỆ CÙNG HƯỞNG
             </div>
             <div class="d-flex flex-row-reverse">
-                <div class="text_content_1 text-justify text-end pt-3" style="width: 50%">
+                <div class="text_content_1 text-justify text-end pt-3 sp6-height" style="width: 50%">
                     Thẻ cư trú cấp cho vợ chồng, con cái và bố mẹ 2 bên (có điều kiện cụ thể)
                 </div>
             </div>
@@ -319,7 +318,7 @@
                 MÔI TRƯỜNG SỐNG HOÀN HẢO
             </div>
             <div class="d-flex flex-row-reverse">
-                <div class="text_content_1 text-justify text-end pt-3" style="width: 50%">
+                <div class="text_content_1 text-justify text-end pt-3 sp6-height" style="width: 50%">
                     Không khí trong lành, Chế độ an sinh xã hội tốt, Giáo dục công cấp 1-3 hoàn toàn miễn phí,
                     Chăm sóc y tế theo hệ thống chuẩn Châu Âu
                 </div>
@@ -330,7 +329,7 @@
                 TỰ DO ĐI LẠI KHÔNG CẦN VISA
             </div>
             <div class="d-flex flex-row-reverse">
-                <div class="text_content_1 text-justify text-end pt-3" style="width: 50%">
+                <div class="text_content_1 text-justify text-end pt-3 sp6-height" style="width: 50%">
                     TỰ DO ĐI LẠI 27 NƯỚC KHỐI SCHENGEN & khu vực Balkan không cần xin visa
                 </div>
             </div>
@@ -340,13 +339,13 @@
                 GIA HẠN SAU 3 NĂM
             </div>
             <div class="d-flex flex-row-reverse">
-                <div class="text_content_1 text-justify text-end pt-3" style="width: 50%">
+                <div class="text_content_1 text-justify text-end pt-3 sp6-height" style="width: 50%">
                     Sau 3 năm cư trú tại Hungary có thể lên thẻ thường trú nhân
                 </div>
             </div>
         </div>
         <button class="btn btn-outline position-absolute top-50 start-0 start-20 translate-middle next">
-            <img src="{{asset('images/sec6/arr-02.png')}}" alt="" style="" class="small-image"></button>
+            <img src="{{asset('images/left-arrow.svg')}}" alt="" style="width: 70px" class=""></button>
         <div class="d-flex flex-row-reverse mt-5">
             <div class="rectangle-dot row mt-5 gx-1" style="width: 20%; ">
                 <div class="col-2">
@@ -369,8 +368,8 @@
                 </div>
             </div>
         </div>
-        <button class="btn btn-outline position-absolute top-50 start-0 start-20 translate-middle prev-6-2">
-            <img src="{{asset('images/sec6/arr-02.png')}}" alt="" class="small-image"></button>
+{{--        <button class="btn btn-outline position-absolute top-50 start-0 start-20 translate-middle prev-6-2">--}}
+{{--            <img src="{{asset('images/left-arrow.svg')}}" alt="" class="" style="width: 70px"></button>--}}
     </div>
     <div class="col-6 d-flex align-items-center justify-content-start position-relative">
         <img src="{{asset('images/sec6/pic1p2.png')}}" alt="" class="s6p2-img img-fluid  s6p2-img-first">
@@ -379,7 +378,7 @@
         <img src="{{asset('images/sec6/pic4p2.png')}}" alt=""
              class="s6p2-img img-fluid s6p2-img-last d-none">
         <button class="btn btn-outline position-absolute top-50 start-80 translate-middle next-6-2">
-            <img src="{{asset('images/sec6/arr-01.png')}}" alt="" class="small-image"></button>
+            <img src="{{asset('images/arrow.svg')}}" alt="" style="width: 70px;" class=""></button>
     </div>
 
 </div>
@@ -393,7 +392,7 @@
             đảm bảo an toàn với chính sách NHẬN THẺ CƯ TRÚ TRƯỚC – MUA BẤT ĐỘNG SẢN SAU
         </div>
         <button class="btn btn-outline position-absolute top-50 start-0 start-5 translate-middle prev-6-1">
-            <img src="{{asset('images/left_arrow.png')}}" alt=""></button>
+            <img src="{{asset('images/left-arrow.svg')}}" alt="" style="height: 70px"></button>
         <div class="d-flex align-items-center justify-content-end mt-4">
             <img src="{{asset('images/sec6/pic1.png')}}" alt="" class="s6p1-img img-fluid  s6p1-img-first">
             <img src="{{asset('images/sec6/pic2.png')}}" alt="" class="s6p1-img img-fluid  d-none">
@@ -403,12 +402,12 @@
             <img src="{{asset('images/sec6/pic6.png')}}" alt="" class="s6p1-img img-fluid s6p1-img-last d-none">
         </div>
         <button class="btn btn-outline position-absolute top-50 start-85 translate-middle next-6-1">
-            <img src="{{asset('images/arrow.png')}}" alt=""></button>
-        <div class="s6p1-content  first_content_s6 text-center">
+            <img src="{{asset('images/arrow.svg')}}" alt="" style="height: 70px"></button>
+        <div class="s6p1-content  first_content_s6 text-center ">
             <div class=" text-yellow header-1 mulish-bold ">
                 MỨC GIÁ HỢP LÝ
             </div>
-            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow " style="width: 100%">
+            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m" style="width: 100%">
                 Chỉ từ 175.000 eur đã có thể sở hữu ngay bđs vĩnh viễn,
                 có thể khai thác cho thuê ngay
             </div>
@@ -417,7 +416,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 PHÁP LÝ BĐS
             </div>
-            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow " style="width: 100%">
+            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m" style="width: 100%">
                 Sở hữu vĩnh viễn, pháp lý được công khai minh bạch trên hệ thống dữ liệu của chính phủ Hungary
             </div>
         </div>
@@ -425,7 +424,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 VỊ TRÍ ĐẮC ĐỊA
             </div>
-            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow " style="width: 100%">
+            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m" style="width: 100%">
                 Nằm giữa trung tâm downtown thủ đô Budapest – thành phố cổ kính
                 được mệnh danh là “Paris vùng Đông Âu” với nhiều điểm du lịch nổi tiếng,
                 nhà hàng, trung tâm mua sắm
@@ -435,7 +434,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 LỢI NHUẬN CHO THUÊ
             </div>
-            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow " style="width: 100%">
+            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m" style="width: 100%">
                 Cam kết tỷ suất lợi nhuận cho thuê cao nhất Châu Âu
                 (trung bình 5.8% - 8.4%/ năm tuỳ vị trí & diện tích)
             </div>
@@ -444,7 +443,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 HỖ TRỢ QUẢN LÝ VÀ VẬN HÀNH
             </div>
-            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow " style="width: 100%">
+            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m" style="width: 100%">
                 Có đội ngũ quản lý & vận hành cho thuê trọn gói, đảm bảo uy tín
                 và khai thác tiềm năng BĐS tối đa
             </div>
@@ -453,7 +452,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 GIÁ TRỊ TĂNG TRƯỞNG
             </div>
-            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow " style="width: 100%">
+            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m" style="width: 100%">
                 BĐS Hungary tăng giá top 2 Châu Âu. Tỷ lệ tăng giá trong 5 năm
                 từ 2018 – 2022 là 45.64%, trung bình tăng 9.1%/ năm.
             </div>

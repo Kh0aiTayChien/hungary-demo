@@ -152,17 +152,25 @@
         margin: 0;
         padding: 0;
     }
-
+    .sp2-height{
+        height: 15rem;
+    }
+    .font-15{
+        font-size: 15px;
+    }
+    .sp2-height-m{
+        height: 19rem;
+    }
 </style>
-<div class="section_2 row">
+<div class="section_2 position-relative row">
     <div class="side_content col-6 h-100 " style="padding: 8% 0 0 18.6%  ">
         <img src="{{asset('images/question.svg')}}" alt="" class="img-fluid">
         <div class=" content first_content">
             <div class=" text-danger h5 header-1 mulish-bold" style="margin-top: 5%;">
                 DẠNG ĐỊNH CƯ ƯU VIỆT NHẤT
             </div>
-            <div class="header-rectangle" style="width: 40%"></div>
-            <div class="text_content_1 text-justify">
+            <div class="header-rectangle sp2-height" style="width: 40%"></div>
+            <div class="text_content_1 text-justify sp2-height mt-2">
                 Vượt trên các dạng định cư ĐOÀN TỤ - KỸ NĂNG - DU HỌC - DOANH NHÂN (ĐẦU TƯ) đều có những điểm khó khăn
                 nhất
                 định. Và việc làm thẻ cư trú kèm mua BDS đang là ƯU VIỆT NHẤT.
@@ -180,7 +188,7 @@
                 BẢO VỆ NHÀ ĐẦU TƯ - TẠM TRÚ TRƯỚC BIẾN ĐỘNG
             </div>
             <div class="header-rectangle" style="width: 70%"></div>
-            <div class="text_content_2 text-justify">
+            <div class="text_content_2 text-justify sp2-height">
                 Các hoạt động đầu cơ, thổi giá, thị trường bất động sản trong nước đã chạm đỉnh và sẽ khó xuất hiện
                 những bước nhảy vọt trong thời gian sắp tới. Sự thiếu uy tín của nhiều chủ đầu tư lại càng
                 đẩy giới đầu tư vào trạng thái hoang mang, phải “thắt dây an toàn”.
@@ -197,7 +205,7 @@
                 MÓN QUÀ ƯU GIÁ TRỊ - PHƯƠNG ÁN B - CỦA ĐỂ DÀNH
             </div>
             <div class="header-rectangle" style="width: 75%"></div>
-            <div class="text_content_3 text-justify">
+            <div class="text_content_3 text-justify sp2-height ">
                 Một món quà tinh thần mang ý nghĩa sâu sắc khi giúp thế hệ mai sau
                 được tiếp cận với nền văn minh hiện đại, được tiếp thu những tư tưởng tân tiến,
                 xu hướng ngày càng nhiều gia đình Việt Nam tạo điều kiện cho con em học tập và sinh sống ở nước ngoài.
@@ -224,8 +232,9 @@
             </div>
         </div>
 
-        <div class="rectangle-dot row mt-5 gx-1"
-             style="width: 40%; font-size: 25px;  font-family: 'Mulish-SemiBold', sans-serif;">
+        <div class="rectangle-dot row mt-5 gx-1 position-absolute "
+             style="width: 20%; font-size: 25px;  font-family: 'Mulish-SemiBold', sans-serif;  top: 79%;
+  left: 19%;">
             <div class="col-3">
                 <div class="text-center number fw-bold  text-red first_text mulish-bold">01</div>
                 <div class="rectangle w-100 first_rectangle"></div>
@@ -257,7 +266,7 @@
             <img src="{{asset('images/pic_1.png')}}" alt="" class="next-img  d-none">
 
             <button class="btn btn-outline position-absolute top-50 start-30 translate-middle next">
-                <img src="{{asset('images/arrow.png')}}" alt=""></button>
+                <img src="{{asset('images/arrow.svg')}}" alt="" style="width:70px"></button>
         </div>
 
     </div>
@@ -275,7 +284,7 @@
                 <img src="{{asset('images/pic_3.png')}}" alt="" style=""
                      class="next-img  d-none last_img">
                 <button class="btn btn-outline position-absolute top-50 start-50 translate-middle prev">
-                    <img src="{{asset('images/left_arrow.png')}}" alt=""></button>
+                    <img src="{{asset('images/left-arrow.svg')}}" alt="" style="width: 50px"></button>
             </div>
             <img src="{{asset('images/pic_1.png')}}" alt="" class="img-fluid w-75 side-img pic_1">
             <img src="{{asset('images/pic_2.png')}}" alt="" class="img-fluid w-75 side-img d-none">
@@ -292,20 +301,20 @@
                 <img src="{{asset('images/pic_1.png')}}" alt="" style=""
                      class="next-img  last_img d-none">
                 <button class="btn btn-outline position-absolute top-50 start-50 translate-middle next">
-                    <img src="{{asset('images/arrow.png')}}" alt=""></button>
+                    <img src="{{asset('images/arrow.svg')}}" alt="" style="width: 50px"></button>
             </div>
 
         </div>
         <div class="ps-5 pe-5">
             <div class=" content first_content ">
-                <div class=" text-danger header-1 d-flex justify-content-center
-                align-items-center pt-3 mulish-bold">
+                <div class="text-danger  header-2 center d-flex justify-content-center
+                align-items-center pt-3 mulish-bold" style="margin-top: 5%; height: 5rem">
                     <p class="text-center">DẠNG ĐỊNH CƯ ƯU VIỆT NHẤT</p>
                 </div>
                 <div class="d-flex justify-content-center pb-3">
-                    <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 60%;">
+                    <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 50%;">
                 </div>
-                <div class="text_content_1 text-justify">
+                <div class="text_content_1 text-justify font-15 sp2-height-m">
                     Vượt trên các dạng định cư ĐOÀN TỤ - KỸ NĂNG - DU HỌC - DOANH NHÂN (ĐẦU TƯ)
                     đều có những điểm khó khăn nhất định. Và việc làm thẻ cư trú kèm mua BDS
                     đang là ƯU VIỆT NHẤT.
@@ -325,7 +334,7 @@
                 <div class="d-flex justify-content-center pb-3">
                     <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 50%;">
                 </div>
-                <div class="text_content_2 text-justify">
+                <div class="text_content_2 text-justify font-15 sp2-height-m">
                     Các hoạt động đầu cơ, thổi giá, thị trường bất động sản trong nước đã chạm đỉnh và sẽ khó xuất hiện
                     những bước nhảy vọt trong thời gian sắp tới. Sự thiếu uy tín của nhiều chủ đầu tư lại càng
                     đẩy giới đầu tư vào trạng thái hoang mang, phải “thắt dây an toàn”.
@@ -346,7 +355,7 @@
                 <div class="d-flex justify-content-center pb-3 ">
                     <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 50%;">
                 </div>
-                <div class="text_content_3 text-justify">
+                <div class="text_content_3 text-justify font-15 sp2-height-m">
                     Một món quà tinh thần mang ý nghĩa sâu sắc khi giúp thế hệ mai sau
                     được tiếp cận với nền văn minh hiện đại, được tiếp thu những tư tưởng tân tiến,
                     xu hướng ngày càng nhiều gia đình Việt Nam tạo điều kiện cho con em học tập và sinh sống ở nước
@@ -357,7 +366,7 @@
                 </div>
             </div>
 
-            <div class=" content d-none last_content">
+            <div class=" content d-none last_content" >
                 <div
                     class=" text-danger header-4 center d-flex justify-content-center
                     align-items-center pt-3 mulish-bold"
@@ -368,7 +377,7 @@
                 <div class="d-flex justify-content-center pb-3 ">
                     <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 50%;">
                 </div>
-                <div class="text_content_4 text-justify">
+                <div class="text_content_4 text-justify font-15 sp2-height-m">
                     Người thành công trong xã hội đều mong muốn đạt được mục tiêu: mang lại
                     cho gia đình mình cơ hội di chuyển tự do khắp thế giới,
                     đặc biệt là ở khu vực Châu Âu.
