@@ -1,7 +1,5 @@
 <style>
-    html, body {
-        overflow-x: hidden;
-    }
+
 
     @font-face {
         font-family: 'Mulish-SemiBold';
@@ -403,6 +401,7 @@
             </div>
         </div>
     </div>
+</div>
     <script>
         $(document).ready(function () {
             $('.next').click(function () {
