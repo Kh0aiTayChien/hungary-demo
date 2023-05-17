@@ -21,7 +21,7 @@
     .section10-mobile {
         width: 100vw;
         /*height: 150vh;*/
-        background-image: url('{{asset('images/sec10/sec10.png')}}');
+        background-image: url('{{asset('images/sec10/bg-mobile.png')}}');
         background-repeat: no-repeat;
         background-position: center;
         -webkit-background-size: cover;
@@ -94,7 +94,7 @@
     <div class="p-5 row " style="width: 60%; margin-top: 10%">
         <div class="col-6">
             <div>
-                <img src="{{asset('images/sec10/donvidoitac.svg')}}" alt="" class="" style="width: 30%">
+                <img src="{{asset('images/sec10/donvidoitac1.svg')}}" alt="" class="" style="width: 30%">
             </div>
             <div>
                 <img src="{{asset('images/sec10/cen-logo.svg')}}" alt="" class="cen-logo" style="width: 50%">
@@ -102,7 +102,7 @@
                      style="width: 50%; margin-top: -5%">
             </div>
             <div>
-                <img src="{{asset('images/sec10/lienhevoichungtoi.svg')}}" alt="" class="mt-5" style="width: 50%">
+                <img src="{{asset('images/sec10/lienhevoichungtoi1.svg')}}" alt="" class="mt-5" style="width: 50%">
             </div>
             <div class="mt-5">
                 <img src="{{asset('images/sec10/phone.svg')}}" alt="" class="" style="width: 5%">
@@ -122,7 +122,7 @@
         </div>
         <div class="col-6">
             <div>
-                <img src="{{asset('images/sec10/dangkidenhan.svg')}}" alt="" class="" style="width: 90%">
+                <img src="{{asset('images/sec10/dangkidenhan1.svg')}}" alt="" class="" style="width: 90%">
             </div>
             <div class="mt-4">
                 <img src="{{asset('images/sec10/chuongtrinhva.svg')}}" alt="" class="" style="width: 80%">
@@ -135,7 +135,8 @@
 
                     <input type="text" class="form-control " name="name" id="name"
                            placeholder="Họ và tên (bắt buộc)" required
-                           oninvalid="this.setCustomValidity('Vui lòng nhập đầy đủ họ tên')">
+                           oninvalid="this.setCustomValidity('Vui lòng nhập đầy đủ họ tên')"
+                           oninput="this.setCustomValidity('')">
 
                 </div>
                 <div class="form-group  mt-2">
@@ -143,6 +144,7 @@
                     <input type="number" class="form-control " name="phone"
                            placeholder="Số điện thoại (bắt buộc)"
                            oninvalid="this.setCustomValidity('Vui lòng nhập số điện thoại')"
+                           oninput="this.setCustomValidity('')"
                            required>
                 </div>
                 <div class="form-group  mt-2">
@@ -171,7 +173,7 @@
 <div class="section10-mobile d-flex justify-content-center " style="">
     <div class="p-5">
         <div>
-            <img src="{{asset('images/sec10/dangkidenhan.svg')}}" alt="" class="" style="width: 100%">
+            <img src="{{asset('images/sec10/dangkidenhan1.svg')}}" alt="" class="" style="width: 100%">
         </div>
         <div class="mt-4">
             <img src="{{asset('images/sec10/chuongtrinhva.svg')}}" alt="" class="" style="width: 100%">
@@ -183,7 +185,8 @@
                 <label for="inputName" class="sr-only">Họ và tên:</label>
                 <input type="text" class="form-control " name="name" id="name"
                        placeholder="Họ và tên (bắt buộc)" required
-                       oninvalid="this.setCustomValidity('Vui lòng nhập đầy đủ họ tên')">
+                       oninvalid="this.setCustomValidity('Vui lòng nhập đầy đủ họ tên')"
+                       oninput="this.setCustomValidity('')" >
 
             </div>
             <div class="form-group  mt-2">
@@ -191,7 +194,7 @@
                 <input type="number" class="form-control " name="phone"
                        placeholder="Số điện thoại (bắt buộc)"
                        oninvalid="this.setCustomValidity('Vui lòng nhập số điện thoại')"
-                       required>
+                       oninput="this.setCustomValidity('')" required>
             </div>
             <div class="form-group  mt-2">
                 <label for="inputEmail" class="sr-only"></label>
@@ -215,7 +218,7 @@
     <div class="p-5  " style="width: 100%;">
         <div class="">
             <div>
-                <img src="{{asset('images/sec10/donvidoitac.svg')}}" alt="" class="" style="width: 30%">
+                <img src="{{asset('images/sec10/donvidoitac1.svg')}}" alt="" class="" style="width: 30%">
             </div>
             <div>
                 <img src="{{asset('images/sec10/cen-logo.svg')}}" alt="" class="cen-logo" style="width: 50%">
@@ -223,7 +226,7 @@
                      style="width: 50%; margin-top: -5%">
             </div>
             <div>
-                <img src="{{asset('images/sec10/lienhevoichungtoi.svg')}}" alt="" class="mt-5" style="width: 50%">
+                <img src="{{asset('images/sec10/lienhevoichungtoi1.svg')}}" alt="" class="mt-5" style="width: 50%">
             </div>
             <div class="mt-5">
                 <img src="{{asset('images/sec10/phone.svg')}}" alt="" class="" style="width: 5%">

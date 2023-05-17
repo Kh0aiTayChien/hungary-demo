@@ -19,20 +19,28 @@
         font-family: 'Mulish-SemiBold', sans-serif;
     }
 
-    .start-80 {
+    .start-84 {
+        margin-left: 84%
+    }
+    .start-80{
         margin-left: 80%
     }
-
     .start-20 {
-        margin-left: 20%
+        margin-left: 8%
+    }
+    .top-30 {
+        margin-top: 35%;
     }
 
+    .top-10 {
+        margin-top: -30%;
+    }
     .start-5 {
         margin-left: 5%
     }
 
     .start-85 {
-        margin-left: 88%
+        margin-left: 84%
     }
 
     .btn:focus {
@@ -85,6 +93,7 @@
         align-items: stretch;
         margin: 0;
         padding: 0;
+        /*overflow-x: hidden;*/
     }
 
     .section_6-2 {
@@ -100,7 +109,7 @@
         display: flex;
         align-items: stretch;
         /*overflow-y: auto;*/
-        overflow-x: hidden;
+        /*overflow-x: hidden;*/
         margin: 0;
         padding: 0;
     }
@@ -191,10 +200,13 @@
         height: 80%;
      }
     .sp6-height{
-        height: 12rem;
+        height: 10rem;
     }
     .sp6-height-m{
-        height: 12rem;
+        height: 6rem;
+    }
+    .s6p2-height-m{
+      height: 6rem;
     }
 </style>
 
@@ -344,7 +356,7 @@
                 </div>
             </div>
         </div>
-        <button class="btn btn-outline position-absolute top-50 start-0 start-20 translate-middle next">
+        <button class="btn btn-outline position-absolute top-50 start-0 start-20 translate-middle prev-6-2">
             <img src="{{asset('images/left-arrow.svg')}}" alt="" style="width: 70px" class=""></button>
         <div class="d-flex flex-row-reverse mt-5">
             <div class="rectangle-dot row mt-5 gx-1" style="width: 20%; ">
@@ -368,8 +380,6 @@
                 </div>
             </div>
         </div>
-{{--        <button class="btn btn-outline position-absolute top-50 start-0 start-20 translate-middle prev-6-2">--}}
-{{--            <img src="{{asset('images/left-arrow.svg')}}" alt="" class="" style="width: 70px"></button>--}}
     </div>
     <div class="col-6 d-flex align-items-center justify-content-start position-relative">
         <img src="{{asset('images/sec6/pic1p2.png')}}" alt="" class="s6p2-img img-fluid  s6p2-img-first">
@@ -481,15 +491,15 @@
 </div>
 <div class="section_6-2-mobile">
     <div class="container-fluid p-5 position-relative justify-content-center">
-        <div class="d-flex flex-row-reverse pt-5">
+        <div class="d-flex flex-row-reverse ">
             <img src="{{asset('images/sec6/header-2.png')}}" alt=""
                  class="img-fluid header-1 pb-3 sm-image-header-mobile">
         </div>
         <div class="d-flex flex-row-reverse">
             <div class="header-rectangle"></div>
         </div>
-        <button class="btn btn-outline position-absolute top-50 start-0 start-20 translate-middle prev-6-2">
-            <img src="{{asset('images/left_arrow.png')}}" alt="" class="">
+        <button class="btn btn-outline position-absolute top-30 start-0 start-20 translate-middle prev-6-2">
+            <img src="{{asset('images/left-arrow.svg')}}" alt="" class="" style="height: 70px">
         </button>
         <div class="d-flex align-items-center justify-content-end mt-4">
             <img src="{{asset('images/sec6/pic1p2.png')}}" alt="" class="s6p2-img img-fluid  s6p2-img-first">
@@ -497,17 +507,15 @@
             <img src="{{asset('images/sec6/pic3p2.png')}}" alt="" class="s6p2-img img-fluid  d-none">
             <img src="{{asset('images/sec6/pic4p2.png')}}" alt="" class="s6p2-img img-fluid s6p2-img-last d-none">
         </div>
-        <button class="btn btn-outline position-absolute top-50 start-80 translate-middle next-6-2">
-            <img src="{{asset('images/arrow.png')}}" alt="" class="" style="">
+        <button class="btn btn-outline position-absolute top-10 start-84 translate-middle next-6-2">
+            <img src="{{asset('images/arrow.svg')}}" alt="" class="" style="width: 70px">
         </button>
-{{--        <button class="btn btn-outline position-absolute top-50 start-0 start-20 translate-middle next">--}}
-{{--            <img src="{{asset('images/sec6/arr-02.png')}}" alt="" style="" class="small-image"></button>--}}
         <div class="s6p2-content s6p2-first-content text-center">
             <div class="  header-1 mulish-bold">
                 1 NGƯỜi ĐẦU TƯ - 3 THẾ HỆ CÙNG HƯỞNG
             </div>
             <div class="">
-                <div class="text_content_1 text-justify text-center pt-3 " >
+                <div class="text_content_1 text-justify text-center pt-3 s6p2-height-m" >
                     Thẻ cư trú cấp cho vợ chồng, con cái và bố mẹ 2 bên (có điều kiện cụ thể)
                 </div>
             </div>
@@ -517,7 +525,7 @@
                 MÔI TRƯỜNG SỐNG HOÀN HẢO
             </div>
             <div class="d-flex flex-row-reverse">
-                <div class="text_content_1 text-justify text-center pt-3 text-justify-center">
+                <div class="text_content_1 text-justify text-center pt-3 text-justify-center s6p2-height-m">
                     Không khí trong lành, Chế độ an sinh xã hội tốt, Giáo dục công cấp 1-3 hoàn toàn miễn phí,
                     Chăm sóc y tế theo hệ thống chuẩn Châu Âu
                 </div>
@@ -528,17 +536,17 @@
                 TỰ DO ĐI LẠI KHÔNG CẦN VISA
             </div>
             <div class=" text-justify-center">
-                <div class="text_content_1 text-justify text-center pt-3" >
+                <div class="text_content_1 text-justify text-center pt-3 s6p2-height-m" >
                     TỰ DO ĐI LẠI 27 NƯỚC KHỐI SCHENGEN & khu vực Balkan không cần xin visa
                 </div>
             </div>
         </div>
-        <div class=" s6p2-content last-content-s6p2 d-none">
+        <div class=" s6p2-content last-content-s6p2 d-none text-center">
             <div class="  header-1  mulish-bold">
                 GIA HẠN SAU 3 NĂM
             </div>
             <div class="">
-                <div class="text_content_1 text-justify text-center pt-3 text-justify-center" >
+                <div class="text_content_1 text-justify text-center pt-3 text-justify-center s6p2-height-m" >
                     Sau 3 năm cư trú tại Hungary có thể lên thẻ thường trú nhân
                 </div>
             </div>
@@ -601,7 +609,53 @@
         }, function () {
             s6p1startAutoPlay();
         });
+        var isTouching = false;
+        var touchStartX = 0;
+        var touchEndX = 0;
+        var threshold = 50; // Ngưỡng di chuyển tối thiểu để kích hoạt hành động
+        var touch_area = $('.section_6-mobile');
 
+        touch_area.on('touchstart', function (event) {
+            touchStartX = event.touches[0].clientX;
+            isTouching = true;
+        });
+
+        touch_area.on('touchmove', function (event) {
+            if (isTouching) {
+                touchEndX = event.touches[event.touches.length - 1].clientX;
+            }
+        });
+
+        touch_area.on('touchend', function (event) {
+            if (isTouching) {
+                isTouching = false;
+                touchEndX = event.changedTouches[event.changedTouches.length - 1].clientX;
+                var swipeLength = touchEndX - touchStartX;
+                console.log(swipeLength);
+                if (swipeLength > threshold) {
+                    // Lướt chạm sang phải
+                    // Kích hoạt hành động cho nút bấm sang phải
+                    console.log('next_mobile');
+                    $('.next-6-2').prop('disabled', true);
+                    s6p1stopAutoPlay();
+                    s6p1slideToNextImage();
+                    setTimeout(function () {
+                        $('.next-6-2').prop('disabled', false);
+                    }, 500);
+                }
+                if (swipeLength < -threshold) {
+                    // Lướt chạm sang trái
+                    // Kích hoạt hành động cho nút bấm sang trái
+                    console.log('prev_mobile');
+                    $('.prev-6-2').prop('disabled', true);
+                    s6p1stopAutoPlay();
+                    s6p1slideToPrevImage();
+                    setTimeout(function () {
+                        $('.prev-6-2').prop('disabled', false);
+                    }, 500);
+                }
+            }
+        });
         function s6p1slideToNextImage() {
             let currentImage = $('.s6p1-img:not(.d-none)');
             let nextImage = currentImage.next('.s6p1-img');
@@ -712,6 +766,53 @@
             s6p2startAutoPlay();
         });
 
+        var isTouching = false;
+        var touchStartX = 0;
+        var touchEndX = 0;
+        var threshold = 50; // Ngưỡng di chuyển tối thiểu để kích hoạt hành động
+        var touch_area = $('.section_6-2-mobile');
+
+        touch_area.on('touchstart', function (event) {
+            touchStartX = event.touches[0].clientX;
+            isTouching = true;
+        });
+
+        touch_area.on('touchmove', function (event) {
+            if (isTouching) {
+                touchEndX = event.touches[event.touches.length - 1].clientX;
+            }
+        });
+
+        touch_area.on('touchend', function (event) {
+            if (isTouching) {
+                isTouching = false;
+                touchEndX = event.changedTouches[event.changedTouches.length - 1].clientX;
+                var swipeLength = touchEndX - touchStartX;
+                console.log(swipeLength);
+                if (swipeLength > threshold) {
+                    // Lướt chạm sang phải
+                    // Kích hoạt hành động cho nút bấm sang phải
+                    console.log('next_mobile');
+                    $('.next').prop('disabled', true);
+                    s6p2stopAutoPlay();
+                    s6p2slideToNextImage();
+                    setTimeout(function () {
+                        $('.next-6-2').prop('disabled', false);
+                    }, 500);
+                }
+                if (swipeLength < -threshold) {
+                    // Lướt chạm sang trái
+                    // Kích hoạt hành động cho nút bấm sang trái
+                    console.log('prev_mobile');
+                    $('.prev').prop('disabled', true);
+                    s6p2stopAutoPlay();
+                    s6p2slideToPrevImage();
+                    setTimeout(function () {
+                        $('.prev-6-2').prop('disabled', false);
+                    }, 500);
+                }
+            }
+        });
         function s6p2slideToNextImage() {
             let currentImage = $('.s6p2-img:not(.d-none)');
             let nextImage = currentImage.next('.s6p2-img');
