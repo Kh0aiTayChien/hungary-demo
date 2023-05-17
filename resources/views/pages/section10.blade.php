@@ -178,6 +178,7 @@
         </div>
 
         <form action="{{ route('send') }}"  method="POST" enctype="multipart/form-data" class="form-inline mt-3">
+            @csrf
             <div class="form-group mt-1">
                 <label for="inputName" class="sr-only">Họ và tên:</label>
                 <input type="text" class="form-control " name="name" id="name"

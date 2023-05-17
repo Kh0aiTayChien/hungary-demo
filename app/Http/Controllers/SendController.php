@@ -15,6 +15,6 @@ class SendController extends Controller
 
         $rows = array($rows);
             Sheets::sheet('chien')->append($rows);
-            return redirect('index');
+            return redirect()->route('index');
     }
 }
