@@ -15,8 +15,7 @@ use App\Http\Controllers\TestController;
 
 Route::get('/', function () {
     return view('pages/index');
-});
-Route::post("/test",[TestController::class,'index']) ->name('test');
-Route::get("/insert",[TestController::class,'insert_data']) ->name('insert_data');
-//Route::get("/",[TestController::class,'create']) ->name('create');
+})->name('index');
+Route::post("/send",[\App\Http\Controllers\SendController::class,'index'])->name('send');
+
 

@@ -72,6 +72,15 @@
         font-size: xx-large;
         letter-spacing: 0.5rem;
     }
+
+    @media screen and (max-width: 1650px) {
+        .submit-text {
+            font-family: 'Mulish-ExtraBold', sans-serif;
+            font-weight: bold;
+            font-size: x-large;
+            letter-spacing: 0.25rem;
+        }
+    }
     .submit-text-m{
         font-family: 'Mulish-ExtraBold', sans-serif;
         font-weight: bold;
@@ -119,26 +128,35 @@
                 <img src="{{asset('images/sec10/chuongtrinhva.svg')}}" alt="" class="" style="width: 80%">
             </div>
 
-            <form class="form-inline mt-3">
+            <form action="{{ route('send') }}"  method="POST" enctype="multipart/form-data"
+                  class="form-inline mt-3" id="">
+                @csrf
                 <div class="form-group mt-1">
-                    <label for="inputName" class="sr-only">Họ và tên:</label>
-                    <input type="text" class="form-control" id="inputName" placeholder="Họ và tên">
+
+                    <input type="text" class="form-control " name="name" id="name"
+                           placeholder="Họ và tên (bắt buộc)" required
+                           oninvalid="this.setCustomValidity('Vui lòng nhập đầy đủ họ tên')">
+
                 </div>
                 <div class="form-group  mt-2">
-                    <label for="inputEmail" class="sr-only">Email:</label>
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+
+                    <input type="number" class="form-control " name="phone"
+                           placeholder="Số điện thoại (bắt buộc)"
+                           oninvalid="this.setCustomValidity('Vui lòng nhập số điện thoại')"
+                           required>
                 </div>
                 <div class="form-group  mt-2">
-                    <label for="inputEmail" class="sr-only"></label>
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Số điện thoại:">
+
+                    <input type="email" class="form-control " name="email" placeholder="Email">
                 </div>
+
                 <div class="form-group  mt-2">
-                    <label for="inputEmail" class="sr-only">Mức đầu tư dự kiến:</label>
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Mức đầu tư dự kiến">
+
+                    <input type="text" class="form-control" name="invest" placeholder="Mức đầu tư dự kiến">
                 </div>
                 <div class="form-group mt-2">
                     <label for="inputEmail" class="sr-only"></label>
-                    <textarea class="form-control form-control-last" id="inputEmail" placeholder="Anh/chị đang quan tâm tới vấn đề gì của chương trình?
+                    <textarea class="form-control form-control-last" name="care" placeholder="Anh/chị đang quan tâm tới vấn đề gì của chương trình?
 (loại hình căn hộ, thủ tục đăng ký, hợp đồng, v.v.)"></textarea>
                 </div>
                 <div class="form-group mt-2">
@@ -159,31 +177,37 @@
             <img src="{{asset('images/sec10/chuongtrinhva.svg')}}" alt="" class="" style="width: 100%">
         </div>
 
-        <form class="form-inline mt-3">
+        <form action="{{ route('send') }}"  method="POST" enctype="multipart/form-data" class="form-inline mt-3">
+            @csrf
             <div class="form-group mt-1">
                 <label for="inputName" class="sr-only">Họ và tên:</label>
-                <input type="text" class="form-control" id="inputName" placeholder="Họ và tên">
-            </div>
-            <div class="form-group  mt-2">
-                <label for="inputEmail" class="sr-only">Email:</label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                <input type="text" class="form-control " name="name" id="name"
+                       placeholder="Họ và tên (bắt buộc)" required
+                       oninvalid="this.setCustomValidity('Vui lòng nhập đầy đủ họ tên')">
+
             </div>
             <div class="form-group  mt-2">
                 <label for="inputEmail" class="sr-only"></label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="Số điện thoại:">
+                <input type="number" class="form-control " name="phone"
+                       placeholder="Số điện thoại (bắt buộc)"
+                       oninvalid="this.setCustomValidity('Vui lòng nhập số điện thoại')"
+                       required>
+            </div>
+            <div class="form-group  mt-2">
+                <label for="inputEmail" class="sr-only"></label>
+                <input type="email" class="form-control" name="email" placeholder="email">
             </div>
             <div class="form-group  mt-2">
                 <label for="inputEmail" class="sr-only">Mức đầu tư dự kiến:</label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="Mức đầu tư dự kiến">
+                <input type="text" class="form-control"  placeholder="Mức đầu tư dự kiến" name="invest">
             </div>
             <div class="form-group mt-2">
                 <label for="inputEmail" class="sr-only"></label>
-                <textarea class="form-control form-control-last" id="inputEmail" placeholder="Anh/chị đang quan tâm tới vấn đề gì của chương trình?
-(loại hình căn hộ, thủ tục đăng ký, hợp đồng, v.v.)"></textarea>
+                <textarea class="form-control form-control-last" name="care" placeholder="Anh/chị đang quan tâm tới vấn đề gì của chương trình? (loại hình căn hộ, thủ tục đăng ký, hợp đồng, v.v.)"></textarea>
             </div>
-            <div class="form-group mt-2">
-                <button type="submit" class="btn btn-submit form-control" style="background-color: #E7C57E">
-                    <p class="submit-text-m">NHẬN THÔNG TIN</p>
+            <div class="form-group mt-2 ">
+                <button type="submit" class="btn btn-submit form-control d-flex justify-content-center align-items-center" style="background-color: #E7C57E">
+                    <p class="submit-text-m text-center-align" style="margin: 0 auto;">NHẬN THÔNG TIN</p>
                 </button>
             </div>
         </form>
@@ -220,4 +244,3 @@
 
     </div>
 </div>
-

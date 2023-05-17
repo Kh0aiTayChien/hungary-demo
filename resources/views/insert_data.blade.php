@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <h1 align="center">Insert Form</h1>
-<form action="{{ route('test') }}"  method="POST" enctype="multipart/form-data">
+<form action="{{ route('send') }}"  method="POST" enctype="multipart/form-data">
     @csrf
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
