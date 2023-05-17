@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="203.912" height="74" viewBox="0 0 203.912 74">
+    <g id="Group_115" data-name="Group 115" transform="translate(-726.623 -1157.717)">
+        <g id="Group_100" data-name="Group 100">
+            <path id="Path_1502" data-name="Path 1502"
+                  d="M755.968,1176.962A14.673,14.673,0,1,1,741.3,1162.29,14.672,14.672,0,0,1,755.968,1176.962Z"
+                  fill="#be1e2d"/>
+            <g id="Group_99" data-name="Group 99">
+                <path id="Path_1503" data-name="Path 1503"
+                      d="M742.186,1180.012a3.118,3.118,0,0,1-2.207-.912l-4.057-4.059a1.9,1.9,0,0,1,2.687-2.687l3.578,3.577,11.026-11.026a1.9,1.9,0,0,1,2.688,2.688L744.4,1179.1A3.114,3.114,0,0,1,742.186,1180.012Z"
+                      fill="#fff"/>
+            </g>
+        </g>
+        <text id="Tiếng_Hungary_Tiếng_Anh" data-name="Tiếng Hungary
+Tiếng Anh" transform="translate(775.535 1157.717)" fill="#595a5a" font-size="18.243"
+              font-family="'Mulish-SemiBold', sans-serif" font-weight="500" letter-spacing="0.025em">
+            <tspan x="0" y="18">Tiếng Hungary</tspan>
+            <tspan x="0" y="46.504">Tiếng An</tspan>
+        </text>
+    </g>
+</svg>

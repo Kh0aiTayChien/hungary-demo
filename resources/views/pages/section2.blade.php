@@ -136,21 +136,21 @@
     }
 
     .section_2 {
-        height: 100%;
+        /*height: 100%;*/
         width: 100vw;
         background-image: url('{{asset('images/background_sec2.png')}}');
-        background-repeat: no-repeat;
-        background-position: center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        display: flex;
-        align-items: stretch;
-        overflow-y: auto;
-        overflow-x: hidden;
-        margin: 0;
-        padding: 0;
+        /*background-repeat: no-repeat;*/
+        /*background-position: center;*/
+        /*-webkit-background-size: cover;*/
+        /*-moz-background-size: cover;*/
+        /*-o-background-size: cover;*/
+        /*background-size: cover;*/
+        /*display: flex;*/
+        /*align-items: stretch;*/
+        /*overflow-y: auto;*/
+        /*overflow-x: hidden;*/
+        /*margin: 0;*/
+        /*padding: 0;*/
     }
     .sp2-height{
         height: 15rem;

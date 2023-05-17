@@ -13,6 +13,10 @@
     src: url("/font/Mulish-SemiBold.ttf") format("opentype");
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .section1 {
     background-image: url("/images/backgroundSec1.png");
     width: 100vw;
@@ -261,7 +265,7 @@ ul.iconmb {
         margin-top: 15%;
     }
     .slogan12mb {
-        width: 60vw;
+        width: 75vw;
     }
     .button1 {
         margin-top: 25%;

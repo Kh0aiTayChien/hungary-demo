@@ -9,17 +9,17 @@
     <nav>
         <ul class="iconpc">
             <li class="contact">
-                <a href="#">
+                <a href="https://www.google.com/">
                     <img class="iconfb" src="{{asset('images/fb.png')}}" alt="fb link">
                 </a>
             </li>
             <li class="contact">
-                <a href="#">
+                <a href="https://www.google.com/">
                     <img class="icontiktok" src="{{asset('images/tiktok.png')}}">
                 </a>
             </li>
             <li class="contact">
-                <a href="#">
+                <a href="https://www.google.com/">
                     <img class="iconzalo" src="{{asset('images/zalo.png')}}">
                 </a>
             </li>
@@ -28,17 +28,17 @@
     <nav>
         <ul class="hide iconmb">
             <li class="contact">
-                <a href="#">
+                <a href="https://www.google.com/">
                     <img class="iconfb" src="{{asset('images/fb.png')}}" alt="fb link">
                 </a>
             </li>
             <li class="contact">
-                <a href="#">
+                <a href="https://www.google.com/">
                     <img class="icontiktok" src="{{asset('images/tiktok.png')}}">
                 </a>
             </li>
             <li class="contact">
-                <a href="#">
+                <a href="https://www.google.com/">
                     <img class="iconzalo" src="{{asset('images/zalo.png')}}">
                 </a>
             </li>
@@ -67,7 +67,7 @@
         </button>
     </div>
     <div>
-        <a href="#" class="phone">
+        <a href="tel:0362149839" class="phone">
             <img class="phoneNumber" src="{{asset('images/phoneNumber.png')}}">
             <img class="phoneIcon" src="{{asset('images/phoneIcon.png')}}">
         </a>

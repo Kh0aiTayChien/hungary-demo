@@ -1,0 +1,38 @@
+<svg id="Group_61" data-name="Group 61" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1172.526" height="2698.2" viewBox="0 0 1172.526 2698.2">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.534" y1="0.234" x2="0.43" y2="1.041" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#111523"/>
+      <stop offset="0.749" stop-color="#111523"/>
+      <stop offset="1" stop-color="#111523"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path id="Path_4" data-name="Path 4" d="M2211.915,0h1170V426.15l-1170,.652Z" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="0.525" y1="11.904" x2="1.525" y2="11.904" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#111523"/>
+      <stop offset="0.195" stop-color="#111523"/>
+      <stop offset="0.534" stop-color="#131523"/>
+      <stop offset="0.571" stop-color="#1c1523"/>
+      <stop offset="0.633" stop-color="#351625"/>
+      <stop offset="0.712" stop-color="#5f1927"/>
+      <stop offset="0.804" stop-color="#971b2a"/>
+      <stop offset="0.86" stop-color="#be1e2d"/>
+      <stop offset="0.878" stop-color="#b81d2c"/>
+      <stop offset="0.9" stop-color="#a91c2b"/>
+      <stop offset="0.924" stop-color="#8f1b2a"/>
+      <stop offset="0.95" stop-color="#6c1928"/>
+      <stop offset="0.976" stop-color="#3e1725"/>
+      <stop offset="1" stop-color="#111523"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_6" data-name="Rectangle 6" width="1172.526" height="2698.2" fill="url(#linear-gradient)"/>
+  <g id="Group_3" data-name="Group 3" transform="translate(-2211.915)">
+    <g id="Group_2" data-name="Group 2" clip-path="url(#clip-path)">
+      <g id="Group_1" data-name="Group 1">
+        <path id="Path_1" data-name="Path 1" d="M3381.915,285.77s-349.66-258.244-905.747-179.9C1922.791,183.824,1514,194.849,921.318,28.94V-136.969h2460.6Z" fill="url(#linear-gradient-2)"/>
+        <path id="Path_2" data-name="Path 2" d="M2150.351,144.631S1470.865,222.259,920.088-54.015l-1.3,82.955S1480.869,224.259,2150.351,144.631Z" fill="#bc202e"/>
+        <path id="Path_3" data-name="Path 3" d="M3381.915,163.714S2974.972-8.073,2418.334,113.827A1356.807,1356.807,0,0,1,2809.74,95.149c263.433,25.863,460.961,123.813,572.175,190.621Z" fill="#bc202e"/>
+      </g>
+    </g>
+  </g>
+</svg>

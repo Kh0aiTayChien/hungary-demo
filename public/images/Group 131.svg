@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900.951" height="124" viewBox="0 0 900.951 124">
+    <g id="Group_131" data-name="Group 131" transform="translate(-189.644 -1077)">
+        <g id="Group_130" data-name="Group 130">
+            <text id="_5000_người_2019_và_có_xu_hướng_tăng_mạnh_những_năm_gần_đây"
+                  data-name="~5000 người (2019) và có xu hướng tăng mạnh những năm gần đây"
+                  transform="translate(273.595 1078.4)" fill="#595a5a" font-size="33"
+                  font-family="Mulish-SemiBold, sans-serif" font-weight="500">
+                <tspan x="0" y="25" letter-spacing="0.06em">~5000 người (2019) và có xu hướng tăng mạnh</tspan>
+                <tspan x="0" y="61">những năm gần đây</tspan>
+            </text>
+            <g id="Group_27" data-name="Group 27" transform="translate(-2211.915)">
+                <path id="Path_738" data-name="Path 738"
+                      d="M2444.435,1098.439A21.438,21.438,0,1,1,2423,1077,21.437,21.437,0,0,1,2444.435,1098.439Z"
+                      fill="#be1e2d"/>
+                <g id="Group_26" data-name="Group 26">
+                    <path id="Path_739" data-name="Path 739"
+                          d="M2424.3,1102.894a4.554,4.554,0,0,1-3.225-1.333l-5.928-5.929a2.777,2.777,0,1,1,3.927-3.927l5.227,5.227,16.11-16.111a2.777,2.777,0,0,1,3.927,3.927l-16.811,16.812A4.55,4.55,0,0,1,2424.3,1102.894Z"
+                          fill="#fff"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

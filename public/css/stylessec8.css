@@ -1,0 +1,70 @@
+.sec8pc {
+    background-image: url("/images/backgroundSec1.png");
+    width: 100vw;
+    /*height: 120vh;*/
+    display: block;
+}
+
+.bannersec8pc {
+    width: 50vw;
+    /*margin-top: %;*/
+}
+
+.line1sec8pc {
+    float: left;
+}
+
+.line1sec8Rightpc {
+    width: 30vw;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.line2sec8pc {
+    /*float: left;*/
+}
+
+.line2sec8Leftpc {
+    margin-top: 5%;
+    width: 25vw;
+    margin-left:-30%;
+    float: left;
+}
+
+.bannersec8botpc {
+    width: 50vw;
+    margin-top: 1.8%;
+}
+/*.testsec8 {*/
+/*    right: 0;*/
+/*    margin-left: 50%;*/
+/*}*/
+
+.sec8mb {
+    display: none;
+    background-image: url("/images/backgroundSec1.png");
+    width: 100vw;
+}
+
+@media screen and (max-width: 1100px) {
+    .sec8pc {
+        display: none;
+    }
+
+    .sec8mb {
+        display: block;
+        text-align: center;
+    }
+    .headersec8mb {
+        width: 80vw;
+        margin-top: 5%;
+    }
+    .bannersec8mb {
+        width: 87vw;
+        margin-top: 5%;
+    }
+    .contentsec8mb {
+        width: 90vw;
+        margin-top: 5%;
+    }
+}
