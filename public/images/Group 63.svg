@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="956.374" height="200.768" viewBox="0 0 956.374 200.768">
     <g id="Group_63" data-name="Group 63" transform="translate(-105.354 -1696.484)">
-        <text id="_02_" data-name="02 " transform="translate(105.354 1768.484)" fill="#e7c57e" font-size="72"
+        <text id="_02_" data-name="02 " transform="translate(105.354 1768.484)" fill="#e7c57e" font-size="90"
               font-family="Mulish-ExtraBold, Mulish" font-weight="800">
             <tspan x="0" y="0">02</tspan>
         </text>
         <text id="THU_THẬP_XỬ_LÝ_HỒ_SƠ" data-name="THU THẬP &amp; XỬ LÝ HỒ SƠ" transform="translate(285.728 1757.335)"
-              fill="#e7c57e" font-size="40" font-family="Mulish-ExtraBold, Mulish" font-weight="800">
+              fill="#e7c57e" font-size="45" font-family="Mulish-ExtraBold, Mulish" font-weight="800">
             <tspan x="0" y="0">THU THẬP &amp; XỬ LÝ HỒ SƠ</tspan>
         </text>
-        <text
-            id="Nhà_đầu_tư_lăn_tay_tại_Đại_sứ_quán_Lãnh_sự_quán_Hungary_tại_Hà_Nội_hoặc_Sở_ngoại_kiều_Budapest_thanh_toán_số_tiền_còn_lại"
-            data-name="Nhà đầu tư lăn tay tại Đại sứ quán/ Lãnh sự quán Hungary tại Hà Nội hoặc Sở ngoại kiều Budapest, thanh toán số tiền còn lại"
-            transform="translate(285.728 1770.252)" fill="#fff" font-size="35" font-family="Mulish, sans-serif"
-            letter-spacing="0.026em">
-            <tspan x="0" y="27">Nhà đầu tư lăn tay tại Đại sứ quán/ Lãnh sự </tspan>
-            <tspan x="0" y="63">quán Hungary tại Hà Nội hoặc Sở ngoại kiều </tspan>
-            <tspan x="0" y="99">Budapest, thanh toán số tiền còn lại</tspan>
-        </text>
+<!--        <text-->
+<!--            id="Nhà_đầu_tư_lăn_tay_tại_Đại_sứ_quán_Lãnh_sự_quán_Hungary_tại_Hà_Nội_hoặc_Sở_ngoại_kiều_Budapest_thanh_toán_số_tiền_còn_lại"-->
+<!--            data-name="Nhà đầu tư lăn tay tại Đại sứ quán/ Lãnh sự quán Hungary tại Hà Nội hoặc Sở ngoại kiều Budapest, thanh toán số tiền còn lại"-->
+<!--            transform="translate(285.728 1770.252)" fill="#fff" font-size="35" font-family="Mulish, sans-serif"-->
+<!--            letter-spacing="0.026em">-->
+<!--            <tspan x="0" y="27">Nhà đầu tư lăn tay tại Đại sứ quán/ Lãnh sự </tspan>-->
+<!--            <tspan x="0" y="63">quán Hungary tại Hà Nội hoặc Sở ngoại kiều </tspan>-->
+<!--            <tspan x="0" y="99">Budapest, thanh toán số tiền còn lại</tspan>-->
+<!--        </text>-->
         <circle id="Ellipse_2" data-name="Ellipse 2" cx="6.016" cy="6.016" r="6.016"
                 transform="translate(228.672 1737.304)" fill="none" stroke="#fff" stroke-miterlimit="10"
                 stroke-width="1"/>

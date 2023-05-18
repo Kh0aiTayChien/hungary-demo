@@ -38,21 +38,21 @@
     <img src="{{asset('images/Group 49.svg')}}" class="sec3Imgmb">
     <ul class="textsec3mb">
         <li>
-            <p>
+            <p class="textlinesec3mb">
                 Đầu tư cư trú Hungary đang là chương trình duy nhất cho phép Nhà đầu tư
                 nhận thẻ cư trú trước - đầu tư bất động sản bất kì sau, đảm bảo an toàn và
                 quyền lợi tối đa cho nhà đầu tư.
             </p>
         </li>
         <li>
-            <p>
+            <p class="textlinesec3mb">
                 Với tổng chi phí tối thiểu 240.000 EUR bao gồm thẻ cư trú và đầu tư bất
                 động sản, đây là chương trình cư trú có mức giá THẤP NHẤT - thủ tục ĐƠN
                 GIẢN NHẤT - xử lý hồ sơ NHANH NHẤT trên thị trường Châu Âu.
             </p>
         </li>
         <li>
-            <p>
+            <p class="textlinesec3mb">
                 Chỉ với 90 ngày xét duyệt, nhà đầu tư đã nắm trong tay tấm thẻ cư trú Hun-
                 gary quyền lực, sẵn sàng sở hữu ngay bất động sản giữa lòng thủ đô Buda-
                 pest hoa lệ và cùng gia đình tận hưởng đặc quyền của công dân toàn cầu.

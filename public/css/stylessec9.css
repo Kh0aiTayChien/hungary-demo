@@ -43,13 +43,14 @@
     .sec9mb {
         display: block;
         text-align: center;
+        background: #2d3748;
         background-image: url("/images/Group 61.svg");
         background-size: cover;
         /*height: 100vh;*/
     }
     .headersec9mb {
         width: 55vw;
-        margin-top: 5%;
+        margin-top: 14%;
     }
     .header2sec9mb {
         width: 80vw;
@@ -66,5 +67,43 @@
     }
     .line1sec9mb {
         width: 85vw;
+    }
+    .testlinesec9mb {
+        text-align: justify;
+        font-family: Mulish, sans-serif;
+        width: 65vw;
+        font-size: 15px;
+        margin-top: -8%;
+        margin-left: 23%;
+        color: white;
+    }
+    .testline2sec9mb {
+        text-align: justify;
+        font-family: Mulish, sans-serif;
+        width: 65vw;
+        font-size: 15px;
+        margin-top: -12%;
+        margin-left: 23%;
+        color: white;
+    }
+    .testline3sec9mb {
+        text-align: justify;
+        font-family: Mulish, sans-serif;
+        width: 65vw;
+        font-size: 15px;
+        margin-top: -21%;
+        margin-left: 23%;
+        color: white;
+    }
+    .testline4sec9mb {
+        text-align: justify;
+        font-family: Mulish, sans-serif;
+        width: 65vw;
+        font-size: 15px;
+        margin-top: -17%;;
+        margin-left: 23%;
+        color: white;
+        padding-bottom: 10%;
+        margin-bottom: -10%;
     }
 }

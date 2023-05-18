@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="958.834" height="257.815" viewBox="0 0 958.834 257.815">
     <g id="Group_31" data-name="Group 31" transform="translate(-105.894 -890.24)">
         <text id="THỦ_TỤC_TINH_GỌN_NHANH_CHÓNG" data-name="THỦ TỤC TINH GỌN NHANH CHÓNG"
-              transform="translate(285.728 944.685)" fill="#bc202e" font-size="33"
+              transform="translate(285.728 944.685)" fill="#bc202e" font-size="45"
               font-family="Mulish-ExtraBold, sans-serif" font-weight="800">
             <tspan x="0" y="0">THỦ TỤC TINH GỌN NHANH CHÓNG</tspan>
         </text>
-        <text id="_03" data-name="03" transform="translate(105.894 962.24)" fill="#bc202e" font-size="72"
+        <text id="_03" data-name="03" transform="translate(105.894 962.24)" fill="#bc202e" font-size="90"
               font-family="Mulish-ExtraBold, sans-serif" font-weight="800">
             <tspan x="0" y="0">03</tspan>
         </text>
@@ -20,17 +20,17 @@
     Không yêu cầu tiếng Anh
     Không yêu cầu thời gian cư trú " transform="translate(2497.642 965.055)" fill="#595a5a" font-size="33"
                 font-family="Mulish, sans-serif" font-weight="500" letter-spacing="0.026em">
-                <tspan x="0" y="26">Chỉ từ 03 THÁNG đã nhận thẻ với 03 KHÔNG</tspan>
-                <tspan x="0" y="62" xml:space="preserve">    Không cần chứng minh nguồn tiền</tspan>
-                <tspan x="0" y="98" xml:space="preserve">    Không yêu cầu tiếng Anh</tspan>
-                <tspan x="0" y="134" xml:space="preserve">    Không yêu cầu thời gian cư trú </tspan>
+<!--                <tspan x="0" y="26">Chỉ từ 03 THÁNG đã nhận thẻ với 03 KHÔNG</tspan>-->
+<!--                <tspan x="0" y="62" xml:space="preserve">    Không cần chứng minh nguồn tiền</tspan>-->
+<!--                <tspan x="0" y="98" xml:space="preserve">    Không yêu cầu tiếng Anh</tspan>-->
+<!--                <tspan x="0" y="134" xml:space="preserve">    Không yêu cầu thời gian cư trú </tspan>-->
             </text>
-            <path id="Path_726" data-name="Path 726" d="M2516.14,1018.081a7,7,0,1,1-7-7A7,7,0,0,1,2516.14,1018.081Z"
-                  fill="#be1e2d"/>
-            <path id="Path_727" data-name="Path 727" d="M2516.14,1054.286a7,7,0,1,1-7-7A7,7,0,0,1,2516.14,1054.286Z"
-                  fill="#be1e2d"/>
-            <path id="Path_728" data-name="Path 728" d="M2516.14,1090.491a7,7,0,1,1-7-7A7,7,0,0,1,2516.14,1090.491Z"
-                  fill="#be1e2d"/>
+<!--            <path id="Path_726" data-name="Path 726" d="M2516.14,1018.081a7,7,0,1,1-7-7A7,7,0,0,1,2516.14,1018.081Z"-->
+<!--                  fill="#be1e2d"/>-->
+<!--            <path id="Path_727" data-name="Path 727" d="M2516.14,1054.286a7,7,0,1,1-7-7A7,7,0,0,1,2516.14,1054.286Z"-->
+<!--                  fill="#be1e2d"/>-->
+<!--            <path id="Path_728" data-name="Path 728" d="M2516.14,1090.491a7,7,0,1,1-7-7A7,7,0,0,1,2516.14,1090.491Z"-->
+<!--                  fill="#be1e2d"/>-->
         </g>
     </g>
 </svg>
