@@ -200,13 +200,13 @@
         height: 80%;
      }
     .sp6-height{
-        height: 10rem;
+        height: 2rem;
     }
     .sp6-height-m{
         height: 6rem;
     }
     .s6p2-height-m{
-      height: 6rem;
+      height: 2rem;
     }
 </style>
 
@@ -222,7 +222,7 @@
             <img src="{{asset('images/left-arrow.svg')}}" alt="" style="width: 70px"></button>
     </div>
     <div class="col-6 p-5 position-relative " style="height: 100%; margin-top: 2%">
-        <img src="{{asset('images/sec6/header-1.svg')}}" alt="" class="img-fluid header-1 pb-3 sm-image-header">
+        <img src="{{asset('images/sec6/header-1.svg')}}" alt="" class="img-fluid header-1 pb-3 sm-image-header pt-5">
         <div class="header-rectangle"></div>
         <div class="text_content_1 text-justify text-white pt-3 mulish-semi " style="width: 70%">
             Chương trình đầu tư BĐS lấy thẻ cư trú với chi phí đầu tư hợp lí,
@@ -309,7 +309,7 @@
 
 <div class="section_6-2 row">
     <div class="col-6 p-5 position-relative" style="margin-top: 3%">
-        <div class="d-flex flex-row-reverse">
+        <div class="d-flex flex-row-reverse pt-5">
             <img src="{{asset('images/sec6/header-2.png')}}" alt="" class="img-fluid header-1 pb-3 ">
         </div>
         <div class="d-flex flex-row-reverse">
@@ -467,7 +467,7 @@
                 từ 2018 – 2022 là 45.64%, trung bình tăng 9.1%/ năm.
             </div>
         </div>
-        <div class="rectangle-dot row p-5 gx-1 justify-content-center" style="width: 100%;">
+        <div class="rectangle-dot row pt-5 gx-1 justify-content-center" style="width: 100%;">
             <div class="col-2">
                 <div class="yellow-rectangle w-100 first_rectangle_y"></div>
             </div>
@@ -511,7 +511,7 @@
             <img src="{{asset('images/arrow.svg')}}" alt="" class="" style="width: 70px">
         </button>
         <div class="s6p2-content s6p2-first-content text-center">
-            <div class="  header-1 mulish-bold">
+            <div class="  header-1 mulish-bold" style="height: 2rem">
                 1 NGƯỜi ĐẦU TƯ - 3 THẾ HỆ CÙNG HƯỞNG
             </div>
             <div class="">
@@ -521,7 +521,7 @@
             </div>
         </div>
         <div class=" s6p2-content  d-none text-center">
-            <div class="  header-1  mulish-bold">
+            <div class="  header-1  mulish-bold" style="height: 2rem">
                 MÔI TRƯỜNG SỐNG HOÀN HẢO
             </div>
             <div class="d-flex flex-row-reverse">
@@ -532,7 +532,7 @@
             </div>
         </div>
         <div class="  s6p2-content d-none text-center">
-            <div class="  header-1  mulish-bold">
+            <div class="  header-1  mulish-bold" style="height: 2rem">
                 TỰ DO ĐI LẠI KHÔNG CẦN VISA
             </div>
             <div class=" text-justify-center">
@@ -542,7 +542,7 @@
             </div>
         </div>
         <div class=" s6p2-content last-content-s6p2 d-none text-center">
-            <div class="  header-1  mulish-bold">
+            <div class="  header-1  mulish-bold" style="height: 2rem">
                 GIA HẠN SAU 3 NĂM
             </div>
             <div class="">
@@ -553,7 +553,7 @@
         </div>
 
         <div class=" mt-5">
-            <div class="rectangle-dot row p-5 gx-1" style="width: 100%; ">
+            <div class="rectangle-dot row pt-5 gx-1" style="width: 100%; ">
                 <div class="col-2">
                     <div class="rectangle-red-s6  w-100 first-rectangle-6"></div>
                 </div>
