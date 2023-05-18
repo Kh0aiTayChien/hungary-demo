@@ -16,11 +16,33 @@
     <img src="{{asset('images/Group 11(1).svg')}}" class="header3sec9mb">
     <object data="{{asset('images/Group 62.svg')}}" class="header4sec9mb"></object>
     <object data="{{asset('images/Group 63 (1).svg')}}" class="line1sec9mb"></object>
+    <p class="testlinesec9mb">
+        Nhà đầu tư kí hợp đồng và đặt cọc tiền làm thẻ
+    </p>
     <object data="{{asset('images/Group 63.svg')}}" class="line1sec9mb"></object>
+    <p class="testline2sec9mb">
+        Nhà đầu tư lăn tay tại Đại sứ quán/ Lãnh sự quán Hungary tại Hà Nội hoặc Sở ngoại kiều Budapest, thanh toán số
+        tiền còn lại
+    </p>
     <object data="{{asset('images/Group 64.svg')}}" class="line1sec9mb"></object>
+    <p class="testline2sec9mb">
+        Công ty làm thủ tục và nộp hồ sơ cho nhà đầu tư tại Đại sứ quán/Lãnh sự quán Hungary tại Hà Nội hoặc Sở Ngoại
+        kiều Budapest
+    </p>
     <object data="{{asset('images/Group 65.svg')}}" class="line1sec9mb"></object>
+    <p class="testline3sec9mb">
+        Nhà đầu tư sẽ được cấp thẻ cư trú tạm thời ngay sau khi nộp hồ sơ tại Sở ngoại kiều Budapest (Thẻ tạm có quyền
+        hạn tương đương với thẻ chính). Trường hợp nộp tại Việt Nam, nhà đầu tư sẽ được cấp visa Hungary 1 năm để làm
+        thủ tục sinh trắc lấy thẻ.
+    </p>
     <object data="{{asset('images/Group 66.svg')}}" class="line1sec9mb"></object>
+    <p class="testline2sec9mb">
+        Kể từ 3 tháng khi có thẻ chính thức, nhà đầu tư phải mua bất động sản với số tiền cam kết đầu tư tối thiểu
+        175.000 EUR/ BĐS.
+    </p>
     <object data="{{asset('images/Group 67.svg')}}" class="line1sec9mb"></object>
-
-
+    <p class="testline4sec9mb">
+        Nộp hồ sơ sang tên BĐS và nhận giấy chủ quyền nhà trong vòng 1 tháng. Hoàn tất thủ tục thẻ cư trú &amp; đầu tư
+        BĐS và nhà đầu tư được quyền gia hạn thẻ cư trú sau mỗi 3 năm.
+    </p>
 </div>

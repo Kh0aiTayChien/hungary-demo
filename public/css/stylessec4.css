@@ -50,7 +50,9 @@
 .sec4pc {
     display: flex;
     justify-content: center;
-    background-image: url("/images/bannerSec1.png");
+    background-image: url("/images/Group 134.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     background-color: #111523;
     width: 100vw;
     /*height: 130vh;*/

@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="959.374" height="148.887" viewBox="0 0 959.374 148.887">
     <g id="Group_63" data-name="Group 63" transform="translate(-105.354 -1581.745)">
         <text id="KÝ_HỢP_ĐỒNG_ĐẶT_CỌC" data-name="KÝ HỢP ĐỒNG &amp; ĐẶT CỌC" transform="translate(285.728 1642.597)"
-              fill="#e7c57e" font-size="40" font-family="Mulish-ExtraBold, Mulish" font-weight="800">
+              fill="#e7c57e" font-size="45" font-family="Mulish-ExtraBold, Mulish" font-weight="800">
             <tspan x="0" y="0">KÝ HỢP ĐỒNG &amp; ĐẶT CỌC</tspan>
         </text>
-        <text id="_01" data-name="01" transform="translate(105.354 1653.745)" fill="#e7c57e" font-size="72"
+        <text id="_01" data-name="01" transform="translate(105.354 1653.745)" fill="#e7c57e" font-size="90"
               font-family="Mulish-ExtraBold, Mulish" font-weight="800">
             <tspan x="0" y="0">01</tspan>
         </text>
-        <text id="Nhà_đầu_tư_kí_hợp_đồng_và_đặt_cọc_tiền_làm_thẻ"
-              data-name="Nhà đầu tư kí hợp đồng và đặt cọc tiền làm thẻ" transform="translate(285.728 1658.633)"
-              fill="#fff" font-size="35" font-family="Mulish, sans-serif" letter-spacing="0.026em">
-            <tspan x="0" y="27">Nhà đầu tư kí hợp đồng và đặt cọc tiền làm</tspan>
-            <tspan x="0" y="63">thẻ</tspan>
-        </text>
+<!--        <text id="Nhà_đầu_tư_kí_hợp_đồng_và_đặt_cọc_tiền_làm_thẻ"-->
+<!--              data-name="Nhà đầu tư kí hợp đồng và đặt cọc tiền làm thẻ" transform="translate(285.728 1658.633)"-->
+<!--              fill="#fff" font-size="35" font-family="Mulish, sans-serif" letter-spacing="0.026em">-->
+<!--            <tspan x="0" y="27">Nhà đầu tư kí hợp đồng và đặt cọc tiền làm</tspan>-->
+<!--            <tspan x="0" y="63">thẻ</tspan>-->
+<!--        </text>-->
         <circle id="Ellipse_1" data-name="Ellipse 1" cx="6.016" cy="6.016" r="6.016"
                 transform="translate(228.672 1622.565)" fill="none" stroke="#fff" stroke-miterlimit="10"
                 stroke-width="1"/>

@@ -96,7 +96,7 @@
     }
     .sec5mb {
         display: block;
-        background-image: url("/images/backgroundsec5.png");
+        background-image: url("/images/backgroundsec5mb.png");
         width: 100vw;
         /*height: 125vh;*/
     }
@@ -162,13 +162,13 @@
         margin-top: 2%;
     }
     .line4dot1mbtop {
-        width: 87vw;
+        width: 85vw;
         margin-left: 8%;
         margin-top: 3%;
         margin-bottom: 3%;
     }
     .line4dot1mb {
-        width: 87vw;
+        width: 85vw;
         margin-left: 8%;
         margin-top: 3%;
     }

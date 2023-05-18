@@ -3,7 +3,7 @@
     <defs>
         <style>
             .d{letter-spacing:.05em;}.e{letter-spacing:.04em;}.f{letter-spacing:.29em;}.g{letter-spacing:0em;}.h{letter-spacing:.02em;}.i{letter-spacing:0em;}.j{letter-spacing:.42em;}.k{letter-spacing:.17em;}.l{letter-spacing:.16em;}.m{letter-spacing:0em;}.n{letter-spacing:.02em;}.o{letter-spacing:.17em;}.p{letter-spacing:.03em;}.q{letter-spacing:0em;}.r{letter-spacing:.42em;}.s{letter-spacing:-.12em;}.t{letter-spacing:.02em;}.u{letter-spacing:0em;}.v{letter-spacing:.28em;}.w{letter-spacing:.06em;}.x{letter-spacing:.05em;}.y{letter-spacing:.17em;}.a`{letter-spacing:.02em;}.aa{letter-spacing:.02em;}.ab{letter-spacing:-.02em;}.ac{letter-spacing:0em;}.ad{letter-spacing:.3em;}.ae{letter-spacing:.04em;}.af{letter-spacing:.13em;}.ag{letter-spacing:.31em;}.ah{letter-spacing:.16em;}.ai{letter-spacing:.16em;}.aj{letter-spacing:.06em;}.ak{letter-spacing:.22em;}.al{letter-spacing:.05em;}.am{letter-spacing:.15em;}.an{letter-spacing:.28em;}.ao{letter-spacing:.02em;}.ap{letter-spacing:.28em;}.aq{letter-spacing:.02em;}.ar{letter-spacing:.21em;}.as{letter-spacing:.14em;}.at{letter-spacing:.14em;}.au{letter-spacing:.28em;}.av{letter-spacing:.02em;}.aw{letter-spacing:.02em;}.ax{letter-spacing:.21em;}.ay{letter-spacing:.02em;}.b`{letter-spacing:0em;}.ba{letter-spacing:.02em;}.bb{letter-spacing:.03em;}.bc{letter-spacing:.02em;}.bd{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}.be{letter-spacing:.16em;}.bf{letter-spacing:.04em;}.bg{letter-spacing:.28em;}.bh{letter-spacing:.02em;}.bi{letter-spacing:-.02em;}.bj{letter-spacing:-.02em;}.bk{letter-spacing:.04em;}.bl{letter-spacing:.14em;}.bm{letter-spacing:.15em;}.bn{letter-spacing:-.02em;}.bo{font-size:88px;}.bo,.bp{fill:#e7c57e;font-family:Mulish-ExtraBold,
-            sans-serif;}.bq{letter-spacing:0em;}.br{letter-spacing:-.02em;}.bs{letter-spacing:.07em;}.bt{letter-spacing:.22em;}.bu{letter-spacing:.03em;}.bv{letter-spacing:.07em;}.bw{letter-spacing:.02em;}.bx{letter-spacing:-.08em;}.by{letter-spacing:.02em;}.c`{letter-spacing:.13em;}.ca{letter-spacing:.3em;}.cb{letter-spacing:.12em;}.cc{letter-spacing:.01em;}.cd{letter-spacing:.13em;}.ce{letter-spacing:.03em;}.cf{letter-spacing:.05em;}.cg{fill:#fff;font-family:Mulish-Regular,
+            sans-serif;}.bq{letter-spacing:0em;}.br{letter-spacing:-.02em;}.bs{letter-spacing:.07em;}.bt{letter-spacing:.22em;}.bu{letter-spacing:.03em;}.bv{letter-spacing:.07em;}.bw{letter-spacing:.02em;}.bx{letter-spacing:-.08em;}.by{letter-spacing:.02em;}.c`{letter-spacing:.13em;}.ca{letter-spacing:.3em;}.cb{letter-spacing:.12em;}.cc{letter-spacing:.01em;}.cd{letter-spacing:.13em;}.ce{letter-spacing:.03em;}.cf{letter-spacing:.05em;}.cg{fill:#fff;font-family:Mulish,
             sans-serif;font-size:16px;}.ch{letter-spacing:.03em;}.ci{letter-spacing:.04em;}.cj{letter-spacing:0em;}.ck{letter-spacing:.04em;}.bp{font-size:19px;}.cl{letter-spacing:.28em;}.cm{letter-spacing:.01em;}.cn{letter-spacing:.05em;}.co{letter-spacing:-.04em;}.cp{letter-spacing:.22em;}.cq{letter-spacing:.12em;}.cr{letter-spacing:-.02em;}.cs{letter-spacing:0em;}.ct{letter-spacing:.29em;}.cu{letter-spacing:.04em;}.cv{letter-spacing:.13em;}.cw{letter-spacing:.42em;}.cx{letter-spacing:.16em;}.cy{letter-spacing:.17em;}.d`{letter-spacing:0em;}
         </style>
     </defs>
@@ -18,7 +18,7 @@
                     <tspan x="0" y="0">05</tspan>
                 </text>
                 <g>
-                    <text class="bp" transform="translate(2.87 161.86)" font-weight="800">
+                    <text class="bp" transform="translate(2.87 161.86)" font-family="Mulish-ExtraBold, Mulish" font-weight="800">
                         <tspan class="bj" x="0" y="0">K</tspan>
                         <tspan class="i" x="12.69" y="0">Ý HỢP ĐỒNG</tspan>
                         <tspan x="16.43" y="23">&amp;</tspan>
@@ -57,7 +57,7 @@
                             <tspan x="0" y="50">làm thẻ</tspan>
                         </tspan>
                     </text>
-                    <text class="bp" transform="translate(518.84 160.26)" font-weight="800">
+                    <text class="bp" transform="translate(518.84 160.26)" font-family="Mulish-ExtraBold, Mulish" font-weight="800">
                         <tspan x="0" y="0">THU THẬP</tspan>
                         <tspan x="-19.86" y="23">&amp;</tspan>
                         <tspan class="g" x="-1.24" y="23">X</tspan>
@@ -65,7 +65,7 @@
                         <tspan class="s" x="31.12" y="23">L</tspan>
                         <tspan x="39.67" y="23">Ý HỒ SƠ</tspan>
                     </text>
-                    <text class="bp" transform="translate(270.1 292.75)" font-weight="800">
+                    <text class="bp" transform="translate(270.1 292.75)" font-family="Mulish-ExtraBold, Mulish" font-weight="800">
                         <tspan x="0" y="0">THU THẬP</tspan>
                         <tspan x="-19.86" y="23">&amp;</tspan>
                         <tspan class="g" x="-1.24" y="23">X</tspan>
@@ -73,7 +73,7 @@
                         <tspan class="s" x="31.12" y="23">L</tspan>
                         <tspan x="39.67" y="23">Ý HỒ SƠ</tspan>
                     </text>
-                    <text class="cg" transform="translate(218.43 353.95)" font-family="'Mulish-SemiBold', sans-serif" font-weight="500">
+                    <text class="cg" transform="translate(218.43 353.95)" font-family="Mulish, sans-serif" font-weight="500">
                         <tspan class="ck" x="0" y="0">N</tspan>
                         <tspan class="bh" x="11.09" y="0">hà</tspan>
                         <tspan class="as" x="28.48" y="0"></tspan>
@@ -134,7 +134,7 @@
                         <tspan class="by" x="57.01" y="100">c</tspan>
                         <tspan class="bh" x="64.48" y="100">òn lại</tspan>
                     </text>
-                    <text class="bp" transform="translate(767.21 292.9)" font-weight="800">
+                    <text class="bp" transform="translate(767.21 292.9)" font-family="Mulish-ExtraBold, Mulish" font-weight="800">
                         <tspan x="0" y="0">NHẬN THẺ</tspan>
                         <tspan x="14.73" y="23">CƯ TRÚ</tspan>
                     </text>
@@ -247,7 +247,7 @@
                         <tspan class="bh" x="0" y="175"> năm để làm thủ tục sinh trắc lấy</tspan>
                         <tspan x="0" y="200">thẻ</tspan>
                     </text>
-                    <text class="bp" transform="translate(1012.8 158.6)" font-weight="800">
+                    <text class="bp" transform="translate(1012.8 158.6)" font-family="Mulish-ExtraBold, Mulish" font-weight="800">
                         <tspan x="0" y="0">CHỌN M</tspan>
                         <tspan class="d`" x="79.38" y="0">U</tspan>
                         <tspan x="93.46" y="0">A</tspan>
@@ -257,7 +257,7 @@
                         <tspan class="ac" x="86.87" y="23">S</tspan>
                         <tspan class="cj" x="99.24" y="23">ẢN</tspan>
                     </text>
-                    <text class="cg" transform="translate(960.45 13.39)" font-family="'Mulish-SemiBold', sans-serif" font-weight="500">
+                    <text class="cg" transform="translate(960.45 13.39)" font-family="Mulish, sans-serif" font-weight="500">
                         <tspan class="bh" x="0" y="0">Kể</tspan>
                         <tspan class="d" x="17.49" y="0"></tspan>
                         <tspan class="bh" x="21.73" y="0">từ</tspan>
@@ -322,7 +322,7 @@
                             <tspan x="0" y="100">BĐS.</tspan>
                         </tspan>
                     </text>
-                    <text class="bp" transform="translate(1248.7 292.75)" font-weight="800">
+                    <text class="bp" transform="translate(1248.7 292.75)" font-family="Mulish-ExtraBold, Mulish" font-weight="800">
                         <tspan x="0" y="0">H</tspan>
                         <tspan class="bi" x="14.8" y="0">O</tspan>
                         <tspan class="cj" x="29.58" y="0">ÀN THÀNH</tspan>
@@ -442,7 +442,7 @@
                     <text class="bo" transform="translate(765.86 183.26)">
                         <tspan x="0" y="0">04</tspan>
                     </text>
-                    <text class="cg" transform="translate(432.96 27.6)" font-family="'Mulish-SemiBold', sans-serif" font-weight="500">
+                    <text class="cg" transform="translate(432.96 27.6)" font-family="Mulish, sans-serif" font-weight="500">
                         <tspan class="cm" x="0" y="0">C</tspan>
                         <tspan class="bh" x="9.5" y="0">ông</tspan>
                         <tspan class="be" x="37.31" y="0"></tspan>

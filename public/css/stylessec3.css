@@ -1,15 +1,50 @@
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
 
 .sec3Mb {
     display: none;
@@ -20,6 +55,7 @@
     justify-content: center;
     background: #111523;
     width: 100vw;
+    height: 100vh;
 }
 
 .sec3ImgPc {
@@ -27,82 +63,94 @@
 }
 
 .sec3ImgPcLeft {
-    width: 30vw;
-    height: 85vh;
-    margin-top: 5%;
+    width: 50vw;
+    height: 100vh;
+    margin-left: -33%;
 }
 
 .sec3ImgPRight1 {
     width: 30vw;
-    margin-left: 40px;
-    margin-top: 5%;
+    margin-left: -200px;
+    margin-top: 12%;
 }
 
 .sec3ImgPRight2 {
     width: 25vw;
-    margin-left: 150px;
+    margin-left: -50px;
 }
 
 ul.textsec3 {
-    margin-left: 30px;
+    margin-left: -200px
 }
 
-ul.textsec3 li  {
+ul.textsec3 li {
     margin-top: 7%;
     color: #E7C57E;
     list-style-image: url("/images/Ellipse 11.svg");
 }
 
-ul.textsec3 li p {
+.textlinesec3 {
     text-align: justify;
-    text-justify: inter-word;
+    /*text-justify: inter-word;*/
     color: white;
+    width: 30vw;
 }
+
 
 @media screen and (max-width: 1100px) {
     .sec3pc {
         display: none;
     }
+
     .sec3Mb {
         display: block;
         text-align: center;
-        background: #4a5568;
+        background: #111523;
         width: 100vw;
     }
+
     .sec3ImgPRight1mb {
         width: 65vw;
         margin-right: 5%;
         margin-top: 3%;
     }
+
     .sec3ImgPRight2mb {
         width: 50vw;
         margin-left: 20%;
         margin-top: -5%;
     }
+
     .sec3ImgPcLeft {
         width: 67vw;
         height: 50vh;
         margin-top: 5%;
     }
 
-    .textsec3mb {
-        margin-left: 13%;
-    }
-    .textsec3mb {
-        margin-left: 5%;
-        margin-top: 5%;
-        padding-bottom: 1%;
-    }
-    .textsec3mb li {
-        color: #E7C57E;
-        width: 75vw;
-        font-size: 13px;
-        /*margin-right: 6%;*/
-        font-family: Mulish, sans-serif;
+    .sec3Imgmb {
+        width: 85vw;
+        margin-top: 4%;
     }
 
     .textsec3mb li p {
         color: white;
         text-align: justify;
+    }
+
+    .textsec3mb {
+        margin-left: 3%;
+        padding-bottom: 1%;
+        margin-top: 3%;
+    }
+
+    .textsec3mb li {
+        color: #E7C57E;
+    }
+
+    .textlinesec3mb {
+        color: #E7C57E;
+        width: 80vw;
+        font-size: 15px;
+        font-family: Mulish, sans-serif;
     }
 }

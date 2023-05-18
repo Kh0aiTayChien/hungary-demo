@@ -13,6 +13,10 @@
     src: url("/font/Mulish-SemiBold.ttf") format("opentype");
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .section1 {
     background-image: url("/images/backgroundSec1.png");
     width: 100vw;
@@ -33,11 +37,6 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-}
-
-html, body{
-    overflow-x: hidden;
-    width: 100%
 }
 
 .logoCen {
