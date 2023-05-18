@@ -1,23 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="958.834" height="205.554" viewBox="0 0 958.834 205.554">
     <g id="Group_32" data-name="Group 32" transform="translate(-105.893 -1123.604)">
-        <text id="_04_" data-name="04 " transform="translate(105.893 1195.604)" fill="#bc202e" font-size="72"
+        <text id="_04_" data-name="04 " transform="translate(105.893 1195.604)" fill="#bc202e" font-size="90"
               font-family="Mulish-ExtraBold, sans-serif" font-weight="800">
             <tspan x="0" y="0">04</tspan>
         </text>
         <text id="TIẾT_KIỆM_CHI_PHÍ_THỜI_GIAN" data-name="TIẾT KIỆM CHI PHÍ &amp; THỜI GIAN"
-              transform="translate(285.728 1180.557)" fill="#bc202e" font-size="33"
+              transform="translate(285.728 1180.557)" fill="#bc202e" font-size="45"
               font-family="Mulish-ExtraBold, sans-serif" font-weight="800">
             <tspan x="0" y="0">TIẾT KIỆM CHI PHÍ &amp; THỜI GIAN</tspan>
         </text>
-        <text
-            id="Hoàn_tất_các_thủ_tục_nhận_thẻ_cư_trú_tại_Việt_Nam_không_cần_trực_tiếp_sang_Hungary._Tiết_kiệm_chi_phí_thời_gian_cho_nhà_đầu_tư"
-            data-name="Hoàn tất các thủ tục &amp; nhận thẻ cư trú tại Việt Nam, không cần trực tiếp sang Hungary. Tiết kiệm chi phí &amp; thời gian cho nhà đầu tư"
-            transform="translate(285.728 1204.158)" fill="#595a5a" font-size="33" font-family="Mulish, sans-serif"
-            font-weight="500" letter-spacing="0.026em">
-            <tspan x="0" y="26">Hoàn tất các thủ tục &amp; nhận thẻ cư trú tại Việt</tspan>
-            <tspan x="0" y="62">Nam, không cần trực tiếp sang Hungary. Tiết </tspan>
-            <tspan x="0" y="98">kiệm chi phí &amp; thời gian cho nhà đầu tư</tspan>
-        </text>
+<!--        <text-->
+<!--            id="Hoàn_tất_các_thủ_tục_nhận_thẻ_cư_trú_tại_Việt_Nam_không_cần_trực_tiếp_sang_Hungary._Tiết_kiệm_chi_phí_thời_gian_cho_nhà_đầu_tư"-->
+<!--            data-name="Hoàn tất các thủ tục &amp; nhận thẻ cư trú tại Việt Nam, không cần trực tiếp sang Hungary. Tiết kiệm chi phí &amp; thời gian cho nhà đầu tư"-->
+<!--            transform="translate(285.728 1204.158)" fill="#595a5a" font-size="33" font-family="Mulish, sans-serif"-->
+<!--            font-weight="500" letter-spacing="0.026em">-->
+<!--            <tspan x="0" y="26">Hoàn tất các thủ tục &amp; nhận thẻ cư trú tại Việt</tspan>-->
+<!--            <tspan x="0" y="62">Nam, không cần trực tiếp sang Hungary. Tiết </tspan>-->
+<!--            <tspan x="0" y="98">kiệm chi phí &amp; thời gian cho nhà đầu tư</tspan>-->
+<!--        </text>-->
         <circle id="Ellipse_4" data-name="Ellipse 4" cx="6.016" cy="6.016" r="6.016"
                 transform="translate(228.672 1161.504)" fill="none" stroke="#be1e2d" stroke-miterlimit="10"
                 stroke-width="0.633"/>

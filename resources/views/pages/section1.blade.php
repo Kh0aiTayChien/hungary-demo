@@ -19,7 +19,7 @@
                 </a>
             </li>
             <li class="contact">
-                <a href="https://www.google.com/">
+                <a href="https://zalo.me/0362149839">
                     <img class="iconzalo" src="{{asset('images/zalo.png')}}">
                 </a>
             </li>
@@ -38,7 +38,7 @@
                 </a>
             </li>
             <li class="contact">
-                <a href="https://www.google.com/">
+                <a href="https://zalo.me/0362149839">
                     <img class="iconzalo" src="{{asset('images/zalo.png')}}">
                 </a>
             </li>

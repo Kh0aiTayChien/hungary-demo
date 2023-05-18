@@ -38,10 +38,6 @@ body {
     height: 100vh;
 }
 
-body{
-    overflow-x: hidden;
-}
-
 .logoCen {
     height: 150px;
     position: relative;
