@@ -43,7 +43,8 @@
     .sec9mb {
         display: block;
         text-align: center;
-        background: #2d3748;
+        background-image: url("/images/Group 61.svg");
+        background-size: cover;
         /*height: 100vh;*/
     }
     .headersec9mb {

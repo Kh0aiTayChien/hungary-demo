@@ -7,7 +7,7 @@
     </div>
     <div class="lineRight linesec4pc">
         <img src="{{asset('images/line1Rightsec4.png')}}" class="line1Right"><br>
-        <img src="{{asset('images/line2Rightsec4.png')}}" class="line2Right">
+        <img src="{{asset('images/Group 32(2).svg')}}" class="line2Right">
     </div>
     {{--    <img src="{{asset('images/bannerSec4mb.png')}}" class="backGround1 bannermbSec4">--}}
     <div class="lineSec4mb line1Sec4">
