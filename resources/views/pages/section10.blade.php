@@ -1,7 +1,7 @@
 <style>
     .section10 {
         width: 100vw;
-        /*height: 100vh;*/
+        height: 100vh;
         background-image: url('{{asset('images/sec10/sec10.png')}}');
         background-repeat: no-repeat;
         background-position: center;
@@ -12,7 +12,7 @@
         display: flex;
         align-items: stretch;
         /*overflow-x: hidden;*/
-        /*overflow: hidden;*/
+        overflow: hidden;
         margin: 0;
         padding: 0;
         /*overflow-x: hidden;*/
@@ -31,7 +31,7 @@
         display: flex;
         align-items: stretch;
         /*overflow-x: hidden;*/
-        /*overflow: hidden;*/
+        overflow: hidden;
         margin: 0;
         padding: 0;
         /*overflow-x: hidden;*/
@@ -91,10 +91,10 @@
 
 </style>
 <div class="section10 d-flex justify-content-center " style="">
-    <div class="p-5 row " style="width: 60%; margin-top: 10%">
+    <div class=" row " style="width: 60%; margin-top: 5%">
         <div class="col-6">
             <div>
-                <img src="{{asset('images/sec10/donvidoitac1.svg')}}" alt="" class="" style="width: 30%">
+                <img src="{{asset('images/sec10/donvidoitac1.svg')}}" alt="" class="" style="width: 35%">
             </div>
             <div>
                 <img src="{{asset('images/sec10/cen-logo.svg')}}" alt="" class="cen-logo" style="width: 50%">
@@ -102,7 +102,7 @@
                      style="width: 50%; margin-top: -5%">
             </div>
             <div>
-                <img src="{{asset('images/sec10/lienhevoichungtoi1.svg')}}" alt="" class="mt-5" style="width: 50%">
+                <img src="{{asset('images/sec10/lienhevoichungtoi1.svg')}}" alt="" class="mt-5" style="width: 45%">
             </div>
             <div class="mt-5">
                 <img src="{{asset('images/sec10/phone.svg')}}" alt="" class="" style="width: 5%">
@@ -122,10 +122,10 @@
         </div>
         <div class="col-6">
             <div>
-                <img src="{{asset('images/sec10/dangkidenhan1.svg')}}" alt="" class="" style="width: 90%">
+                <img src="{{asset('images/sec10/dangkidenhan1.svg')}}" alt="" class="" style="height: 100%">
             </div>
             <div class="mt-4">
-                <img src="{{asset('images/sec10/chuongtrinhva.svg')}}" alt="" class="" style="width: 80%">
+                <img src="{{asset('images/sec10/chuongtrinhva.svg')}}" alt="" class="" style="width: 120%">
             </div>
 
             <form action="{{ route('send') }}"  method="POST" enctype="multipart/form-data"
@@ -171,7 +171,7 @@
     </div>
 </div>
 <div class="section10-mobile d-flex justify-content-center " style="">
-    <div class="p-5">
+    <div class="p-5 ">
         <div>
             <img src="{{asset('images/sec10/dangkidenhan1.svg')}}" alt="" class="" style="width: 100%">
         </div>
@@ -218,7 +218,7 @@
     <div class="p-5  " style="width: 100%;">
         <div class="">
             <div>
-                <img src="{{asset('images/sec10/donvidoitac1.svg')}}" alt="" class="" style="width: 30%">
+                <img src="{{asset('images/sec10/donvidoitac1.svg')}}" alt="" class="" style="width: 40%">
             </div>
             <div>
                 <img src="{{asset('images/sec10/cen-logo.svg')}}" alt="" class="cen-logo" style="width: 50%">
@@ -230,17 +230,17 @@
             </div>
             <div class="mt-5">
                 <img src="{{asset('images/sec10/phone.svg')}}" alt="" class="" style="width: 5%">
-                <span class="text-white ms-3"> 096 569 1688</span>
+                <span class="text-white"> 096 569 1688</span>
             </div>
             <div class="mt-2">
                 <img src="{{asset('images/sec10/mail.svg')}}" alt="" class="" style="width: 5%">
-                <span class="text-white ms-3"> huyynguyentherealadvisor@gmail.com</span>
+                <span class="text-white font-15" > huyynguyentherealadvisor@gmail.com</span>
             </div>
             <div class="mt-2">
                 <img src="{{asset('images/sec10/map.svg')}}" alt="" class="" style="width: 5%">
-                <span class="text-white ms-3"> Tầng 1 - 137  Nguyễn Ngọc Vũ</span>
+                <span class="text-white font-15"> Tầng 1 - 137  Nguyễn Ngọc Vũ</span>
                 <br>
-                <span class="text-white ms-5 "> Trung Hòa, Cầu Giấy, Hà Nội</span>
+                <span class="text-white font-15"> Trung Hòa, Cầu Giấy, Hà Nội</span>
             </div>
 
         </div>
