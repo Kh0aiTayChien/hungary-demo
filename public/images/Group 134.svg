@@ -1,11 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="775.951" height="105" viewBox="0 0 775.951 105">
+    <style>
+        @font-face {
+        font-family: 'Mulish-SemiBold';
+        src: url("/fonts/Mulish-SemiBold.ttf");
+        }
+
+        text {
+        font-family: 'Mulish-SemiBold', sans-serif;
+        }
+    </style>
     <g id="Group_134" data-name="Group 134" transform="translate(-189.076 -1775.573)">
         <text
             id="Chế_độ_phúc_lợi_xã_hội_cực_tốt_môi_trường_sống_trong_lành_nền_giáo_dục_y_tế_phát_triển_nhất_nhì_châu_Âu"
             data-name="Chế độ phúc lợi xã hội cực tốt, môi trường sống trong lành, nền giáo dục &amp; y tế phát triển nhất nhì châu Âu"
-            transform="translate(273.028 1775.573)" fill="#595a5a" font-size="29" font-family="Mulish, sans-serif" font-weight="500" letter-spacing="0.026em">
+            transform="translate(273.028 1775.573)" fill="#595a5a" font-size="30" font-weight="500" letter-spacing="0.026em">
             <tspan x="0" y="25">Chế độ phúc lợi xã hội cực tốt, môi trường sống</tspan>
-            <tspan x="0" y="61">trong lành, nền giáo dục &amp; y tế phát triển nhất</tspan>
+            <tspan x="0" y="61" letter-spacing="0.03em">trong lành, nền giáo dục &amp; y tế phát triển nhất</tspan>
             <tspan x="0" y="97">nhì Châu Âu</tspan>
         </text>
         <g id="Group_35" data-name="Group 35" transform="translate(-2211.915)">

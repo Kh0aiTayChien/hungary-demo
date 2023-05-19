@@ -1,12 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="775.951" height="160" viewBox="0 0 775.951 160">
+<svg xmlns="http://www.w3.org/2000/svg" width="800.951" height="160" viewBox="0 0 800.951 160">
+    <style>
+        @font-face {
+        font-family: 'Mulish-SemiBold';
+        src: url("/fonts/Mulish-SemiBold.ttf");
+        }
+
+        text {
+        font-family: 'Mulish-SemiBold', sans-serif;
+        }
+    </style>
     <g id="Group_137" data-name="Group 137" transform="translate(-189.076 -2002.295)">
         <text
             id="Top_13_quốc_gia_hòa_bình_nhất_thế_giới._Người_bản_địa_hòa_nhã_thân_thiện_với_người_nhập_cư_không_phân_biệt_-_không_xung_đột_sắc_tộc_như_các_quốc_gia_khác"
             data-name="Top 13 quốc gia hòa bình nhất thế giới. Người bản địa hòa nhã thân thiện với người nhập cư, không phân biệt - không xung đột sắc tộc như các quốc gia khác"
-            transform="translate(273.028 2002.295)" fill="#595a5a" font-size="29" font-family="Mulish, sans-serif" font-weight="500" letter-spacing="0.026em">
-            <tspan x="0" y="25" letter-spacing="0.03em">Top 13 quốc gia hòa bình nhất thế giới. Người</tspan>
-            <tspan x="0" y="61" letter-spacing="0.03em">bản địa hòa nhã thân thiện với người nhập cư,</tspan>
-            <tspan x="0" y="97"> không phân biệt - không xung đột sắc tộc như</tspan>
+            transform="translate(273.028 2002.295)" fill="#595a5a" font-size="30" font-weight="500" letter-spacing="0.026em">
+            <tspan x="0" y="25" letter-spacing="0.06em">Top 13 quốc gia hòa bình nhất thế giới. Người</tspan>
+            <tspan x="0" y="61" letter-spacing="0.06em">bản địa hòa nhã thân thiện với người nhập cư,</tspan>
+            <tspan x="0" y="97" letter-spacing="0.055em"> không phân biệt - không xung đột sắc tộc như</tspan>
             <tspan x="0" y="133">như các quốc gia khác</tspan>
         </text>
         <g id="Group_39" data-name="Group 39" transform="translate(-2211.915 8.399)">

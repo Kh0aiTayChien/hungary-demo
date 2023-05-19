@@ -22,17 +22,17 @@
         </g>
         <text id="Thuế_doanh_nghiệp_chỉ_9_-_thấp_nhất_khối_EU" data-name="Thuế doanh nghiệp chỉ 9% - thấp nhất khối EU"
               transform="translate(1070.07 1521.837)" fill="#595a5a" font-size="18.243"
-              font-family="'Mulish-SemiBold', sans-serif" font-weight="500" letter-spacing="0.025em">
+              font-family="Mulish, sans-serif" font-weight="500" letter-spacing="0.025em">
             <tspan x="0" y="18">Thuế doanh nghiệp chỉ 9% - thấp nhất khối EU</tspan>
         </text>
         <text
             id="Top_13_quốc_gia_hòa_bình_nhất_thế_giới._Người_bản_địa_hòa_nhã_thân_thiện_với_người_nhập_cư_không_phân_biệt_-_không_xung_đột_sắc_tộc_như_các_quốc_gia_khác"
             data-name="Top 13 quốc gia hòa bình nhất thế giới. Người bản địa hòa nhã thân thiện với người nhập cư, không phân biệt - không xung đột sắc tộc như các quốc gia khác"
             transform="translate(1070.07 1586.505)" fill="#595a5a" font-size="18.243"
-            font-family="'Mulish-SemiBold', sans-serif" font-weight="500" letter-spacing="0.025em">
-            <tspan x="0" y="18">Top 13 quốc gia hòa bình nhất thế giới. Người bản địa hòa</tspan>
-            <tspan x="0" y="46.504">nhã thân thiện với người nhập cư, không phân biệt -</tspan>
-            <tspan x="0" y="75.009">không xung đột sắc tộc như các quốc gia khác</tspan>
+            font-family="Mulish, sans-serif" font-weight="500" letter-spacing="0.025em">
+            <tspan x="0" y="18" letter-spacing="0.028em">Top 13 quốc gia hòa bình nhất thế giới. Người bản địa hòa</tspan>
+            <tspan x="0" y="46.504">nhã thân thiện với người nhập cư, không phân biệt - không</tspan>
+            <tspan x="0" y="75.009"> xung đột sắc tộc như các quốc gia khác</tspan>
         </text>
     </g>
 </svg>

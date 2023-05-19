@@ -1,12 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800.951" height="212" viewBox="0 0 800.951 212">
+<svg xmlns="http://www.w3.org/2000/svg" width="800.951" height="215" viewBox="0 0 800.951 215">
+    <style>
+        @font-face {
+        font-family: 'Mulish-SemiBold';
+        src: url("/fonts/Mulish-SemiBold.ttf");
+        }
+
+        text {
+        font-family: 'Mulish-SemiBold', sans-serif;
+        }
+    </style>
     <g id="Group_132" data-name="Group 132" transform="translate(-189.644 -1457.989)">
         <text
             id="Budapest_được_mệnh_danh_là_Paris_của_đông_Âu._Thừa_hưởng_lượng_khách_62_triệu_lượt_năm_gấp_6_2_lần_dân_số_cả_nước_Dân_số_Hungary_9_7_triệu_người_._BDS_cho_thuê_phát_triển_rực_rỡ_và_du_lịch_là_một_trong_các_nguồn_thu_chính_của_quốc_gia"
             data-name="Budapest được mệnh danh là Paris của đông Âu. Thừa hưởng lượng khách 62 triệu lượt/ năm gấp 6,2 lần dân số cả nước (Dân số Hungary 9,7 triệu người). BDS cho thuê phát triển rực rỡ và du lịch là một trong các nguồn thu chính của quốc gia"
-            transform="translate(273.595 1457.989)" fill="#595a5a" font-size="29" font-family="Mulish, sans-serif" font-weight="500" letter-spacing="0.026em">
-            <tspan x="0" y="25">Budapest được mệnh danh là Paris của đông Âu.</tspan>
-            <tspan x="0" y="61" letter-spacing="0.03em">Thừa hưởng lượng khách 62 triệu lượt/ năm gấp </tspan>
-            <tspan x="0" y="97" letter-spacing="0.075em">6,2 lần dân số cả nước (Dân số Hungary 9,7 </tspan>
+            transform="translate(273.595 1457.989)" fill="#595a5a" font-size="30" font-weight="500" letter-spacing="0.026em">
+            <tspan x="0" y="25" letter-spacing="0.03em">Budapest được mệnh danh là Paris của đông Âu.</tspan>
+            <tspan x="0" y="61" letter-spacing="0.035em">Thừa hưởng lượng khách 62 triệu lượt/ năm gấp </tspan>
+            <tspan x="0" y="97" letter-spacing="0.08em">6,2 lần dân số cả nước (Dân số Hungary 9,7 </tspan>
             <tspan x="0" y="133" letter-spacing="0.05em">triệu người). BDS cho thuê phát triển rực rỡ và </tspan>
             <tspan x="0" y="169" letter-spacing="0.07em">du lịch là một trong các nguồn thu chính của </tspan>
             <tspan x="0" y="205">quốc gia</tspan>

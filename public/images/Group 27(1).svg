@@ -1,4 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="958.299" height="603" viewBox="0 0 958.299 603">
+    <style>
+        @font-face {
+        font-family: 'Mulish-SemiBold';
+        src: url("/fonts/Mulish-SemiBold.ttf");
+        }
+
+        text {
+        font-family: 'Mulish-SemiBold', sans-serif;
+        }
+    </style>
     <g id="Group_27" data-name="Group 27" transform="translate(-105.895 -921.521)">
         <text
             id="Không_phải_chứng_minh_nguồn_tiền_Không_yêu_cầu_trình_độ_tiếng_Anh_Không_phỏng_vấn_xin_visa_nếu_nộp_đơn_tại_Hungary_-_Phỏng_vấn_tại_Việt_Nam_thì_cũng_rất_dễ_dàng_Không_bắt_buộc_thời_gian_cư_trú_Thời_gian_cấp_thẻ_cư_trú_nhanh_nhất_chỉ_từ_03_tháng_Chi_phí_th"
@@ -8,7 +18,7 @@ Không phỏng vấn xin visa nếu nộp đơn tại Hungary
 - Phỏng vấn tại Việt Nam thì cũng rất dễ dàng
 Không bắt buộc thời gian cư trú
 Thời gian cấp thẻ cư trú nhanh nhất chỉ từ 03 tháng
-Chi phí th" transform="translate(154.194 921.521)" fill="#fff" font-size="35" font-family="Mulish, sans-serif"
+Chi phí th" transform="translate(154.194 921.521)" fill="#fff" font-size="35" font-weight="400"
             letter-spacing="0.025em">
             <tspan x="0" y="31">Không phải chứng minh nguồn tiền</tspan>
             <tspan x="0" y="91.263">Không yêu cầu trình độ tiếng Anh</tspan>

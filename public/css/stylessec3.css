@@ -50,6 +50,12 @@
     display: none;
 }
 
+@font-face {
+    font-family: 'Mulish-SemiBold';
+    /*src: url({{asset('fonts/Mulish-SemiBold.ttf')}});*/
+    src: url("/fonts/Mulish-SemiBold.ttf");
+}
+
 .sec3pc {
     display: flex;
     justify-content: center;
@@ -112,7 +118,7 @@ ul.textsec3 li {
     .sec3ImgPRight1mb {
         width: 65vw;
         margin-right: 5%;
-        margin-top: 3%;
+        margin-top: 10%;
     }
 
     .sec3ImgPRight2mb {
@@ -151,6 +157,6 @@ ul.textsec3 li {
         color: #E7C57E;
         width: 80vw;
         font-size: 14px;
-        font-family: Mulish, sans-serif;
+        font-family: 'Mulish-SemiBold', sans-serif;
     }
 }

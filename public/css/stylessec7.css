@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Mulish-SemiBold';
+    /*src: url({{asset('fonts/Mulish-SemiBold.ttf')}});*/
+    src: url("/fonts/Mulish-SemiBold.ttf");
+}
+
 .sec7pc {
     display: block;
     text-align: center;
@@ -54,7 +60,7 @@
     }
     .testlinesec7mb {
         text-align: justify;
-        font-family: Mulish, sans-serif;
+        font-family: 'Mulish-SemiBold', sans-serif;
         width: 65vw;
         font-size: 14px;
         margin-top: -18%;
@@ -62,7 +68,7 @@
     }
     .testline2sec7mb {
         text-align: justify;
-        font-family: Mulish, sans-serif;
+        font-family: 'Mulish-SemiBold', sans-serif;
         width: 65vw;
         font-size: 14px;
         margin-top: -18%;
@@ -70,7 +76,7 @@
     }
     .testline3sec7mb {
         text-align: justify;
-        font-family: Mulish, sans-serif;
+        font-family: 'Mulish-SemiBold', sans-serif;
         width: 65vw;
         font-size: 14px;
         margin-top: -3%;
@@ -84,7 +90,7 @@
     }
     .testline4sec7mb {
         text-align: justify;
-        font-family: Mulish, sans-serif;
+        font-family: 'Mulish-SemiBold', sans-serif;
         width: 65vw;
         font-size: 14px;
         margin-top: -13%;
@@ -92,7 +98,7 @@
     }
     .testline5sec7mb {
         text-align: justify;
-        font-family: Mulish, sans-serif;
+        font-family: 'Mulish-SemiBold', sans-serif;
         width: 65vw;
         font-size: 14px;
         margin-top: -16%;
@@ -100,9 +106,9 @@
     }
     .testline6sec7mb {
         text-align: justify;
-        font-family: Mulish, sans-serif;
+        font-family: 'Mulish-SemiBold', sans-serif;
         width: 65vw;
-        font-size: 14xpx;
+        font-size: 14px;
         margin-top: -24%;
         margin-left: 27%;
     }

@@ -131,12 +131,12 @@
     .line2dot1mb {
         width: 40vw;
         margin-left: 8%;
-        margin-top: -3%;
+        margin-top: -1%;
     }
     .line2dot12mb {
         width: 28vw;
         margin-left: 15%;
-        margin-top: -3%;
+        margin-top: -1%;
     }
     .line3sec5mb {
         display: inline-block;
@@ -164,12 +164,16 @@
     .line4dot1mbtop {
         width: 85vw;
         margin-left: 8%;
-        margin-top: 3%;
+        margin-top: 5%;
         margin-bottom: 3%;
     }
     .line4dot1mb {
         width: 85vw;
         margin-left: 8%;
         margin-top: 3%;
+
+    }
+    .footersec5 {
+        margin-bottom: 7%;
     }
 }
