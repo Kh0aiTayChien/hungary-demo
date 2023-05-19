@@ -211,7 +211,7 @@
 </style>
 
 <div class="section_6 row">
-    <div class="col-6 d-flex align-items-center justify-content-end position-relative ">
+    <div class="col-6 d-flex align-items-center justify-content-end position-relative mb-4">
         <img src="{{asset('images/sec6/pic1.png')}}" alt="" class="s6p1-img img-fluid  s6p1-img-first">
         <img src="{{asset('images/sec6/pic2.png')}}" alt="" class="s6p1-img img-fluid  d-none">
         <img src="{{asset('images/sec6/pic3.png')}}" alt="" class="s6p1-img img-fluid  d-none">
@@ -232,7 +232,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 MỨC GIÁ HỢP LÝ
             </div>
-            <div class="text_content_1 text-justify text-white pt-1 sp6-height" style="width: 50%">
+            <div class="text_content_1 text-justify text-white pt-1 sp6-height mulish-semi" style="width: 50%">
                 Chỉ từ 175.000 eur đã có thể sở hữu ngay bđs vĩnh viễn,
                 có thể khai thác cho thuê ngay
             </div>
@@ -241,7 +241,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 PHÁP LÝ BĐS
             </div>
-            <div class="text_content_1 text-justify text-white pt-1 sp6-height" style="width: 50%">
+            <div class="text_content_1 text-justify text-white pt-1 sp6-height mulish-semi" style="width: 50%">
                 Sở hữu vĩnh viễn, pháp lý được công khai minh bạch trên hệ thống dữ liệu của chính phủ Hungary
             </div>
         </div>
@@ -249,7 +249,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 VỊ TRÍ ĐẮC ĐỊA
             </div>
-            <div class="text_content_1 text-justify text-white pt-1 sp6-height" style="width: 50%">
+            <div class="text_content_1 text-justify text-white pt-1 sp6-height mulish-semi" style="width: 50%">
                 Nằm giữa trung tâm downtown thủ đô Budapest – thành phố cổ kính
                 được mệnh danh là “Paris vùng Đông Âu” với nhiều điểm du lịch nổi tiếng,
                 nhà hàng, trung tâm mua sắm
@@ -259,7 +259,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 LỢI NHUẬN CHO THUÊ
             </div>
-            <div class="text_content_1 text-justify text-white pt-1 sp6-height" style="width: 50%">
+            <div class="text_content_1 text-justify text-white pt-1 sp6-height mulish-semi" style="width: 50%">
                 Cam kết tỷ suất lợi nhuận cho thuê cao nhất Châu Âu
                 (trung bình 5.8% - 8.4%/ năm tuỳ vị trí & diện tích)
             </div>
@@ -268,7 +268,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 HỖ TRỢ QUẢN LÝ VÀ VẬN HÀNH
             </div>
-            <div class="text_content_1 text-justify text-white pt-1 sp6-height" style="width: 50%">
+            <div class="text_content_1 text-justify text-white pt-1 sp6-height mulish-semi" style="width: 50%">
                 Có đội ngũ quản lý & vận hành cho thuê trọn gói, đảm bảo uy tín
                 và khai thác tiềm năng BĐS tối đa
             </div>
@@ -277,7 +277,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 GIÁ TRỊ TĂNG TRƯỞNG
             </div>
-            <div class="text_content_1 text-justify text-white pt-1 sp6-height" style="width: 50%">
+            <div class="text_content_1 text-justify text-white pt-1 sp6-height mulish-semi" style="width: 50%">
                 BĐS Hungary tăng giá top 2 Châu Âu. Tỷ lệ tăng giá trong 5 năm
                 từ 2018 – 2022 là 45.64%, trung bình tăng 9.1%/ năm.
             </div>
@@ -320,7 +320,7 @@
                 1 NGƯỜi ĐẦU TƯ - 3 THẾ HỆ CÙNG HƯỞNG
             </div>
             <div class="d-flex flex-row-reverse">
-                <div class="text_content_1 text-justify text-end pt-3 sp6-height" style="width: 50%">
+                <div class="text_content_1 text-justify text-end pt-3 sp6-height mulish-semi" style="width: 50%">
                     Thẻ cư trú cấp cho vợ chồng, con cái và bố mẹ 2 bên (có điều kiện cụ thể)
                 </div>
             </div>
@@ -330,7 +330,7 @@
                 MÔI TRƯỜNG SỐNG HOÀN HẢO
             </div>
             <div class="d-flex flex-row-reverse">
-                <div class="text_content_1 text-justify text-end pt-3 sp6-height" style="width: 50%">
+                <div class="text_content_1 text-justify text-end pt-3 sp6-height mulish-semi" style="width: 50%">
                     Không khí trong lành, Chế độ an sinh xã hội tốt, Giáo dục công cấp 1-3 hoàn toàn miễn phí,
                     Chăm sóc y tế theo hệ thống chuẩn Châu Âu
                 </div>
@@ -341,7 +341,7 @@
                 TỰ DO ĐI LẠI KHÔNG CẦN VISA
             </div>
             <div class="d-flex flex-row-reverse">
-                <div class="text_content_1 text-justify text-end pt-3 sp6-height" style="width: 50%">
+                <div class="text_content_1 text-justify text-end pt-3 sp6-height mulish-semi" style="width: 50%">
                     TỰ DO ĐI LẠI 27 NƯỚC KHỐI SCHENGEN & khu vực Balkan không cần xin visa
                 </div>
             </div>
@@ -351,7 +351,7 @@
                 GIA HẠN SAU 3 NĂM
             </div>
             <div class="d-flex flex-row-reverse">
-                <div class="text_content_1 text-justify text-end pt-3 sp6-height" style="width: 50%">
+                <div class="text_content_1 text-justify text-end pt-3 sp6-height mulish-semi" style="width: 50%">
                     Sau 3 năm cư trú tại Hungary có thể lên thẻ thường trú nhân
                 </div>
             </div>
@@ -397,12 +397,12 @@
     <div class="container-fluid p-5 position-relative justify-content-center">
         <img src="{{asset('images/sec6/header-1.svg')}}" alt="" class="img-fluid header-1 pb-3 sm-image-header-mobile">
         <div class="header-rectangle"></div>
-        <div class="text_content_1 text-justify text-white pt-3 mulish-semi " style="width: 100%">
+        <div class="text_content_1 text-justify text-white pt-3 mulish-semi font-15" style="width: 100%">
             Chương trình đầu tư BĐS lấy thẻ cư trú với chi phí đầu tư hợp lí,
             đảm bảo an toàn với chính sách NHẬN THẺ CƯ TRÚ TRƯỚC – MUA BẤT ĐỘNG SẢN SAU
         </div>
         <button class="btn btn-outline position-absolute top-50 start-0 start-5 translate-middle prev-6-1">
-            <img src="{{asset('images/left-arrow.svg')}}" alt="" style="height: 70px"></button>
+            <img src="{{asset('images/left-arrow.svg')}}" alt="" style="height: 50px"></button>
         <div class="d-flex align-items-center justify-content-end mt-4">
             <img src="{{asset('images/sec6/pic1.png')}}" alt="" class="s6p1-img img-fluid  s6p1-img-first">
             <img src="{{asset('images/sec6/pic2.png')}}" alt="" class="s6p1-img img-fluid  d-none">
@@ -412,12 +412,12 @@
             <img src="{{asset('images/sec6/pic6.png')}}" alt="" class="s6p1-img img-fluid s6p1-img-last d-none">
         </div>
         <button class="btn btn-outline position-absolute top-50 start-85 translate-middle next-6-1">
-            <img src="{{asset('images/arrow.svg')}}" alt="" style="height: 70px"></button>
+            <img src="{{asset('images/arrow.svg')}}" alt="" style="height: 50px"></button>
         <div class="s6p1-content  first_content_s6 text-center ">
             <div class=" text-yellow header-1 mulish-bold ">
                 MỨC GIÁ HỢP LÝ
             </div>
-            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m" style="width: 100%">
+            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m mulish-semi font-15" style="width: 100%">
                 Chỉ từ 175.000 eur đã có thể sở hữu ngay bđs vĩnh viễn,
                 có thể khai thác cho thuê ngay
             </div>
@@ -426,7 +426,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 PHÁP LÝ BĐS
             </div>
-            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m" style="width: 100%">
+            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m mulish-semi font-15" style="width: 100%">
                 Sở hữu vĩnh viễn, pháp lý được công khai minh bạch trên hệ thống dữ liệu của chính phủ Hungary
             </div>
         </div>
@@ -434,7 +434,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 VỊ TRÍ ĐẮC ĐỊA
             </div>
-            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m" style="width: 100%">
+            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m mulish-semi font-15" style="width: 100%">
                 Nằm giữa trung tâm downtown thủ đô Budapest – thành phố cổ kính
                 được mệnh danh là “Paris vùng Đông Âu” với nhiều điểm du lịch nổi tiếng,
                 nhà hàng, trung tâm mua sắm
@@ -444,7 +444,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 LỢI NHUẬN CHO THUÊ
             </div>
-            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m" style="width: 100%">
+            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m mulish-semi font-15" style="width: 100%">
                 Cam kết tỷ suất lợi nhuận cho thuê cao nhất Châu Âu
                 (trung bình 5.8% - 8.4%/ năm tuỳ vị trí & diện tích)
             </div>
@@ -453,7 +453,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 HỖ TRỢ QUẢN LÝ VÀ VẬN HÀNH
             </div>
-            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m" style="width: 100%">
+            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m mulish-semi font-15" style="width: 100%">
                 Có đội ngũ quản lý & vận hành cho thuê trọn gói, đảm bảo uy tín
                 và khai thác tiềm năng BĐS tối đa
             </div>
@@ -462,7 +462,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 GIÁ TRỊ TĂNG TRƯỞNG
             </div>
-            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m" style="width: 100%">
+            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m mulish-semi font-15" style="width: 100%">
                 BĐS Hungary tăng giá top 2 Châu Âu. Tỷ lệ tăng giá trong 5 năm
                 từ 2018 – 2022 là 45.64%, trung bình tăng 9.1%/ năm.
             </div>
@@ -499,7 +499,7 @@
             <div class="header-rectangle"></div>
         </div>
         <button class="btn btn-outline position-absolute top-30 start-0 start-20 translate-middle prev-6-2">
-            <img src="{{asset('images/left-arrow.svg')}}" alt="" class="" style="height: 70px">
+            <img src="{{asset('images/left-arrow.svg')}}" alt="" class="" style="height: 50px">
         </button>
         <div class="d-flex align-items-center justify-content-end mt-4">
             <img src="{{asset('images/sec6/pic1p2.png')}}" alt="" class="s6p2-img img-fluid  s6p2-img-first">
@@ -508,14 +508,14 @@
             <img src="{{asset('images/sec6/pic4p2.png')}}" alt="" class="s6p2-img img-fluid s6p2-img-last d-none">
         </div>
         <button class="btn btn-outline position-absolute top-10 start-84 translate-middle next-6-2">
-            <img src="{{asset('images/arrow.svg')}}" alt="" class="" style="width: 70px">
+            <img src="{{asset('images/arrow.svg')}}" alt="" class="" style="width: 50px">
         </button>
         <div class="s6p2-content s6p2-first-content text-center">
             <div class="  header-1 mulish-bold" style="height: 2rem">
                 1 NGƯỜi ĐẦU TƯ - 3 THẾ HỆ CÙNG HƯỞNG
             </div>
             <div class="">
-                <div class="text_content_1 text-justify text-center pt-3 s6p2-height-m" >
+                <div class="text_content_1 text-justify text-center pt-3 s6p2-height-m mulish-semi font-15" >
                     Thẻ cư trú cấp cho vợ chồng, con cái và bố mẹ 2 bên (có điều kiện cụ thể)
                 </div>
             </div>
@@ -525,7 +525,7 @@
                 MÔI TRƯỜNG SỐNG HOÀN HẢO
             </div>
             <div class="d-flex flex-row-reverse">
-                <div class="text_content_1 text-justify text-center pt-3 text-justify-center s6p2-height-m">
+                <div class="text_content_1 text-justify text-center pt-3 text-justify-center s6p2-height-m mulish-semi font-15">
                     Không khí trong lành, Chế độ an sinh xã hội tốt, Giáo dục công cấp 1-3 hoàn toàn miễn phí,
                     Chăm sóc y tế theo hệ thống chuẩn Châu Âu
                 </div>
@@ -536,7 +536,7 @@
                 TỰ DO ĐI LẠI KHÔNG CẦN VISA
             </div>
             <div class=" text-justify-center">
-                <div class="text_content_1 text-justify text-center pt-3 s6p2-height-m" >
+                <div class="text_content_1 text-justify text-center pt-3 s6p2-height-m mulish-semi font-15" >
                     TỰ DO ĐI LẠI 27 NƯỚC KHỐI SCHENGEN & khu vực Balkan không cần xin visa
                 </div>
             </div>
@@ -546,7 +546,7 @@
                 GIA HẠN SAU 3 NĂM
             </div>
             <div class="">
-                <div class="text_content_1 text-justify text-center pt-3 text-justify-center s6p2-height-m" >
+                <div class="text_content_1 text-justify text-center pt-3 text-justify-center s6p2-height-m mulish-semi font-15" >
                     Sau 3 năm cư trú tại Hungary có thể lên thẻ thường trú nhân
                 </div>
             </div>
@@ -678,12 +678,10 @@
                 nextContent = $('.first_content_s6');
             }
 
-            currentImage.addClass('fade-out');
-
-            setTimeout(function () {
-                currentImage.addClass('d-none').removeClass('fade-out');
-                nextImage.removeClass('d-none');
-            }, 500);
+            currentImage.fadeOut(1000);
+            currentImage.addClass('d-none');
+            nextImage.fadeIn(1000)
+            nextImage.removeClass('d-none');
 
             currentRectangle.addClass('grey');
             nextRectangle.removeClass('grey');
@@ -715,12 +713,10 @@
                 nextContent = $('.last-content-s6');
             }
 
-            currentImage.addClass('fade-out');
-
-            setTimeout(function () {
-                currentImage.addClass('d-none').removeClass('fade-out');
-                nextImage.removeClass('d-none');
-            }, 500);
+            currentImage.fadeOut(1000);
+            currentImage.addClass('d-none');
+            nextImage.fadeIn(1000)
+            nextImage.removeClass('d-none');
 
             currentRectangle.addClass('grey');
             nextRectangle.removeClass('grey');
@@ -835,12 +831,10 @@
                 nextContent = $('.s6p2-first-content');
             }
 
-            currentImage.addClass('fade-out');
-
-            setTimeout(function () {
-                currentImage.addClass('d-none').removeClass('fade-out');
-                nextImage.removeClass('d-none');
-            }, 500);
+            currentImage.fadeOut(1000);
+            currentImage.addClass('d-none');
+            nextImage.fadeIn(1000)
+            nextImage.removeClass('d-none');
 
             currentRectangle.addClass('grey');
             nextRectangle.removeClass('grey');
@@ -872,12 +866,10 @@
                 nextContent = $('.last-content-s6p2');
             }
 
-            currentImage.addClass('fade-out');
-
-            setTimeout(function () {
-                currentImage.addClass('d-none').removeClass('fade-out');
-                nextImage.removeClass('d-none');
-            }, 500);
+            currentImage.fadeOut(1000);
+            currentImage.addClass('d-none');
+            nextImage.fadeIn(1000)
+            nextImage.removeClass('d-none');
 
             currentRectangle.addClass('grey');
             nextRectangle.removeClass('grey');
