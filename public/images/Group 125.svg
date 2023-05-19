@@ -1,7 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="264.449" height="102" viewBox="0 0 264.449 102">
+    <style>
+        @font-face {
+        font-family: 'Mulish-SemiBold';
+        src: url("/fonts/Mulish-SemiBold.ttf");
+        }
+
+        text {
+        font-family: 'Mulish-SemiBold', sans-serif;
+        }
+    </style>
     <g id="Group_125" data-name="Group 125" transform="translate(-717.876 -753.952)">
         <text id="_93.030_km2" data-name="93.030 km2" transform="translate(790.325 755.352)" fill="#595a5a"
-              font-size="30" font-family="'Mulish-SemiBold', sans-serif" font-weight="500" letter-spacing="0.026em">
+              font-size="30" font-weight="500" letter-spacing="0.026em">
             <tspan x="0" y="25">93.030 km2</tspan>
         </text>
         <g id="Group_19" data-name="Group 19" transform="translate(-2211.915)">

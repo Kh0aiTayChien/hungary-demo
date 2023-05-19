@@ -1,4 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="275.449" height="124" viewBox="0 0 275.449 124">
+<svg xmlns="http://www.w3.org/2000/svg" width="290.449" height="124" viewBox="0 0 290.449 124">
+    <style>
+        @font-face {
+        font-family: 'Mulish-SemiBold';
+        src: url("/fonts/Mulish-SemiBold.ttf");
+        }
+
+        text {
+        font-family: 'Mulish-SemiBold', sans-serif;
+        }
+    </style>
     <g id="Group_127" data-name="Group 127" transform="translate(-717.876 -855.034)">
         <g id="Group_21" data-name="Group 21" transform="translate(-2211.915)">
             <path id="Path_732" data-name="Path 732"
@@ -11,7 +21,7 @@
             </g>
         </g>
         <text id="Tiếng_Hungary_Tiếng_Anh" data-name="Tiếng Hungary
-Tiếng Anh" transform="translate(790.325 855.034)" fill="#595a5a" font-size="30" font-family="'Mulish-SemiBold', sans-serif"
+Tiếng Anh" transform="translate(790.325 855.034)" fill="#595a5a" font-size="30"
               font-weight="500" letter-spacing="0.026em">
             <tspan x="0" y="25">Tiếng Hungary</tspan>
             <tspan x="0" y="61">Tiếng Anh</tspan>

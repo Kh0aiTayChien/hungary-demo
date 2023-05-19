@@ -9,18 +9,18 @@
     <nav>
         <ul class="iconpc">
             <li class="contact">
-                <a href="https://www.google.com/">
+                <a href="https://www.google.com/" target="_blank">
                     <img class="iconfb" src="{{asset('images/fb.png')}}" alt="fb link">
                 </a>
             </li>
             <li class="contact">
-                <a href="https://www.google.com/">
-                    <img class="icontiktok" src="{{asset('images/tiktok.png')}}">
+                <a href="https://www.google.com/" target="_blank">
+                    <img class="icontiktok" src="{{asset('images/tiktokicon.svg')}}">
                 </a>
             </li>
             <li class="contact">
-                <a href="https://zalo.me/0362149839">
-                    <img class="iconzalo" src="{{asset('images/zalo.png')}}">
+                <a href="https://zalo.me/0362149839" target="_blank">
+                    <img class="iconzalo" src="{{asset('images/zaloicon.svg')}}">
                 </a>
             </li>
         </ul>
@@ -28,18 +28,18 @@
     <nav>
         <ul class="hide iconmb">
             <li class="contact">
-                <a href="https://www.google.com/">
-                    <img class="iconfb" src="{{asset('images/fb.png')}}" alt="fb link">
+                <a href="https://www.google.com/" target="_blank">
+                    <img class="iconfb" src="{{asset('images/fbicon.svg')}}" alt="fb link">
                 </a>
             </li>
             <li class="contact">
-                <a href="https://www.google.com/">
-                    <img class="icontiktok" src="{{asset('images/tiktok.png')}}">
+                <a href="https://www.google.com/" target="_blank">
+                    <img class="icontiktok" src="{{asset('images/tiktokicon.svg')}}">
                 </a>
             </li>
             <li class="contact">
-                <a href="https://zalo.me/0362149839">
-                    <img class="iconzalo" src="{{asset('images/zalo.png')}}">
+                <a href="https://zalo.me/0362149839" target="_blank">
+                    <img class="iconzalo" src="{{asset('images/zaloicon.svg')}}">
                 </a>
             </li>
         </ul>
@@ -63,7 +63,7 @@
     </div>
     <div class="button1Pos">
         <button class="button1">
-            <img src="{{asset('images/button.png')}}" class="buttonIMG">
+            <img src="{{asset('images/Group 401.svg')}}" class="buttonIMG">
         </button>
     </div>
     <div>

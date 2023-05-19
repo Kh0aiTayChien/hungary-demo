@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Mulish-SemiBold';
+    src: url("/fonts/Mulish-SemiBold.ttf");
+}
+
 .sec8pc {
     background-image: url("/images/backgroundSec1.png");
     width: 100vw;
@@ -33,7 +38,7 @@
 
 .bannersec8botpc {
     width: 50vw;
-    margin-top: 1.8%;
+    margin-top: 2.5%;
 }
 /*.testsec8 {*/
 /*    right: 0;*/
@@ -57,7 +62,7 @@
     }
     .headersec8mb {
         width: 80vw;
-        margin-top: 5%;
+        margin-top: 8%;
     }
     .bannersec8mb {
         width: 87vw;

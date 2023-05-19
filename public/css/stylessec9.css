@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Mulish-SemiBold';
+    src: url("/fonts/Mulish-SemiBold.ttf");
+}
+
 .sec9pc {
     background-image: url("/images/Group 57.png");
 
@@ -70,36 +75,36 @@
     }
     .testlinesec9mb {
         text-align: justify;
-        font-family: Mulish, sans-serif;
-        width: 65vw;
-        font-size: 15px;
+        font-family: 'Mulish-SemiBold', sans-serif;
+        width: 68vw;
+        font-size: 14px;
         margin-top: -8%;
         margin-left: 23%;
         color: white;
     }
     .testline2sec9mb {
         text-align: justify;
-        font-family: Mulish, sans-serif;
-        width: 65vw;
-        font-size: 15px;
+        font-family: 'Mulish-SemiBold', sans-serif;
+        width: 68vw;
+        font-size: 14px;
         margin-top: -12%;
         margin-left: 23%;
         color: white;
     }
     .testline3sec9mb {
         text-align: justify;
-        font-family: Mulish, sans-serif;
-        width: 65vw;
-        font-size: 15px;
+        font-family: 'Mulish-SemiBold', sans-serif;
+        width: 68vw;
+        font-size: 14px;
         margin-top: -21%;
         margin-left: 23%;
         color: white;
     }
     .testline4sec9mb {
         text-align: justify;
-        font-family: Mulish, sans-serif;
-        width: 65vw;
-        font-size: 15px;
+        font-family: 'Mulish-SemiBold', sans-serif;
+        width: 68vw;
+        font-size: 14px;
         margin-top: -17%;;
         margin-left: 23%;
         color: white;

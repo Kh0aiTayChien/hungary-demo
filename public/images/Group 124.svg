@@ -1,8 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="390.951" height="102" viewBox="0 0 390.951 102">
+    <style>
+        @font-face {
+        font-family: 'Mulish-SemiBold';
+        src: url("/fonts/Mulish-SemiBold.ttf");
+        }
+
+        text {
+        font-family: 'Mulish-SemiBold', sans-serif;
+        }
+    </style>
     <g id="Group_124" data-name="Group 124" transform="translate(-189.644 -747.351)">
         <text id="Thu_hút_62_triệu_lượt_khách_du_lịch_năm" data-name="Thu hút 62 triệu lượt
 khách du lịch/năm" transform="translate(273.595 747.351)" fill="#595a5a" font-size="30"
-              font-family="'Mulish-SemiBold', sans-serif" font-weight="500" letter-spacing="0.026em">
+              font-weight="500" letter-spacing="0.026em">
             <tspan x="0" y="25">Thu hút 62 triệu lượt</tspan>
             <tspan x="0" y="61">khách du lịch/năm</tspan>
         </text>

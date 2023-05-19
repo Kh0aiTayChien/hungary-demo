@@ -1,6 +1,6 @@
 <div class="sec9pc">
     <img src="{{asset('images/Group 58.png')}}" class="headersec9pc"><br>
-    <img src="{{asset('images/Group 58.svg')}}" class="header2sec9pc"><br>
+    <img src="{{asset('images/Group 701.svg')}}" class="header2sec9pc"><br>
     <div class="mb-4">
         <img src="{{asset('images/Group 59.svg')}}" class="header3sec9pc">
     </div>
@@ -11,9 +11,9 @@
 
 <div class="sec9mb">
     <img src="{{asset('images/Group 62(1).svg')}}" class="headersec9mb">
-    <img src="{{asset('images/Group 18.svg')}}" class="header2sec9mb">
-    <img src="{{asset('images/Group 26.svg')}}" class="header3sec9mb">
-    <img src="{{asset('images/Group 11(1).svg')}}" class="header3sec9mb">
+    <img src="{{asset('images/Group 591.svg')}}" class="header2sec9mb">
+    <img src="{{asset('images/Group 671.svg')}}" class="header3sec9mb">
+    <img src="{{asset('images/Group 52.svg')}}" class="header3sec9mb">
     <object data="{{asset('images/Group 62.svg')}}" class="header4sec9mb"></object>
     <object data="{{asset('images/Group 63 (1).svg')}}" class="line1sec9mb"></object>
     <p class="testlinesec9mb">

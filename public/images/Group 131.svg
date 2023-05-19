@@ -1,10 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900.951" height="124" viewBox="0 0 900.951 124">
+    <style>
+        @font-face {
+        font-family: 'Mulish-SemiBold';
+        src: url("/fonts/Mulish-SemiBold.ttf");
+        }
+
+        text {
+        font-family: 'Mulish-SemiBold', sans-serif;
+        }
+    </style>
     <g id="Group_131" data-name="Group 131" transform="translate(-189.644 -1077)">
         <g id="Group_130" data-name="Group 130">
             <text id="_5000_người_2019_và_có_xu_hướng_tăng_mạnh_những_năm_gần_đây"
                   data-name="~5000 người (2019) và có xu hướng tăng mạnh những năm gần đây"
                   transform="translate(273.595 1078.4)" fill="#595a5a" font-size="33"
-                  font-family="Mulish-SemiBold, sans-serif" font-weight="500">
+                  font-weight="500">
                 <tspan x="0" y="25" letter-spacing="0.06em">~5000 người (2019) và có xu hướng tăng mạnh</tspan>
                 <tspan x="0" y="61">những năm gần đây</tspan>
             </text>

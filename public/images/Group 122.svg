@@ -13,8 +13,8 @@
         <text id="Top_4_hộ_chiếu_quyền_lực_nhất_thế_giới_cho_phép_du_lịch_dễ_dàng_tới_hơn_50_quốc_gia"
               data-name="Top 4 hộ chiếu quyền lực nhất thế giới cho phép du lịch dễ dàng tới hơn 50 quốc gia"
               transform="translate(1070.07 1709.293)" fill="#595a5a" font-size="18.243"
-              font-family="'Mulish-SemiBold', sans-serif" font-weight="500" letter-spacing="0.025em">
-            <tspan x="0" y="18">Top 4 hộ chiếu quyền lực nhất thế giới cho phép du</tspan>
+              font-family="Mulish, sans-serif" font-weight="500">
+            <tspan x="0" y="18" letter-spacing="0.06em">Top 4 hộ chiếu quyền lực nhất thế giới cho phép du</tspan>
             <tspan x="0" y="46.504">lịch dễ dàng tới hơn 50 quốc gia</tspan>
         </text>
     </g>

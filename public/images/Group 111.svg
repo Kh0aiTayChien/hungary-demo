@@ -1,11 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="178.912" height="69.042" viewBox="0 0 178.912 69.042">
-  <g id="Group_111" data-name="Group 111" transform="translate(-726.623 -1062.445)">
-    <text id="_93.030_km2" data-name="93.030 km2" transform="translate(775.535 1064.487)" fill="#595a5a" font-size="18.243" font-family="'Mulish-SemiBold', sans-serif" font-weight="500" letter-spacing="0.025em"><tspan x="0" y="18">93.030 km2</tspan></text>
-    <g id="Group_98" data-name="Group 98">
-      <path id="Path_1500" data-name="Path 1500" d="M755.968,1077.118a14.673,14.673,0,1,1-14.672-14.673A14.672,14.672,0,0,1,755.968,1077.118Z" fill="#be1e2d"/>
-      <g id="Group_97" data-name="Group 97">
-        <path id="Path_1501" data-name="Path 1501" d="M742.186,1080.167a3.118,3.118,0,0,1-2.207-.912l-4.057-4.059a1.9,1.9,0,0,1,2.687-2.687l3.578,3.577,11.026-11.026a1.9,1.9,0,0,1,2.688,2.688L744.4,1079.254A3.114,3.114,0,0,1,742.186,1080.167Z" fill="#fff"/>
-      </g>
+    <g id="Group_111" data-name="Group 111" transform="translate(-726.623 -1062.445)">
+        <text id="_93.030_km2" data-name="93.030 km2" transform="translate(775.535 1064.487)" fill="#595a5a"
+              font-size="18.243" font-family="Mulish, sans-serif" font-weight="500" letter-spacing="0.025em">
+            <tspan x="0" y="18">93.030 km2</tspan>
+        </text>
+        <g id="Group_98" data-name="Group 98">
+            <path id="Path_1500" data-name="Path 1500"
+                  d="M755.968,1077.118a14.673,14.673,0,1,1-14.672-14.673A14.672,14.672,0,0,1,755.968,1077.118Z"
+                  fill="#be1e2d"/>
+            <g id="Group_97" data-name="Group 97">
+                <path id="Path_1501" data-name="Path 1501"
+                      d="M742.186,1080.167a3.118,3.118,0,0,1-2.207-.912l-4.057-4.059a1.9,1.9,0,0,1,2.687-2.687l3.578,3.577,11.026-11.026a1.9,1.9,0,0,1,2.688,2.688L744.4,1079.254A3.114,3.114,0,0,1,742.186,1080.167Z"
+                      fill="#fff"/>
+            </g>
+        </g>
     </g>
-  </g>
 </svg>

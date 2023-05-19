@@ -1,8 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="390.951" height="124" viewBox="0 0 390.951 124">
+    <style>
+        @font-face {
+        font-family: 'Mulish-SemiBold';
+        src: url("/fonts/Mulish-SemiBold.ttf");
+        }
+
+        text {
+        font-family: 'Mulish-SemiBold', sans-serif;
+        }
+    </style>
     <g id="Group_126" data-name="Group 126" transform="translate(-189.644 -855.034)">
         <text id="Liên_minh_Châu_Âu_NATO_OECD_WTO" data-name="Liên minh Châu Âu,
 NATO, OECD, WTO" transform="translate(273.595 855.034)" fill="#595a5a" font-size="30"
-              font-family="'Mulish-SemiBold', sans-serif" font-weight="500" letter-spacing="0.026em">
+              font-weight="500" letter-spacing="0.026em">
             <tspan x="0" y="25">Liên minh Châu Âu,</tspan>
             <tspan x="0" y="61">NATO, OECD, WTO</tspan>
         </text>

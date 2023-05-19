@@ -1,8 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="275.449" height="124" viewBox="0 0 275.449 124">
+<svg xmlns="http://www.w3.org/2000/svg" width="280.449" height="124" viewBox="0 0 280.449 124">
+    <style>
+        @font-face {
+        font-family: 'Mulish-SemiBold';
+        src: url("/fonts/Mulish-SemiBold.ttf");
+        }
+
+        text {
+        font-family: 'Mulish-SemiBold', sans-serif;
+        }
+    </style>
     <g id="Group_129" data-name="Group 129" transform="translate(-717.876 -969.317)">
         <text id="_9.7_triệu_dân" data-name="~ 9.7 triệu dân" transform="translate(790.325 970.717)" fill="#595a5a"
-              font-size="30" font-family="'Mulish-SemiBold', sans-serif" font-weight="500" letter-spacing="0.026em">
-            <tspan x="0" y="25">~ 9.7 triệu dân</tspan>
+              font-size="30" font-weight="500" letter-spacing="0.026em">
+            <tspan x="-5" y="25">~ 9.7 triệu dân</tspan>
         </text>
         <g id="Group_25" data-name="Group 25" transform="translate(-2211.915)">
             <path id="Path_736" data-name="Path 736"
