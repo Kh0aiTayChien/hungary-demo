@@ -247,3 +247,34 @@
 
     </div>
 </div>
+<script>
+    $(document).ready(function() {
+        $('form').submit(function(e) {
+            e.preventDefault();
+
+            var formData = new FormData($(this)[0]);
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content') // Lấy token CSRF từ meta tag
+                }
+            });
+
+            $.ajax({
+                url: $(this).attr('action'),
+                type: $(this).attr('method'),
+                data: formData,
+                cache: false,
+                contentType: false,
+                processData: false,
+                success: function(response) {
+                    // Hiển thị thông báo thành công
+                    alert('Thông tin đã được gửi thành công!');
+                },
+                error: function(xhr, status, error) {
+                    // Xử lý lỗi nếu có
+                    alert('Đã xảy ra lỗi. Vui lòng thử lại sau.');
+                }
+            });
+        });
+    });
+</script>
