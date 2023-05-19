@@ -387,7 +387,7 @@
         <img src="{{asset('images/sec6/pic3p2.png')}}" alt="" class="s6p2-img img-fluid  d-none">
         <img src="{{asset('images/sec6/pic4p2.png')}}" alt=""
              class="s6p2-img img-fluid s6p2-img-last d-none">
-        <button class="btn btn-outline position-absolute top-50 start-80 translate-middle next-6-2">
+        <button class="btn btn-outline position-absolute top-50 start-84 translate-middle next-6-2">
             <img src="{{asset('images/arrow.svg')}}" alt="" style="width: 70px;" class=""></button>
     </div>
 
