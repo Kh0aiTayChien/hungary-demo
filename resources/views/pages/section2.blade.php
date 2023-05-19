@@ -144,19 +144,19 @@
     }
 
     .section_2 {
-        /*height: 100%;*/
+        height: 100%;
         width: 100vw;
         background-image: url('{{asset('images/background_sec2.png')}}');
-        /*background-repeat: no-repeat;*/
-        /*background-position: center;*/
+        background-repeat: no-repeat;
+        background-position: center;
         /*-webkit-background-size: cover;*/
         /*-moz-background-size: cover;*/
         /*-o-background-size: cover;*/
         /*background-size: cover;*/
         /*display: flex;*/
         /*align-items: stretch;*/
-        /*overflow-y: auto;*/
-        /*overflow-x: hidden;*/
+        overflow-y: hidden;
+        overflow-x: hidden;
         /*margin: 0;*/
         /*padding: 0;*/
     }
@@ -167,6 +167,7 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        overflow-x: hidden;
     }
 
     .sp2-height {
@@ -174,7 +175,7 @@
     }
 
     .font-15 {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .sp2-height-m {
@@ -182,7 +183,7 @@
     }
 </style>
 <div class="section_2 position-relative row">
-    <div class="side_content col-6 h-100 " style="padding: 8% 0 0 18.6%  ">
+    <div class="side_content col-6 h-100 " style="padding: 5% 0 0 18.6%  ">
         <img src="{{asset('images/question.svg')}}" alt="" class="img-fluid">
         <div class=" content first_content">
             <div class=" text-danger h5 header-1 mulish-bold" style="margin-top: 5%;">
@@ -207,7 +208,7 @@
                 BẢO VỆ NHÀ ĐẦU TƯ - TẠM TRÚ TRƯỚC BIẾN ĐỘNG
             </div>
             <div class="header-rectangle" style="width: 70%"></div>
-            <div class="text_content_2 text-justify sp2-height">
+            <div class="text_content_2 text-justify sp2-height mt-2">
                 Các hoạt động đầu cơ, thổi giá, thị trường bất động sản trong nước đã chạm đỉnh và sẽ khó xuất hiện
                 những bước nhảy vọt trong thời gian sắp tới. Sự thiếu uy tín của nhiều chủ đầu tư lại càng
                 đẩy giới đầu tư vào trạng thái hoang mang, phải “thắt dây an toàn”.
@@ -224,7 +225,7 @@
                 MÓN QUÀ ƯU GIÁ TRỊ - PHƯƠNG ÁN B - CỦA ĐỂ DÀNH
             </div>
             <div class="header-rectangle" style="width: 75%"></div>
-            <div class="text_content_3 text-justify sp2-height ">
+            <div class="text_content_3 text-justify sp2-height  mt-2">
                 Một món quà tinh thần mang ý nghĩa sâu sắc khi giúp thế hệ mai sau
                 được tiếp cận với nền văn minh hiện đại, được tiếp thu những tư tưởng tân tiến,
                 xu hướng ngày càng nhiều gia đình Việt Nam tạo điều kiện cho con em học tập và sinh sống ở nước ngoài.
@@ -239,7 +240,7 @@
                 DU LỊCH MIỄN THỊ THỰC - TỰ DO KHÁM PHÁ
             </div>
             <div class="header-rectangle" style="width: 65%"></div>
-            <div class="text_content_4 text-justify">
+            <div class="text_content_4 text-justify mt-2">
                 Người thành công trong xã hội đều mong muốn đạt được mục tiêu: mang lại
                 cho gia đình mình cơ hội di chuyển tự do khắp thế giới,
                 đặc biệt là ở khu vực Châu Âu.
@@ -272,13 +273,13 @@
             </div>
         </div>
     </div>
-    <div class="side_content col-6 row" style="padding: 8% 0 8% 8% ;position: relative">
-        <img src="{{asset('images/pic_1.png')}}" alt="" class="img-fluid h-100 side-img col-8 pic_1">
-        <img src="{{asset('images/pic_2.png')}}" alt="" class="img-fluid h-100 side-img col-8 d-none">
-        <img src="{{asset('images/pic_3.png')}}" alt="" class="img-fluid h-100 side-img col-8 d-none">
-        <img src="{{asset('images/pic_4.png')}}" alt="" class="img-fluid h-100 side-img col-8 d-none">
+    <div class="side_content col-6 row" style="padding: 5% 0 5% 8% ;position: relative">
+        <img src="{{asset('images/pic_1.png')}}" alt="" class="img-fluid  side-img col-9 pic_1">
+        <img src="{{asset('images/pic_2.png')}}" alt="" class="img-fluid  side-img col-9 d-none">
+        <img src="{{asset('images/pic_3.png')}}" alt="" class="img-fluid  side-img col-9 d-none">
+        <img src="{{asset('images/pic_4.png')}}" alt="" class="img-fluid  side-img col-9 d-none">
 
-        <div class="col-4 position-relative next_img_content">
+        <div class="col-3 position-relative next_img_content">
             <img src="{{asset('images/pic_2.png')}}" alt="" class="next-img first_img ">
             <img src="{{asset('images/pic_3.png')}}" alt="" class="next-img  d-none">
             <img src="{{asset('images/pic_4.png')}}" alt="" class="next-img d-none">
@@ -304,7 +305,7 @@
             <img src="{{asset('images/sec2/s2pic4.png')}}" alt="" style=""
                  class="next-img  d-none last_img">
             <button class="btn btn-outline position-absolute top-50 start-50 translate-middle prev">
-                <img src="{{asset('images/left-arrow.svg')}}" alt="" style="width: 50px"></button>
+                <img src="{{asset('images/left-arrow.svg')}}" alt="" style="width: 35px"></button>
         </div>
         <img src="{{asset('images/sec2/s2pic1.png')}}" alt="" class="img-fluid w-75 side-img pic_1">
         <img src="{{asset('images/sec2/s2pic2.png')}}" alt="" class="img-fluid w-75 side-img d-none">
@@ -321,7 +322,7 @@
             <img src="{{asset('images/pic_1.png')}}" alt="" style=""
                  class="next-img  last_img d-none">
             <button class="btn btn-outline position-absolute top-50 start-50 translate-middle next">
-                <img src="{{asset('images/arrow.svg')}}" alt="" style="width: 50px"></button>
+                <img src="{{asset('images/arrow.svg')}}" alt="" style="width: 35px"></button>
         </div>
 
     </div>
@@ -549,12 +550,11 @@
             }
 
             // Loại bỏ class d-none khỏi ảnh tiếp theo và thêm class d-none cho ảnh hiện tại
-            currentImage.addClass('fade-out');
+            currentImage.fadeOut(1000);
+            currentImage.addClass('d-none');
+            nextImage.fadeIn(1000)
+            nextImage.removeClass('d-none');
 
-            setTimeout(function () {
-                currentImage.addClass('d-none').removeClass('fade-out');
-                nextImage.removeClass('d-none');
-            }, 500);
 
             currentNextImage.addClass('d-none');
             nextNextImage.removeClass('d-none');
@@ -606,12 +606,11 @@
             }
 
             // Loại bỏ class d-none khỏi ảnh trước đó và thêm class d-none cho ảnh hiện tại
-            currentImage.addClass('fade-out');
+            currentImage.fadeOut(1000);
+            currentImage.addClass('d-none');
+            prevImage.fadeIn(1000);
+            prevImage.removeClass('d-none');
 
-            setTimeout(function () {
-                currentImage.addClass('d-none').removeClass('fade-out');
-                prevImage.removeClass('d-none');
-            }, 500);
 
             currentPrevImage.addClass('d-none');
             prevPrevImage.removeClass('d-none');
