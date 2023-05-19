@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\TestController;
+use App\Http\Controllers\SendController;
+use Illuminate\Routing\Router;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,6 +17,9 @@ use App\Http\Controllers\TestController;
 Route::get('/', function () {
     return view('pages/index');
 })->name('index');
-Route::post("/send",[\App\Http\Controllers\SendController::class,'index'])->name('send');
+Route::middleware('throttle:10,60')->group(function (Router $router) {
+    Route::post("/send",[SendController::class,'index'])->name('send');
+});
+
 
 

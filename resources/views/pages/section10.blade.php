@@ -268,7 +268,7 @@
                 processData: false,
                 success: function(response) {
                     // Hiển thị thông báo thành công
-                    alert('Thông tin đã được gửi thành công!');
+                    alert('Thông tin đã được gửi thành công! Xin cảm ơn quý khách hàng đã quan tâm /-heart ');
                 },
                 error: function(xhr, status, error) {
                     // Xử lý lỗi nếu có
