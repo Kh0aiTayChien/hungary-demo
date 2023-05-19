@@ -8,6 +8,10 @@ use Google\Service\Exception;
 
 class SendController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('throttle:5,30')->only('index');
+    }
     public function index(Request $request)
     {
         Sheets::spreadsheet(config('sheet.spreadsheet_id'));
