@@ -179,7 +179,7 @@
     }
 
     .sp2-height-m {
-        height: 19rem;
+        height: 16rem;
     }
 </style>
 <div class="section_2 position-relative row">
