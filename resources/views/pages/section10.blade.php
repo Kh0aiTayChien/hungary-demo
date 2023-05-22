@@ -200,7 +200,7 @@
             </div>
             <div class="form-group  mt-2">
                 <label for="inputEmail" class="sr-only"></label>
-                <input type="email" class="form-control" name="email" placeholder="email"
+                <input type="email" class="form-control" name="email" placeholder="Email"
                        style="font-size: 14px">
             </div>
             <div class="form-group  mt-2">
