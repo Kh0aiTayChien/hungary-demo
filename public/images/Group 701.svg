@@ -54,7 +54,7 @@ THẺ TẠM TRƯỚC KHI NHẬN THẺ CHÍNH,
 THẺ TẠM CÓ QUYỀN TƯƠNG ĐƯƠNG THẺ CHÍNH)" transform="translate(3474.511 444.236)" fill="#e7c57e" font-size="16"
                     font-family="Mulish-ExtraBold, Mulish" font-weight="800" letter-spacing="0.025em">
                     <tspan x="52" y="16" font-size="25">03 THÁNG</tspan>
-                    <tspan y="16" xml:space="preserve" fill="#fff"> (KHÁCH HÀNG SẼ ĐƯỢC CẤP </tspan>
+                    <tspan y="16" xml:space="preserve" fill="#fff">(KHÁCH HÀNG SẼ ĐƯỢC CẤP </tspan>
                     <tspan fill="#fff">
                         <tspan x="72.738" y="44">THẺ TẠM TRƯỚC KHI NHẬN THẺ CHÍNH,</tspan>
                         <tspan x="35.178" y="72">THẺ TẠM CÓ QUYỀN TƯƠNG ĐƯƠNG THẺ CHÍNH)</tspan>
@@ -103,7 +103,7 @@ THẺ TẠM CÓ QUYỀN TƯƠNG ĐƯƠNG THẺ CHÍNH)" transform="translate(347
                             <tspan x="64.431" y="16">TÀI KHOẢN NH VIỆT NAM:</tspan>
                             <tspan fill="#e7c57e" font-size="29">
                                 <tspan x="94.46" y="44">400.000</tspan>
-                                <tspan y="44" xml:space="preserve" font-size="16"> EUR</tspan>
+                                <tspan y="44" xml:space="preserve" font-size="16">EUR</tspan>
                             </tspan>
                             <tspan x="82.031" y="72">(KHOẢNG 10 TỶ VNĐ)</tspan>
                         </text>
@@ -149,7 +149,8 @@ THẺ TẠM CÓ QUYỀN TƯƠNG ĐƯƠNG THẺ CHÍNH)" transform="translate(347
 (TỔNG CHI PHÍ TỐI THIỂU 240.000 EUR)" transform="translate(3036.441 444.235)" fill="#fff" font-size="16"
                             font-family="Mulish-ExtraBold, Mulish" font-weight="800" letter-spacing="0.025em">
                             <tspan x="80.84" y="16">LÀM THẺ:</tspan>
-                            <tspan y="16" fill="#e7c57e" font-size="26">65.000 EUR</tspan>
+                            <tspan y="16" fill="#e7c57e" font-size="26">65.000</tspan>
+                            <tspan y="16" xml:space="preserve" fill="#e7c57e" font-size="16">EUR</tspan>
                             <tspan x="41.192" y="44">ĐẦU TƯ BĐS TỐI THIỂU: 175.000 EUR</tspan>
                             <tspan x="31.112" y="72">(TỔNG CHI PHÍ TỐI THIỂU 240.000 EUR)</tspan>
                         </text>
