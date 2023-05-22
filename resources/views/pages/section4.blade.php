@@ -1,9 +1,9 @@
 <div class="sec4pc">
 {{--    <img src="{{asset('images/bannerSec1.png')}}" class="backGround1 bannerpcSec4">--}}
     <div class="lineLeft linesec4pc">
-        <object data="{{asset('images/Group 223.svg')}}"></object><br>
+        <img src="{{asset('images/Group 223.svg')}}"><br>
         <img src="{{asset('images/Group 228.svg')}}"><br>
-        <img src="{{asset('images/Group 233.svg')}}">
+        <img src="{{asset('images/Group 233.svg')}}" class="linebotsec4pc">
     </div>
     <div class="lineRight linesec4pc">
         <img src="{{asset('images/line1Rightsec4.png')}}" class="line1Right"><br>

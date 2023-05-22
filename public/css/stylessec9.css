@@ -4,9 +4,8 @@
 }
 
 .sec9pc {
-    background-image: url("/images/Group 57.png");
-
-    background-repeat: no-repeat;
+    background: #111523;
+    /*background-repeat: no-repeat;*/
     width: 100vw;
     display: block;
     text-align: center;
