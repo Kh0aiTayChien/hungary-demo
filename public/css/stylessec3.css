@@ -98,6 +98,7 @@ ul.textsec3 li {
 .textlinesec3 {
     text-align: justify;
     /*text-justify: inter-word;*/
+    font-family: 'Mulish-SemiBold', sans-serif;
     color: white;
     width: 30vw;
 }

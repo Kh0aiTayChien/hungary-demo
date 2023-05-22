@@ -90,7 +90,7 @@
 
 
 </style>
-<div class="section10 d-flex justify-content-center align-items-center " style="">
+<div class="section10 d-flex justify-content-center align-items-center " style="" id="addInformationpc">
     <div class=" row " style="width: 60%; margin-top: 5%">
         <div class="col-6">
             <div>
@@ -170,7 +170,7 @@
         </div>
     </div>
 </div>
-<div class="section10-mobile d-flex justify-content-center " style="">
+<div class="section10-mobile d-flex justify-content-center " id="addInformationmb">
     <div class="p-5 ">
         <div>
             <img src="{{asset('images/sec10/dangkidenhan1.svg')}}" alt="" class="" style="width: 100%">

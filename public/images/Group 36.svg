@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="955.834" height="270.534" viewBox="0 0 955.834 235.534">
     <g id="Group_36" data-name="Group 36" transform="translate(-105.894 -650.927)">
-        <circle id="Ellipse_2" data-name="Ellipse 2" cx="6.016" cy="6.016" r="6.016"
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="1" cy="6.016" r="6.016"
                 transform="translate(228.672 690.145)" fill="none" stroke="#be1e2d" stroke-miterlimit="10"
                 stroke-width="0.633"/>
         <text id="_02_" data-name="02 " transform="translate(105.894 722.927)" fill="#bc202e" font-size="90"
@@ -9,18 +9,8 @@
         </text>
         <text id="QUYỀN_LỢI_CƯ_TRÚ" data-name="QUYỀN LỢI CƯ TRÚ" transform="translate(285.728 707.881)" fill="#bc202e"
               font-size="45" font-family="Mulish-ExtraBold, sans-serif" font-weight="800">
-            <tspan x="0" y="0">QUYỀN LỢI CƯ TRÚ</tspan>
+            <tspan x="-15" y="0">QUYỀN LỢI CƯ TRÚ</tspan>
         </text>
-<!--        <text-->
-<!--            id="Cả_gia_đình_cùng_được_hưởng_quyền_cư_trú_với_môi_trường_sống_lý_tưởng_hệ_thống_giáo_dục_công_lập_miễn_phí_được_chăm_sóc_y_tế_hiện_đại_tại_Hungary._Ngoài_ra_còn_có_cơ_hội_trở_thành_thường_trú_nhân_Hungary_sau_3_năm_cư_trú_"-->
-<!--            data-name="Cả gia đình cùng được hưởng quyền cư trú với môi trường sống lý tưởng, hệ thống giáo dục công lập miễn phí, được chăm sóc y tế hiện đại tại Hungary. Ngoài ra còn có cơ hội trở thành thường trú nhân Hungary sau 3 năm cư trú "-->
-<!--            transform="translate(285.728 727.461)" fill="#595a5a" font-size="33" font-family="Mulish, sans-serif"-->
-<!--            font-weight="500" letter-spacing="0.026em">-->
-<!--            <tspan x="0" y="26">Cả gia đình cùng được hưởng quyền cư trú với </tspan>-->
-<!--            <tspan x="0" y="62" letter-spacing="0.03em"> môi trường sống lý tưởng, hệ thống giáo dục</tspan>-->
-<!--            <tspan x="0" y="98" letter-spacing="0.03em"> công lập miễn phí, được chăm sóc y tế hiện đại </tspan>-->
-<!--            <tspan x="0" y="134">tại Hungrary. Ngoài ra còn có cơ hội trở thành  </tspan>-->
-<!--            <tspan x="0" y="170">thường trú nhân Hungary sau 3 năm cư trú</tspan>-->
-<!--        </text>-->
+
     </g>
 </svg>
