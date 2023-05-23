@@ -90,7 +90,7 @@
 
 
 </style>
-<div class="section10 d-flex justify-content-center align-items-center " style="" id="addInformationpc">
+<div class="section10 d-flex justify-content-center align-items-center " style="">
     <div class=" row " style="width: 60%; margin-top: 5%">
         <div class="col-6">
             <div>
@@ -161,7 +161,7 @@
                     <textarea class="form-control form-control-last" name="care" placeholder="Anh/chị đang quan tâm tới vấn đề gì của chương trình?
 (loại hình căn hộ, thủ tục đăng ký, hợp đồng, v.v.)"></textarea>
                 </div>
-                <div class="form-group mt-2">
+                <div class="form-group mt-2" id="addInformationpc">
                     <button type="submit" class="btn btn-submit form-control" style="background-color: #E7C57E">
                         <p class="submit-text">NHẬN THÔNG TIN</p>
                     </button>
@@ -170,7 +170,7 @@
         </div>
     </div>
 </div>
-<div class="section10-mobile d-flex justify-content-center " id="addInformationmb">
+<div class="section10-mobile d-flex justify-content-center" id="addInformationmb">
     <div class="p-5 ">
         <div>
             <img src="{{asset('images/sec10/dangkidenhan1.svg')}}" alt="" class="" style="width: 100%">

@@ -145,14 +145,14 @@
 
     .section_2 {
         height: 100%;
-        width: 100vw;
+        width: 105vw;
         background-image: url('{{asset('images/background_sec2.png')}}');
         background-repeat: no-repeat;
         background-position: center;
-        /*-webkit-background-size: cover;*/
-        /*-moz-background-size: cover;*/
-        /*-o-background-size: cover;*/
-        /*background-size: cover;*/
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
         /*display: flex;*/
         /*align-items: stretch;*/
         overflow-y: hidden;
