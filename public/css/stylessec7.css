@@ -7,14 +7,16 @@
 .sec7pc {
     display: block;
     text-align: center;
-    width: 100vw;
-    /*height: 110vh;*/
-    background-image: url("/images/backgroundsec5.png");
+    /*height: 100vh;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    background-image: url("/images/BG-7.png");
 }
 
 .headersec7pc {
     width: 30vw;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 .contentsec7pc {
@@ -22,10 +24,10 @@
 }
 
 .footersec7pc {
-    width: 115vw;
+    /*width: 100vw;*/
     /*bottom: 0;*/
-    margin-top: -12.5%;
-    margin-left: -1.5%;
+    position: absolute;
+    margin: 25% 0 0 0 ;
 }
 
 .sec7mb {
