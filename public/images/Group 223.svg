@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="642.638" height="225.455"
+     viewBox="0 0 642.638 225.455">
+    <style>
+        @font-face {
+        font-family: 'Mulish-SemiBold';
+        src: url("/fonts/Mulish-SemiBold.ttf");
+        }
+
+<!--        text {-->
+<!--        font-family: 'Mulish-SemiBold', sans-serif;-->
+<!--        }-->
+    </style>
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Path_47" data-name="Path 47"
+                  d="M429.8,190.713a40.03,40.03,0,0,1-45.915,51.112v149.4H997.532V190.713Z" fill="none"/>
+        </clipPath>
+    </defs>
+    <g id="Group_123" data-name="Group 123" transform="translate(-354.894 -165.771)">
+        <g id="Group_119" data-name="Group 119">
+            <g id="Group_118" data-name="Group 118">
+                <path id="Path_42" data-name="Path 42"
+                      d="M425.821,201.235a35.464,35.464,0,1,1-35.464-35.464,35.463,35.463,0,0,1,35.464,35.464"
+                      fill="#e7c57e"/>
+                <path id="Path_43" data-name="Path 43"
+                      d="M408.663,217.03a3.836,3.836,0,0,0,3.832-3.82l.071-21.182a3.843,3.843,0,0,0-3.822-3.846l-34.8-.113h-.013a3.839,3.839,0,0,0-3.835,3.819l-.069,21.183a3.834,3.834,0,0,0,3.82,3.845l34.8.114Zm-33.373-1.705h-1.347V215.3h-.088a2.219,2.219,0,0,1-2.211-2.224l.071-21.182a2.219,2.219,0,0,1,2.22-2.211h.006l34.8.113a2.223,2.223,0,0,1,2.211,2.226l-.071,21.183a2.219,2.219,0,0,1-2.217,2.211h-.009l-33.364-.109Z"/>
+                <path id="Path_44" data-name="Path 44"
+                      d="M406.691,191.427h-8.068a.4.4,0,0,0-.4.4v10.719a.4.4,0,0,0,.4.4h8.068a.4.4,0,0,0,.4-.4V191.83a.4.4,0,0,0-.4-.4m-.4,10.719h-7.262v-9.913h7.262Z"/>
+                <path id="Path_45" data-name="Path 45"
+                      d="M376.637,206h12.505a.806.806,0,1,0,0-1.612H376.637a.806.806,0,0,0,0,1.612"/>
+                <path id="Path_46" data-name="Path 46"
+                      d="M394.992,209.024H376.636a.806.806,0,1,0,0,1.613h18.356a.806.806,0,0,0,0-1.613"/>
+            </g>
+        </g>
+        <g id="Group_121" data-name="Group 121">
+            <g id="Group_120" data-name="Group 120" clip-path="url(#clip-path)">
+                <rect id="Rectangle_44" data-name="Rectangle 44" width="601.988" height="173.198"
+                      transform="translate(389.949 201.235)" fill="none" stroke="#e7c57e" stroke-miterlimit="10"
+                      stroke-width="4"/>
+                <rect id="Rectangle_45" data-name="Rectangle 45" width="601.988" height="173.198"
+                      transform="translate(389.949 201.235)" fill="#231f20" stroke="#e7c57e" stroke-miterlimit="10"
+                      stroke-width="4" opacity="0.5"/>
+            </g>
+        </g>
+        <text id="LÀM_THẺ_CƯ_TRÚ" data-name="LÀM THẺ CƯ TRÚ" transform="translate(431.258 169.778)" fill="#e7c57e"
+              font-size="22" font-family="Mulish-ExtraBold, Mulish" font-weight="800" letter-spacing="0.028em">
+            <tspan x="0" y="22">LÀM THẺ CƯ TRÚ</tspan>
+        </text>
+        <g id="Group_122" data-name="Group 122">
+            <text
+                id="Nhà_đầu_tư_sẽ_được_hướng_dẫn_chi_tiết_các_bước_thu_thập_hồ_sơ_Mọi_thủ_tục_đều_có_thể_được_thực_hiện_tại_Việt_Nam_Nếu_nộp_hồ_sơ_tại_Hungary_Nhà_đầu_tư_không_cần_phải_phỏng_vấn_Cam_kết_hoàn_tiền_100_nếu_không_được_cấp_thẻ_cư_trú"
+                data-name="Nhà đầu tư sẽ được hướng dẫn chi tiết các bước thu thập hồ sơ
+Mọi thủ tục đều có thể được thực hiện tại Việt Nam
+Nếu nộp hồ sơ tại Hungary, Nhà đầu tư không cần phải phỏng vấn
+Cam kết hoàn tiền 100% nếu không được cấp thẻ cư trú" transform="translate(448.469 234.815)" fill="#fff" font-size="16"
+                font-family="Mulish-SemiBold, Mulish" letter-spacing="0.025em">
+                <tspan x="0" y="17">Nhà đầu tư sẽ được hướng dẫn chi tiết các bước thu thập hồ sơ</tspan>
+                <tspan x="0" y="42" xml:space="preserve">Mọi thủ tục đều có thể được thực hiện tại Việt Nam  </tspan>
+                <tspan x="0" y="67">Nếu nộp hồ sơ tại Hungary, Nhà đầu tư không cần phải phỏng vấn</tspan>
+                <tspan x="0" y="92">Cam kết hoàn tiền 100% nếu không được cấp thẻ cư trú</tspan>
+            </text>
+            <circle id="Ellipse_29" data-name="Ellipse 29" cx="4" cy="4" r="4" transform="translate(429.258 243.509)"
+                    fill="#e7c57e"/>
+            <circle id="Ellipse_30" data-name="Ellipse 30" cx="4" cy="4" r="4" transform="translate(429.258 268.594)"
+                    fill="#e7c57e"/>
+            <circle id="Ellipse_31" data-name="Ellipse 31" cx="4" cy="4" r="4" transform="translate(429.258 293.509)"
+                    fill="#e7c57e"/>
+            <circle id="Ellipse_32" data-name="Ellipse 32" cx="4" cy="4" r="4" transform="translate(429.258 318.424)"
+                    fill="#e7c57e"/>
+        </g>
+    </g>
+</svg>

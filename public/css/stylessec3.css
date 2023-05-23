@@ -77,7 +77,7 @@
 .sec3ImgPRight1 {
     width: 30vw;
     margin-left: -200px;
-    margin-top: 12%;
+    margin-top: 15%;
 }
 
 .sec3ImgPRight2 {
@@ -98,6 +98,7 @@ ul.textsec3 li {
 .textlinesec3 {
     text-align: justify;
     /*text-justify: inter-word;*/
+    font-family: 'Mulish-SemiBold', sans-serif;
     color: white;
     width: 30vw;
 }

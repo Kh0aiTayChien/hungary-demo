@@ -9,17 +9,17 @@
     <nav>
         <ul class="iconpc">
             <li class="contact">
-                <a href="https://www.google.com/" target="_blank">
+                <a href="https://www.facebook.com/profile.php?id=100089937085400" target="_blank">
                     <img class="iconfb" src="{{asset('images/fb.png')}}" alt="fb link">
                 </a>
             </li>
             <li class="contact">
-                <a href="https://www.google.com/" target="_blank">
+                <a href="https://www.tiktok.com/@cen_global.official?_t=8bo75BiH9DV&_r=1" target="_blank">
                     <img class="icontiktok" src="{{asset('images/tiktokicon.svg')}}">
                 </a>
             </li>
             <li class="contact">
-                <a href="https://zalo.me/0362149839" target="_blank">
+                <a href="https://zalo.me/0965691688" target="_blank">
                     <img class="iconzalo" src="{{asset('images/zaloicon.svg')}}">
                 </a>
             </li>
@@ -28,17 +28,17 @@
     <nav>
         <ul class="hide iconmb">
             <li class="contact">
-                <a href="https://www.google.com/" target="_blank">
+                <a href="https://www.facebook.com/profile.php?id=100089937085400" target="_blank">
                     <img class="iconfb" src="{{asset('images/fbicon.svg')}}" alt="fb link">
                 </a>
             </li>
             <li class="contact">
-                <a href="https://www.google.com/" target="_blank">
+                <a href="https://www.tiktok.com/@cen_global.official?_t=8bo75BiH9DV&_r=1" target="_blank">
                     <img class="icontiktok" src="{{asset('images/tiktokicon.svg')}}">
                 </a>
             </li>
             <li class="contact">
-                <a href="https://zalo.me/0362149839" target="_blank">
+                <a href="https://zalo.me/0965691688" target="_blank">
                     <img class="iconzalo" src="{{asset('images/zaloicon.svg')}}">
                 </a>
             </li>
@@ -61,15 +61,20 @@
             <img src="{{asset('images/slogan12Mb.png')}}" class="slogan12mb">
         </div>
     </div>
-    <div class="button1Pos">
-        <button class="button1">
+    <div class="button1Pospc">
+        <button class="button1" onclick="scrollToElement('addInformationpc')">
+            <img src="{{asset('images/Group 401.svg')}}" class="buttonIMG">
+        </button>
+    </div>
+    <div class="button1Posmb">
+        <button class="button1" onclick="scrollToElement('addInformationmb')">
             <img src="{{asset('images/Group 401.svg')}}" class="buttonIMG">
         </button>
     </div>
     <div>
-        <a href="tel:0362149839" class="phone">
-            <img class="phoneNumber" src="{{asset('images/phoneNumber.png')}}">
-            <img class="phoneIcon" src="{{asset('images/phoneIcon.png')}}">
+        <a href="tel:0965691688" class="phone">
+            <img class="phoneNumber" src="{{asset('images/phoneNumber.svg')}}">
+            <img class="phoneIcon" src="{{asset('images/phoneIcon.svg')}}">
         </a>
     </div>
 </div>
@@ -111,4 +116,20 @@
         // });
 
     });
+    function scrollToElement(addInformationpc) {
+        var element = $("#" + addInformationpc);
+        if (element.length) {
+            $('html, body').animate({
+                scrollTop: element.offset().top
+            }, 200);
+        }
+    }
+    function scrollToSection(addInformationmb) {
+        var section = $("#" + addInformationmb);
+        if (section.length) {
+            $('html, body').animate({
+                scrollTop: section.offset().top
+            }, 200);
+        }
+    }
 </script>

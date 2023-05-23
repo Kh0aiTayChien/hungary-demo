@@ -19,7 +19,6 @@ body {
 }
 
 
-
 .section1 {
     background-image: url("/images/backgroundSec1.png");
     width: 100vw;
@@ -27,8 +26,9 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;
 }
+
 @supports (-webkit-touch-callout: none) {
-    @media not all and (min-resolution:.001dpcm) {
+    @media not all and (min-resolution: .001dpcm) {
         /* Safari 9+ */
         .section1 {
             height: var(--window-height);
@@ -59,7 +59,7 @@ body {
     position: relative;
     width: 15vw;
     height: 10vw;
-margin-top: -2.2%;
+    margin-top: -2.2%;
     /*bottom: -80px;*/
     opacity: 100%;
 }
@@ -73,7 +73,7 @@ margin-top: -2.2%;
 }
 
 .introName {
-    width: 45vw;
+    width: 38vw;
 }
 
 .line1 {
@@ -84,7 +84,7 @@ margin-top: -2.2%;
 }
 
 .slogan1 {
-    width: 47vw;
+    width: 40vw;
 }
 
 
@@ -96,28 +96,33 @@ margin-top: -2.2%;
 }
 
 .slogan2 {
-    width: 38vw;
+    width: 32vw;
 }
 
 .sloganmb {
     display: none;
 }
 
-.button1Pos {
+.button1Pospc {
     display: flex;
     position: relative;
     justify-content: center;
 }
 
+.button1Posmb {
+    display: none;
+}
+
 .button1 {
-    margin-top: 5%;
-    width: 30vw;
-    height: 9vh;
+    margin-top: 3%;
+    width: 17vw;
+    height: 6vh;
     background: #E7C57E;
+    border: none;
 }
 
 .buttonIMG {
-    width: 25vw;
+    width: 16vw;
 }
 
 .iconfb {
@@ -151,10 +156,12 @@ margin-top: -2.2%;
 }
 
 .phone {
+    text-decoration: none;
+    list-style-type: none;
     display: inline;
     position: fixed;
     right: 1.5%;
-
+    bottom: 40px;
     z-index: 9999;
 }
 
@@ -184,10 +191,12 @@ ul.iconmb {
     .iconpc {
         display: none;
     }
+
     .iconmb {
         display: block;
         text-align: center;
     }
+
     .logoCen {
         margin-top: -3%;
         position: relative;
@@ -197,11 +206,13 @@ ul.iconmb {
         height: 8%;
         transition: background-color 0.5s ease;
     }
+
     .clearfix::after {
         content: "";
         clear: both;
         display: table;
     }
+
     .cenlogo {
         position: relative;
         width: 40vw;
@@ -211,10 +222,12 @@ ul.iconmb {
         transform: translateX(20%);
         bottom: 0
     }
+
     .contact {
         display: flex;
         justify-content: center;
     }
+
     .iconfb {
         position: absolute;
         transform: translateX(-140%);
@@ -222,6 +235,7 @@ ul.iconmb {
         margin-top: 33%;
         z-index: 99999;
     }
+
     .icontiktok {
         position: absolute;
         transform: translateX(-140%);
@@ -229,6 +243,7 @@ ul.iconmb {
         margin-top: 78%;
         z-index: 99999;
     }
+
     .iconzalo {
         position: absolute;
         transform: translateX(-140%);
@@ -236,56 +251,78 @@ ul.iconmb {
         margin-top: 123%;
         z-index: 99999;
     }
+
     .menu {
         display: block;
         width: 7vw;
         margin-right: 5%;
     }
+
     .name {
         display: none;
     }
+
     .line1 {
         display: none;
     }
+
     .line2 {
         display: none;
     }
+
     .sloganmb {
         display: block;
         margin-top: 50%;
     }
+
     .namemb {
         display: flex;
         justify-content: center;
     }
+
     .introNameMb {
         width: 70vw;
     }
+
     .line12Mb {
         display: flex;
         justify-content: center;
         margin-top: 15%;
     }
+
     .slogan12mb {
         width: 75vw;
     }
+    .button1Pospc {
+        display: none;
+    }
+    .button1Posmb {
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
     .button1 {
-        margin-top: 25%;
+        margin-top: 8%;
         width: 55vw;
         height: 6vh;
     }
+
     .buttonIMG {
         width: 50vw;
     }
+
     a.phone {
+        list-style-type: none;
         text-decoration: none;
         position: fixed;
         bottom: 2%;
         right: 2%;
     }
+
     .phoneIcon {
         width: 12vw;
     }
+
     .phoneNumber {
         width: 37vw;
     }
