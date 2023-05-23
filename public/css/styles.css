@@ -116,8 +116,9 @@ body {
 .button1 {
     margin-top: 3%;
     width: 17vw;
-    height: 9vh;
+    height: 6vh;
     background: #E7C57E;
+    border: none;
 }
 
 .buttonIMG {
