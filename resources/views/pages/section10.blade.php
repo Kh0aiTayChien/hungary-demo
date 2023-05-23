@@ -70,7 +70,6 @@
         font-family: 'Mulish-ExtraBold', sans-serif;
         font-weight: bold;
         font-size: xx-large;
-        letter-spacing: 0.5rem;
     }
 
     @media screen and (max-width: 1650px) {

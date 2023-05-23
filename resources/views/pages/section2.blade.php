@@ -179,7 +179,7 @@
     }
 
     .sp2-height-m {
-        height: 16rem;
+        height: 18rem;
     }
 </style>
 <div class="section_2 position-relative row">
@@ -254,7 +254,7 @@
 
         <div class="rectangle-dot row mt-5 gx-1 position-absolute "
              style="width: 12%; font-size: 25px;  font-family: 'Mulish-SemiBold', sans-serif;  top: 79%;
-  left: 19%;">
+  left: 18%;">
             <div class="col-3">
                 <div class="text-center number fw-bold  text-red first_text mulish-bold">01</div>
                 <div class="rectangle w-100 first_rectangle"></div>
