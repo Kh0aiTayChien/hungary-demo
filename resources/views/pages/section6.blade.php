@@ -70,7 +70,7 @@
 
     .header-rectangle {
         width: 110px;
-        height: 5.038px;
+        height: 4.038px;
         background-color: #bc202e;
     }
 
