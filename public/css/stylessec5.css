@@ -15,7 +15,7 @@
     display: block;
     background-image: url("/images/backgroundsec5.png");
     width: 100vw;
-    height: 223vh;
+    /*height: 223vh;*/
 }
 
 .topbannersec5pc {
@@ -41,7 +41,18 @@
 }
 
 .line1dot1pc {
-    margin-right: 8%;
+    margin-right: 5%;
+    width: 10vw;
+}
+
+.line11dot1pc {
+    margin-right: 5%;
+    width: 13vw;
+}
+
+.line12dot2pc {
+    margin-right: 5%;
+    width: 11vw;
 }
 
 .line2tongquanpc {
@@ -53,11 +64,13 @@
 
 .line2dot1pc {
     margin-left: -1.2%;
+    width: 26vw;
 }
 
 .tongquan2pc {
     margin-left: 18%;
     margin-top: -4%;
+    width: 65vw;
 }
 
 
@@ -66,11 +79,15 @@
     width: 100vw;
     margin-left: 18%;
     /*margin-top: 3%;*/
-
 }
 
 .line3dot1pctop {
     margin-top: 2%;
+    width: 30vw;
+}
+
+.line3dot1pc {
+    width: 30vw;
 }
 
 .line4tongquanpc {
@@ -80,10 +97,16 @@
 .line4dot1pctop {
     margin-top: 3%;
     margin-left: 6%;
+    width: 30vw;
 }
 
 .line4dot1pc {
     margin-left: 6%;
+    width: 30vw;
+}
+
+.lineBot {
+    margin-bottom: 3%;
 }
 
 .sec5mb {

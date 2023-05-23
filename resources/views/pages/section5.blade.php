@@ -3,15 +3,15 @@
     <img src="{{asset('images/Tongquan.png')}}" class="tongquanpc">
     <div class="line1sec5pc">
         <div class="line1tongquanpc">
-            <img src="{{asset('images/Group 110.svg')}}" class="line1dot1pc">
+            <img src="{{asset('images/Group 110.svg')}}" class="line11dot1pc">
             <img src="{{asset('images/Group 111.svg')}}" class="line1dot1pc">
             <img src="{{asset('images/Group 112.svg')}}" class="line1dot1pc">
             <img src="{{asset('images/Group 113.svg')}}" class="line1dot1pc">
         </div>
         <div class="line2tongquanpc">
-            <img src="{{asset('images/Group 114.svg')}}" class="line1dot1pc">
-            <img src="{{asset('images/Group 115.svg')}}" class="line1dot1pc">
-            <img src="{{asset('images/Group 116.svg')}}" class="line2dot1pc ">
+            <img src="{{asset('images/Group 114.svg')}}" class="line11dot1pc">
+            <img src="{{asset('images/Group 115.svg')}}" class="line12dot2pc">
+            <img src="{{asset('images/Group 116.svg')}}" class="line2dot1pc">
         </div>
     </div>
     <img src="{{asset('images/Group 109.png')}}" class="tongquan2pc">
@@ -21,8 +21,8 @@
             <img src="{{asset('images/Group 120.svg')}}" class="line4dot1pctop"><br>
             <img src="{{asset('images/Group 118.svg')}}" class="line3dot1pc">
             <img src="{{asset('images/Group 122.svg')}}" class="line4dot1pc"><br>
-            <img src="{{asset('images/Group 119.svg')}}" class="line3dot1pc">
-            <img src="{{asset('images/Group 123.svg')}}" class="line4dot1pc">
+            <img src="{{asset('images/Group 119.svg')}}" class="line3dot1pc lineBot">
+            <img src="{{asset('images/Group 123.svg')}}" class="line4dot1pc lineBot">
         </div>
     </div>
 </div>
