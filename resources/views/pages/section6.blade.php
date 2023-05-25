@@ -249,7 +249,7 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 VỊ TRÍ ĐẮC ĐỊA
             </div>
-            <div class="text_content_1 text-justify text-white pt-1 sp6-height mulish-semi" style="width: 50%">
+            <div class="text_content_1 text-justify text-white pt-1 sp6-height mulish-semi" style="width: 70%">
                 Nằm giữa trung tâm downtown thủ đô Budapest – thành phố cổ kính
                 được mệnh danh là “Paris vùng Đông Âu” với nhiều điểm du lịch nổi tiếng,
                 nhà hàng, trung tâm mua sắm

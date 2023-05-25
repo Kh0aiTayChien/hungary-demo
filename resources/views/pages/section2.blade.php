@@ -17,7 +17,7 @@
     }
 
     .start-30 {
-        margin-left: 30%
+        margin-left: 10%
     }
 
     .btn:focus {
@@ -181,10 +181,32 @@
     .sp2-height-m {
         height: 18rem;
     }
+    .padding-sec2{
+        padding: 5% 0 0 14.6%
+    }
+    .img-sec2{
+        width: 80%
+    }
+    .rectangle-style-s2{
+        width: 12%; font-size: 25px;  font-family: 'Mulish-SemiBold', sans-serif;  top: 79%;
+        left: 14.5%;
+    }
+    @media screen and (max-width: 1600px) {
+        .padding-sec2 {
+            padding: 5% 0 0 5.6%
+        }
+        .img-sec2{
+            width: 60%
+        }
+        .rectangle-style-s2{
+            width: 12%; font-size: 25px;  font-family: 'Mulish-SemiBold', sans-serif;  top: 79%;
+            left: 6%;
+        }
+    }
 </style>
-<div class="section_2 position-relative row">
-    <div class="side_content col-6 h-100 " style="padding: 5% 0 0 18.6%  ">
-        <img src="{{asset('images/question.svg')}}" alt="" class="img-fluid">
+<div class="section_2 position-relative row padding-sec2">
+    <div class="side_content col-6 h-100 ">
+        <img src="{{asset('images/question.svg')}}" alt="" class="img-fluid img-sec2" style="">
         <div class=" content first_content">
             <div class=" text-danger h5 header-1 mulish-bold" style="margin-top: 5%;">
                 DẠNG ĐỊNH CƯ ƯU VIỆT NHẤT
@@ -198,7 +220,6 @@
                 Thủ tục dễ dàng nhất - Chi phí đăng ký và duy trì thẻ hợp lý - Con đường rẻ hơn để vào Châu Âu so với
                 các
                 chương trình/ đất nước khác.
-                <br><br>
                 Hungary có mức chi tiêu rẻ và người dân bản địa thân thiện với người nhập cư.
             </div>
         </div>
@@ -246,15 +267,13 @@
                 đặc biệt là ở khu vực Châu Âu.
                 <br><br>
                 Bước đầu hòa nhập với cuộc sống và học tập tại nước ngoài để thành công dân toàn cầu tương lai.
-                <br><br>
                 Du lịch tự do/ du lịch y tế/ mua sắm cao cấp nhất: khả năng đi lại
                 giữa các quốc gia phát triển mà không cần xin Visa chắc chắn là một tài sản vô giá đối với bất cứ ai.
             </div>
         </div>
 
-        <div class="rectangle-dot row mt-5 gx-1 position-absolute "
-             style="width: 12%; font-size: 25px;  font-family: 'Mulish-SemiBold', sans-serif;  top: 79%;
-  left: 18%;">
+        <div class="rectangle-dot row mt-5 gx-1 position-absolute rectangle-style-s2 "
+             style="">
             <div class="col-3">
                 <div class="text-center number fw-bold  text-red first_text mulish-bold">01</div>
                 <div class="rectangle w-100 first_rectangle"></div>
@@ -273,7 +292,7 @@
             </div>
         </div>
     </div>
-    <div class="side_content col-6 row" style="padding: 5% 0 5% 8% ;position: relative">
+    <div class="side_content col-6 row" style="padding: 0 0 5% 8% ;position: relative">
         <img src="{{asset('images/pic_1.png')}}" alt="" class="img-fluid  side-img col-9 pic_1">
         <img src="{{asset('images/pic_2.png')}}" alt="" class="img-fluid  side-img col-9 d-none">
         <img src="{{asset('images/pic_3.png')}}" alt="" class="img-fluid  side-img col-9 d-none">
