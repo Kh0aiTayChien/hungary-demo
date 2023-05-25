@@ -188,6 +188,43 @@ ul.iconmb {
     margin-top: 0;
 }
 
+@media screen and (max-aspect-ratio: 3/2) {
+    .logoCen {
+        height: 80px;
+    }
+    .cenlogo {
+        width: 22vw;
+        height: 18vh;
+        margin-top: -3.5%;
+    }
+    .introName {
+        width: 60vw;
+        margin-top: 3%;
+    }
+    .slogan1 {
+        width: 62vw;
+    }
+    .slogan2 {
+        width: 54vw;
+    }
+    .button1 {
+        margin-top: 10%;
+        width: 32vw;
+    }
+    .buttonIMG {
+        width: 27vw;
+    }
+    .iconfb {
+        margin-top: 18%;
+    }
+    .icontiktok {
+        margin-top: 25%;
+    }
+    .iconzalo {
+        margin-top: 32%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .iconpc {
         display: none;
