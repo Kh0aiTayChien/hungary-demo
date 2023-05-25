@@ -42,10 +42,24 @@
         font-family: 'Tinos-Regular', sans-serif;
         font-weight: 600;
     }
+    .row-sec-7{
+        margin: 0 7% -1rem 11%; height: 20%
+    }
+   .number-sec-7{
+       font-size: 100px; align-self: flex-end; margin: 0 0 -1.2rem 0
+   }
+    @media screen and (max-width: 1500px) {
+        .row-sec-7{
+            margin: 0 7% 3rem 11%; height: 20%
+        }
+        .number-sec-7{
+            font-size: 100px; align-self: flex-end; margin: 0 0 -1rem 0
+        }
+    }
 </style>
 <div class="sec7pc relative ">
     <img class="headersec7pc absolute" src="{{ asset('images/Group 27.svg') }}">
-    <div class="row absolute gx-0" style="margin: 0 7% 0 11%; height: 20%">
+    <div class="row absolute gx-0 row-sec-7" >
         <div class="col-2 d-flex flex-column align-items-center">
             <p class="text-justify mulish-semi">Sở hữu tài sản vĩnh viễn giữa trung tâm thủ đô Budapest, cam kết BĐS tăng trưởng ổn
                 định & tỉ suất lợi nhuận cao nhất châu Âu. Nói không với BĐS xa xôi, hẻo lánh, pháp lý không rõ ràng</p>
@@ -54,7 +68,7 @@
             </div>
         </div>
 
-        <div class="col-2 tinos text-red" style="font-size: 100px; align-self: flex-end; ">
+        <div class="col-2 tinos text-red number-sec-7" style="">
             02
         </div>
         <div class="col-2 d-flex flex-column align-items-center">
@@ -66,7 +80,7 @@
                 <p class="fw-bold text-red">THỦ TỤC TINH GỌN <br>& NHANH CHÓNG</p>
             </div>
         </div>
-        <div class="col-2 tinos text-red " style="font-size: 100px; align-self: flex-end;">
+        <div class="col-2 tinos text-red number-sec-7">
             04
         </div>
         <div class="col-2 d-flex flex-column align-items-center">
@@ -75,7 +89,7 @@
                 <p class="fw-bold text-red">HỖ TRỢ QUẢN LÝ <br> & VẬN HÀNH</p>
             </div>
         </div>
-        <div class="col-2 tinos text-red" style="font-size: 100px; align-self: flex-end;">
+        <div class="col-2 tinos text-red number-sec-7">
             06
         </div>
     </div>
