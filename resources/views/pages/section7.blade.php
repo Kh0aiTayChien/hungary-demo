@@ -40,6 +40,7 @@
     }
     .tinos{
         font-family: 'Tinos-Regular', sans-serif;
+        font-weight: 600;
     }
 </style>
 <div class="sec7pc relative ">
