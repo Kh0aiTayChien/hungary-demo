@@ -89,6 +89,12 @@
     display: none;
 }
 
+@media screen and (max-aspect-ratio: 3/2) {
+    .lineRight {
+        margin-top: 12%;
+    }
+}
+
 @media screen and (max-width: 1100px) {
     .sec4pc {
         margin-top: -5%;
