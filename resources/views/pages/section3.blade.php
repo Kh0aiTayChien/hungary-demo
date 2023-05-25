@@ -60,3 +60,38 @@
         </li>
     </ul>
 </div>
+
+{{--<script>--}}
+{{--    // Kiểm tra tỷ lệ màn hình khi trang tải xong và khi thay đổi kích thước cửa sổ--}}
+{{--    window.addEventListener('resize', debounce(section3, 0.1));--}}
+{{--    window.addEventListener('load', section3);--}}
+{{--    function section3() {--}}
+{{--        var screenWidth = window.innerWidth;--}}
+{{--        var screenHeight = window.innerHeight;--}}
+{{--        var screenRatio = screenWidth / screenHeight;--}}
+
+{{--        if (screenRatio <= 1.6) {--}}
+{{--            // Tỷ lệ màn hình phù hợp--}}
+{{--            // Áp dụng kiểu CSS cho tỷ lệ màn hình phù hợp--}}
+{{--            document.querySelector('.sec3ImgPRight1').style.marginTop = '45%';--}}
+{{--            document.querySelector('.sec3ImgPRight1').style.marginLeft = '-250px';--}}
+{{--            document.querySelector('.sec3ImgPRight2').style.marginLeft = '-150px';--}}
+{{--            document.querySelector('ul.textsec3').style.marginLeft = '-275px';--}}
+{{--        } else {--}}
+{{--            // Tỷ lệ màn hình không phù hợp--}}
+{{--            // Xóa các kiểu CSS trước đó--}}
+{{--            // Áp dụng kiểu CSS từ stylesheet--}}
+{{--            var link = document.createElement('link');--}}
+{{--            link.rel = 'stylessec3';--}}
+{{--            link.href = '/css/stylessec3.css'; // Đường dẫn đến stylesheet trong public/css--}}
+{{--            document.head.appendChild(link);--}}
+{{--        }--}}
+{{--    }--}}
+{{--    function debounce(func, delay) {--}}
+{{--        let timer;--}}
+{{--        return function () {--}}
+{{--            clearTimeout(timer);--}}
+{{--            timer = setTimeout(func, delay);--}}
+{{--        };--}}
+{{--    }--}}
+{{--</script>--}}
