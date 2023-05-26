@@ -43,14 +43,14 @@
         font-weight: 600;
     }
     .row-sec-7{
-        margin: 0 7% -1rem 11%; height: 20%
+        margin: 0 7% 3rem 11%; height: 20%
     }
    .number-sec-7{
        font-size: 100px; align-self: flex-end; margin: 0 0 -1.2rem 0
    }
     @media screen and (max-width: 1500px) {
         .row-sec-7{
-            margin: 0 7% 3rem 11%; height: 20%
+            margin: 0 7% 7rem 11%; height: 20%
         }
         .number-sec-7{
             font-size: 100px; align-self: flex-end; margin: 0 0 -1rem 0
@@ -93,7 +93,6 @@
             06
         </div>
     </div>
-
     <div class="row absolute gx-0" style="margin: 0 7% 0 11%; height: 10%">
         <div class="col-2 mulish-bold text-red center-content">
             <div class="line-l"></div>
