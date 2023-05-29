@@ -205,35 +205,38 @@
     }
     .fb-arrow-right {
         background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/fxdCboHHQwb.png);
-        background-position: -106px -25px;
+        background-position: -108px -26px;
         background-size: auto;
-        width: 30px !important;
-        height: 30px !important;
+        width: 24px !important;
+        height: 24px !important;
         background-repeat: no-repeat;
         display: inline-block;
+        transform: translate(-50%, -29%);
     }
     .fb-arrow-left {
         background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/fxdCboHHQwb.png);
-        background-position: -56px -25px;
+        background-position: -58px -26px;
         background-size: auto;
-        width: 35px;
-        height: 35px;
+        width: 24px;
+        height: 24px;
         background-repeat: no-repeat;
         display: inline-block;
+        transform: translate(-50%, -29%);
     }
 
     .circle-fb {
         scale: 120%;
-        width:30px;
-        height: 30px;
+        width: 24px;
+        height: 24px;
         border-radius: 50%;
         background-color: rgba(255, 255, 255, 0.5);
         box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
         opacity: 0.7;
     }
     .circle-fb-mb{
-        width: 28px;
-        height: 28px;
+        scale: 120%;
+        width: 24px;
+        height: 24px;
         border-radius: 50%;
         background-color: rgba(255, 255, 255, 0.5);
         box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
@@ -350,7 +353,8 @@
             <img src="{{asset('images/pic_4.png')}}" alt="" class="next-img d-none">
             <img src="{{asset('images/pic_1.png')}}" alt="" class="next-img  d-none">
 
-            <button class="btn btn-outline position-absolute top-50 start-30 translate-middle next fb-arrow-right circle-fb ">
+            <button class="btn btn-outline position-absolute top-50 start-30 translate-middle next circle-fb relative ">
+                <div class="fb-arrow-right absolute"></div>
             </button>
         </div>
     </div>
@@ -368,7 +372,8 @@
                  class="next-img d-none">
             <img src="{{asset('images/sec2/s2pic4.png')}}" alt="" style=""
                  class="next-img  d-none last_img">
-            <button class="btn btn-outline position-absolute top-50  translate-middle prev fb-arrow-left circle-fb-mb" style="margin-left: 75%">
+            <button class="btn btn-outline position-absolute top-50  translate-middle prev relative circle-fb-mb" style="margin-left: 75%">
+                <div class="fb-arrow-left absolute"></div>
             </button>
         </div>
         <img src="{{asset('images/sec2/s2pic1.png')}}" alt="" class="img-fluid w-75 side-img pic_1">
@@ -385,7 +390,8 @@
                  class="next-img d-none">
             <img src="{{asset('images/pic_1.png')}}" alt="" style=""
                  class="next-img  last_img d-none">
-            <button class="btn btn-outline position-absolute top-50 translate-middle next fb-arrow-right circle-fb-mb" style="margin-left: 30%">
+            <button class="btn btn-outline position-absolute top-50 translate-middle next circle-fb-mb relative" style="margin-left: 30%">
+                <div class="fb-arrow-right absolute"></div>
             </button>
         </div>
 
