@@ -211,7 +211,7 @@
         height: 24px !important;
         background-repeat: no-repeat;
         display: inline-block;
-        transform: translate(-50%, -29%);
+        transform: translate(-40%, -17%);
     }
     .fb-arrow-left {
         background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/fxdCboHHQwb.png);
@@ -221,13 +221,13 @@
         height: 24px;
         background-repeat: no-repeat;
         display: inline-block;
-        transform: translate(-50%, -29%);
+        transform: translate(-40%, -17%);
     }
 
     .circle-fb {
-        scale: 120%;
-        width: 24px;
-        height: 24px;
+        scale: 100%;
+        width: 30px;
+        height: 30px;
         border-radius: 50%;
         background-color: rgba(255, 255, 255, 0.5);
         box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);

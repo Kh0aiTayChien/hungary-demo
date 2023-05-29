@@ -48,6 +48,15 @@
    .number-sec-7{
        font-size: 100px; align-self: flex-end; margin: 0 0 -1.2rem 0
    }
+    @media screen and (min-width: 1700px) {
+        .row-sec-7{
+            margin: 0 7% 0 11%; height: 20%
+        }
+        .number-sec-7{
+            font-size: 100px; align-self: flex-end; margin: 0 0 -2rem 0
+        }
+    }
+
     @media screen and (max-width: 1400px) {
         .row-sec-7{
             margin: 0 7% 3rem 11%; height: 20%
@@ -60,7 +69,7 @@
 <div class="sec7pc relative ">
     <img class="headersec7pc absolute" src="{{ asset('images/Group 27.svg') }}">
     <div class="row absolute gx-0 row-sec-7" >
-        <div class="col-2 d-flex flex-column align-items-center">
+        <div class="col-2 d-flex flex-column align-items-center" style="align-self: flex-end;">
             <p class="text-justify mulish-semi">Sở hữu tài sản vĩnh viễn giữa trung tâm thủ đô Budapest, cam kết BĐS tăng trưởng ổn
                 định & tỉ suất lợi nhuận cao nhất châu Âu. Nói không với BĐS xa xôi, hẻo lánh, pháp lý không rõ ràng</p>
             <div class="text-center">
@@ -71,7 +80,7 @@
         <div class="col-2 tinos text-red number-sec-7" style="">
             02
         </div>
-        <div class="col-2 d-flex flex-column align-items-center">
+        <div class="col-2 d-flex flex-column align-items-center" style="align-self: flex-end;">
             <p class="text-justify mulish-semi">Chỉ từ 03 THÁNG đã nhận thẻ với 03 KHÔNG <br>
                 <span class="dot"></span> Không cần chứng minh nguồn tiền <br>
                 <span class="dot"></span> Không yêu cầu tiếng Anh <br>
@@ -83,7 +92,7 @@
         <div class="col-2 tinos text-red number-sec-7">
             04
         </div>
-        <div class="col-2 d-flex flex-column align-items-center">
+        <div class="col-2 d-flex flex-column align-items-center" style="align-self: flex-end;">
             <p class="text-justify mulish-semi">Được hỗ trợ quản lí & vận hành BĐS trọn gói từ A - Z, đảm bảo cho thuê BĐS ổn định, đạt hiệu suất tối đa, giúp nhà đầu tư an tâm ngồi từ xa hưởng dòng thu nhập thụ động</p>
             <div class="text-center">
                 <p class="fw-bold text-red">HỖ TRỢ QUẢN LÝ <br> & VẬN HÀNH</p>
