@@ -32,7 +32,7 @@
     </div>
 </div>
 
-<div class="sec3Mb">
+<div class="sec3Mb" id="sec3">
     <img src="{{asset('images/headersec3mb.png')}}" class="sec3ImgPRight1mb">
     <img src="{{asset('images/headersec3mb(1).png')}}" class="sec3ImgPRight2mb">
     <img src="{{asset('images/Group 49.svg')}}" class="sec3Imgmb">

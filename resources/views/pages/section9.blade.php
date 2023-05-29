@@ -9,7 +9,7 @@
     </div>
 </div>
 
-<div class="sec9mb">
+<div class="sec9mb" id="sec9">
     <img src="{{asset('images/Group 62(1).svg')}}" class="headersec9mb">
     <img src="{{asset('images/Group 591.svg')}}" class="header2sec9mb">
     <img src="{{asset('images/Group 671.svg')}}" class="header3sec9mb">

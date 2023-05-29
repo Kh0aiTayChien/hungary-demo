@@ -1,5 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1082.656" height="378.139"
      viewBox="0 0 1082.656 378.139">
+    <style>
+        @font-face {
+        font-family: 'Mulish-SemiBold';
+        src: url("/fonts/Mulish-SemiBold.ttf");
+        }
+
+        text {
+        font-family: 'Mulish-SemiBold', sans-serif;
+        }
+    </style>
     <defs>
         <clipPath id="clip-path">
             <path id="Path_41" data-name="Path 41"
@@ -39,9 +49,10 @@
                   data-name="CHI PHÍ LÀM THẺ: 65.000 EUR
 ĐẦU TƯ BĐS TỐI THIỂU: 175.000 EUR
 (TỔNG CHI PHÍ TỐI THIỂU 240.000 EUR)" transform="translate(1448.109 530.541)" fill="#fff" font-size="31"
-                  font-family="Mulish-ExtraBold, Mulish" font-weight="800" letter-spacing="0.05em">
+                  font-weight="800" letter-spacing="0.05em">
                 <tspan x="200" y="31">CHI PHÍ LÀM THẺ:</tspan>
-                <tspan y="31" fill="#e7c57e" font-size="45">65.000 EUR</tspan>
+                <tspan y="31" fill="#e7c57e" font-size="45">65.000</tspan>
+                <tspan y="31" fill="#e7c57e" font-size="31"> EUR</tspan>
                 <tspan x="196.39" y="87.873">ĐẦU TƯ BĐS TỐI THIỂU: 175.000 EUR</tspan>
                 <tspan x="175.697" y="144.747">(TỔNG CHI PHÍ TỐI THIỂU 240.000 EUR)</tspan>
             </text>

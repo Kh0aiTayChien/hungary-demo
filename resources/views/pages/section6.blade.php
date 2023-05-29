@@ -407,7 +407,7 @@
 
 </div>
 
-<div class="section_6-mobile">
+<div class="section_6-mobile" id="sec6">
     <div class="container-fluid p-5 position-relative justify-content-center">
         <img src="{{asset('images/sec6/header-1.svg')}}" alt="" class="img-fluid header-1 pb-3 sm-image-header-mobile">
         <div class="header-rectangle"></div>

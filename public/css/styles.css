@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'Mulish-SemiBold';
-    src: url("/fonts/Mulish-SemiBold.ttf") format("opentype");
+    src: url("/fonts/Mulish-SemiBold.ttf");
 }
 
 
@@ -177,7 +177,9 @@ body {
 ul.hide {
     display: none;
 }
-
+.contactIcon {
+    z-index: 10;
+}
 ul.iconmb {
     /*display: none;*/
     position: fixed;
@@ -187,7 +189,16 @@ ul.iconmb {
     z-index: 999;
     margin-top: 0;
 }
-
+.buttontest {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.3vw;
+    font-family: Mulish-ExtraBold, sans-serif;
+    opacity: 85%;
+}
+.iconmb {
+    display: none;
+}
 @media screen and (max-aspect-ratio: 3/2) {
     .logoCen {
         height: 80px;
@@ -207,9 +218,14 @@ ul.iconmb {
     .slogan2 {
         width: 54vw;
     }
+    .buttontest {
+        opacity: 85%;
+        font-size: 2vw;
+        font-family: Mulish-ExtraBold, sans-serif;
+    }
     .button1 {
         margin-top: 10%;
-        width: 32vw;
+        width: 28vw;
     }
     .buttonIMG {
         width: 27vw;
@@ -260,34 +276,45 @@ ul.iconmb {
         transform: translateX(20%);
         bottom: 0
     }
-
+    .linetop {
+        margin-top: 25%;
+    }
+    .linemenu {
+        margin-top: 12%;
+    }
     .contact {
         display: flex;
         justify-content: center;
     }
-
+    .linktext {
+        text-decoration: none;
+        color: white;
+        font-size: 4.5vw;
+        font-family: Mulish-ExtraBold, sans-serif;
+        font-weight: 1000;
+    }
     .iconfb {
-        position: absolute;
-        transform: translateX(-140%);
-        width: 25vw;
-        margin-top: 33%;
-        z-index: 99999;
+        position: fixed;
+        width: 10vw;
+        /*margin-top: -40%;*/
+        bottom: 220px;
+        z-index: 10;
     }
 
     .icontiktok {
-        position: absolute;
-        transform: translateX(-140%);
-        width: 25vw;
-        margin-top: 78%;
-        z-index: 99999;
+        position: fixed;
+        width: 10vw;
+        /*margin-top: -20%;*/
+        bottom: 150px;
+        z-index: 10;
     }
 
     .iconzalo {
-        position: absolute;
-        transform: translateX(-140%);
-        width: 25vw;
-        margin-top: 123%;
-        z-index: 99999;
+        position: fixed;
+        width: 10vw;
+        /*margin-top: -1.5%;*/
+        bottom: 80px;
+        z-index: 10;
     }
 
     .menu {
@@ -348,7 +375,9 @@ ul.iconmb {
     .buttonIMG {
         width: 50vw;
     }
-
+    .buttontest {
+        font-size: 4.5vw;
+    }
     a.phone {
         list-style-type: none;
         text-decoration: none;
@@ -358,10 +387,13 @@ ul.iconmb {
     }
 
     .phoneIcon {
-        width: 12vw;
+        width: 10vw;
     }
 
     .phoneNumber {
-        width: 37vw;
+        width: 30vw;
+    }
+    ul.iconmb li {
+        margin-left: -5%;
     }
 }

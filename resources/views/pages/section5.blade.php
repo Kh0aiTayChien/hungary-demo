@@ -27,7 +27,7 @@
     </div>
 </div>
 
-<div class="sec5mb">
+<div class="sec5mb" id="sec5">
     <img src="{{asset('images/Group 59.png')}}" class="topbannersec5mb">
     <img src="{{asset('images/Group 13.png')}}" class="tongquanmb">
     <div class="line1sec5mb">
