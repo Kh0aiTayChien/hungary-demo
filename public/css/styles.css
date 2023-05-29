@@ -190,7 +190,8 @@ ul.iconmb {
     margin-top: 0;
 }
 .buttontest {
-    margin-top: 2.5%;
+    margin-top: auto;
+    margin-bottom: auto;
     font-size: 1.3vw;
     font-family: Mulish-ExtraBold, sans-serif;
     opacity: 85%;
@@ -219,7 +220,6 @@ ul.iconmb {
     }
     .buttontest {
         opacity: 85%;
-        margin-top: 2.5%;
         font-size: 2vw;
         font-family: Mulish-ExtraBold, sans-serif;
     }
@@ -376,8 +376,6 @@ ul.iconmb {
         width: 50vw;
     }
     .buttontest {
-        margin-top: auto;
-        margin-bottom: auto;
         font-size: 4.5vw;
     }
     a.phone {
