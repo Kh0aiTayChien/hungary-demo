@@ -17,7 +17,7 @@
     }
 
     .start-30 {
-        margin-left: 10%
+        margin-left: 25%
     }
 
     .btn:focus {
@@ -203,6 +203,52 @@
             left: 6%;
         }
     }
+    .fb-arrow-right {
+        background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/fxdCboHHQwb.png);
+        background-position: -106px -26px;
+        background-size: auto;
+        width: 30px !important;
+        height: 30px !important;
+        background-repeat: no-repeat;
+        display: inline-block;
+    }
+    .fb-arrow-left {
+        background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/fxdCboHHQwb.png);
+        background-position: -58px -26px;
+        background-size: auto;
+        width: 30px;
+        height: 30px;
+        background-repeat: no-repeat;
+        display: inline-block;
+    }
+
+    .circle-fb {
+        scale: 120%;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        opacity: 0.7;
+    }
+    .circle-fb-mb{
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        opacity: 0.7;
+    }
+
+    .circle-fb:hover {
+        opacity: 1;
+        scale: 130%;
+    }
+
+    .rectangle-sec-2:hover{
+        cursor: pointer;
+    }
+
 </style>
 <div class="section_2 position-relative row padding-sec2">
     <div class="side_content col-6 h-100 ">
@@ -274,40 +320,39 @@
 
         <div class="rectangle-dot row mt-5 gx-1 position-absolute rectangle-style-s2 "
              style="">
-            <div class="col-3">
+            <div class="col-3 rectangle-sec-2" id="1">
                 <div class="text-center number fw-bold  text-red first_text mulish-bold">01</div>
                 <div class="rectangle w-100 first_rectangle"></div>
             </div>
-            <div class="col-3">
+            <div class="col-3 rectangle-sec-2" id="2">
                 <div class="text-center number fw-bold text-grey mulish-bold">02</div>
                 <div class="rectangle grey w-100"></div>
             </div>
-            <div class="col-3">
+            <div class="col-3 rectangle-sec-2" id="3">
                 <div class="text-center number fw-bold text-grey mulish-bold">03</div>
                 <div class="rectangle grey w-100"></div>
             </div>
-            <div class="col-3">
+            <div class="col-3 rectangle-sec-2" id="4">
                 <div class="text-center number fw-bold text-grey mulish-bold">04</div>
                 <div class="rectangle  grey w-100"></div>
             </div>
         </div>
     </div>
-    <div class="side_content col-6 row" style="padding: 0 0 5% 8% ;position: relative">
-        <img src="{{asset('images/pic_1.png')}}" alt="" class="img-fluid  side-img col-9 pic_1">
-        <img src="{{asset('images/pic_2.png')}}" alt="" class="img-fluid  side-img col-9 d-none">
-        <img src="{{asset('images/pic_3.png')}}" alt="" class="img-fluid  side-img col-9 d-none">
-        <img src="{{asset('images/pic_4.png')}}" alt="" class="img-fluid  side-img col-9 d-none">
+    <div class="side_content col-6 row" style="padding: 0 0 5% 2% ;position: relative">
+        <img src="{{asset('images/pic_1.png')}}" alt="" class="img-fluid img-pc-sec-2 side-img col-8 pic_1" id="1">
+        <img src="{{asset('images/pic_2.png')}}" alt="" class="img-fluid img-pc-sec-2 side-img col-8 d-none" id="2">
+        <img src="{{asset('images/pic_3.png')}}" alt="" class="img-fluid img-pc-sec-2 side-img col-8 d-none" id="3">
+        <img src="{{asset('images/pic_4.png')}}" alt="" class="img-fluid img-pc-sec-2 side-img col-8 d-none" id="4">
 
-        <div class="col-3 position-relative next_img_content">
+        <div class="col-4 position-relative next_img_content">
             <img src="{{asset('images/pic_2.png')}}" alt="" class="next-img first_img ">
             <img src="{{asset('images/pic_3.png')}}" alt="" class="next-img  d-none">
             <img src="{{asset('images/pic_4.png')}}" alt="" class="next-img d-none">
             <img src="{{asset('images/pic_1.png')}}" alt="" class="next-img  d-none">
 
-            <button class="btn btn-outline position-absolute top-50 start-30 translate-middle next">
-                <img src="{{asset('images/arrow.svg')}}" alt="" style="width:70px"></button>
+            <button class="btn btn-outline position-absolute top-50 start-30 translate-middle next fb-arrow-right circle-fb ">
+            </button>
         </div>
-
     </div>
 </div>
 <div class=" section_2_mobile col-12" style="width: 100% ">
@@ -323,8 +368,8 @@
                  class="next-img d-none">
             <img src="{{asset('images/sec2/s2pic4.png')}}" alt="" style=""
                  class="next-img  d-none last_img">
-            <button class="btn btn-outline position-absolute top-50 start-50 translate-middle prev">
-                <img src="{{asset('images/left-arrow.svg')}}" alt="" style="width: 35px"></button>
+            <button class="btn btn-outline position-absolute top-50  translate-middle prev fb-arrow-left circle-fb-mb" style="margin-left: 75%">
+            </button>
         </div>
         <img src="{{asset('images/sec2/s2pic1.png')}}" alt="" class="img-fluid w-75 side-img pic_1">
         <img src="{{asset('images/sec2/s2pic2.png')}}" alt="" class="img-fluid w-75 side-img d-none">
@@ -340,8 +385,8 @@
                  class="next-img d-none">
             <img src="{{asset('images/pic_1.png')}}" alt="" style=""
                  class="next-img  last_img d-none">
-            <button class="btn btn-outline position-absolute top-50 start-50 translate-middle next">
-                <img src="{{asset('images/arrow.svg')}}" alt="" style="width: 35px"></button>
+            <button class="btn btn-outline position-absolute top-50 translate-middle next fb-arrow-right circle-fb-mb" style="margin-left: 30%">
+            </button>
         </div>
 
     </div>
@@ -430,7 +475,7 @@
             </div>
         </div>
 
-        <div class="rectangle-dot row  mt-5 mb-5 gx-1 d-flex justify-content-center">
+        <div class="rectangle-dot row mt-5 mb-5 gx-1 d-flex justify-content-center">
             <div class="col-3">
                 <div class="text-center number fw-bold first_text text-red mulish-bold">01</div>
                 <div class="rectangle w-100 first_rectangle "></div>
@@ -453,6 +498,23 @@
 
 <script>
     $(document).ready(function () {
+        $('.rectangle-sec-2').click(function() {
+            let idRectangle = $(this).attr("id");
+            let idImgSec2 = $('.img-pc-sec-2:not(.d-none)').attr("id");
+            if (idRectangle > idImgSec2) {
+                let countSec2 =  idRectangle - idImgSec2;
+                for (let i = 0; i < countSec2 ; i++) {
+                    slideToNextImage();
+                }
+            }
+            if (idRectangle < idImgSec2) {
+                let countSec2 =  idImgSec2 - idRectangle;
+                for (let i = 0; i < countSec2 ; i++) {
+                    slideToPrevImage();
+                }
+            }
+        });
+
         $('.next').click(function () {
             console.log('next')
             slideToNextImage();
