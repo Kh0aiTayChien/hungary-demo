@@ -205,7 +205,7 @@
     }
     .fb-arrow-right {
         background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/fxdCboHHQwb.png);
-        background-position: -106px -26px;
+        background-position: -106px -25px;
         background-size: auto;
         width: 30px !important;
         height: 30px !important;
@@ -214,18 +214,18 @@
     }
     .fb-arrow-left {
         background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/fxdCboHHQwb.png);
-        background-position: -58px -26px;
+        background-position: -56px -25px;
         background-size: auto;
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
         background-repeat: no-repeat;
         display: inline-block;
     }
 
     .circle-fb {
         scale: 120%;
-        width: 28px;
-        height: 28px;
+        width:30px;
+        height: 30px;
         border-radius: 50%;
         background-color: rgba(255, 255, 255, 0.5);
         box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
