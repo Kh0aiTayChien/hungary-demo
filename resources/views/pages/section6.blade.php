@@ -208,20 +208,29 @@
     .s6p2-height-m{
       height: 2rem;
     }
+    .top-45{
+        margin-top: 1%;
+    }
 </style>
 
-<div class="section_6 row">
-    <div class="col-6 d-flex align-items-center justify-content-end position-relative mb-4">
-        <img src="{{asset('images/sec6/pic1.png')}}" alt="" class="s6p1-img img-fluid  s6p1-img-first">
-        <img src="{{asset('images/sec6/pic2.png')}}" alt="" class="s6p1-img img-fluid  d-none">
-        <img src="{{asset('images/sec6/pic3.png')}}" alt="" class="s6p1-img img-fluid  d-none">
-        <img src="{{asset('images/sec6/pic4.png')}}" alt="" class="s6p1-img img-fluid  d-none">
-        <img src="{{asset('images/sec6/pic5.png')}}" alt="" class="s6p1-img img-fluid  d-none">
-        <img src="{{asset('images/sec6/pic6.png')}}" alt="" class="s6p1-img img-fluid  s6p1-img-last d-none">
-        <button class="btn btn-outline position-absolute top-50 start-0 start-20 translate-middle prev-6-1">
-            <img src="{{asset('images/left-arrow.svg')}}" alt="" style="width: 70px"></button>
+<div class="section_6 row position-relative">
+<div class="position-absolute top-50">
+    <button class="btn btn-outline start-20 translate-middle prev-6-1 fb-arrow-left circle-fb">
+    </button>
+    <button class="btn btn-outline start-80 translate-middle next-6-1 fb-arrow-right circle-fb">
+    </button>
+</div>
+
+    <div class="col-6 d-flex align-items-center justify-content-end  mb-4">
+        <img src="{{asset('images/sec6/pic1.png')}}" alt="" class="s6p1-img img-fluid  s6p1-img-first" id="1">
+        <img src="{{asset('images/sec6/pic2.png')}}" alt="" class="s6p1-img img-fluid  d-none " id="2">
+        <img src="{{asset('images/sec6/pic3.png')}}" alt="" class="s6p1-img img-fluid  d-none" id="3">
+        <img src="{{asset('images/sec6/pic4.png')}}" alt="" class="s6p1-img img-fluid  d-none" id="4">
+        <img src="{{asset('images/sec6/pic5.png')}}" alt="" class="s6p1-img img-fluid  d-none" id="5">
+        <img src="{{asset('images/sec6/pic6.png')}}" alt="" class="s6p1-img img-fluid  s6p1-img-last d-none" id="6">
+
     </div>
-    <div class="col-6 p-5 position-relative " style="height: 100%; margin-top: 2%">
+    <div class="col-6 p-5  " style="height: 100%; margin-top: 2%">
         <img src="{{asset('images/sec6/header-1.svg')}}" alt="" class="img-fluid header-1 pb-3 sm-image-header pt-5">
         <div class="header-rectangle"></div>
         <div class="text_content_1 text-justify text-white pt-3 mulish-semi " style="width: 70%">
@@ -283,32 +292,36 @@
             </div>
         </div>
         <div class="rectangle-dot row pt-5 gx-1" style="width: 20%; margin-top: 5%">
-            <div class="col-2">
+            <div class="col-2 rectangle-sec-6p1" id="1">
                 <div class="yellow-rectangle w-100 first_rectangle_y"></div>
             </div>
-            <div class="col-2">
+            <div class="col-2 rectangle-sec-6p1" id="2">
                 <div class="yellow-rectangle grey w-100"></div>
             </div>
-            <div class="col-2">
+            <div class="col-2 rectangle-sec-6p1" id="3">
                 <div class="yellow-rectangle grey w-100"></div>
             </div>
-            <div class="col-2">
+            <div class="col-2 rectangle-sec-6p1" id="4">
                 <div class="yellow-rectangle  grey w-100"></div>
             </div>
-            <div class="col-2">
+            <div class="col-2 rectangle-sec-6p1" id="5">
                 <div class="yellow-rectangle grey w-100"></div>
             </div>
-            <div class="col-2">
+            <div class="col-2 rectangle-sec-6p1" id="6">
                 <div class="yellow-rectangle grey w-100 last_rectangle_y"></div>
             </div>
         </div>
-        <button class="btn btn-outline position-absolute top-50 start-80 translate-middle next-6-1 pb-5">
-            <img src="{{asset('images/arrow.svg')}}" alt="" style=" width: 70px"></button>
     </div>
 </div>
 
-<div class="section_6-2 row">
-    <div class="col-6 p-5 position-relative" style="margin-top: 3%">
+<div class="section_6-2 position-relative row">
+    <div class="position-absolute top-50">
+        <button class="btn btn-outline start-20 translate-middle prev-6-2 fb-arrow-left circle-fb">
+        </button>
+        <button class="btn btn-outline start-80 translate-middle next-6-2 fb-arrow-right circle-fb">
+        </button>
+    </div>
+    <div class="col-6 p-5 " style="margin-top: 3%" >
         <div class="d-flex flex-row-reverse pt-5">
             <img src="{{asset('images/sec6/header-2.png')}}" alt="" class="img-fluid header-1 pb-3 ">
         </div>
@@ -356,39 +369,40 @@
                 </div>
             </div>
         </div>
-        <button class="btn btn-outline position-absolute top-50 start-0 start-20 translate-middle prev-6-2">
-            <img src="{{asset('images/left-arrow.svg')}}" alt="" style="width: 70px" class=""></button>
+{{--        <button class="btn btn-outline position-absolute top-50 start-0 start-20 translate-middle prev-6-2">--}}
+{{--            <img src="{{asset('images/left-arrow.svg')}}" alt="" style="width: 70px" class=""></button>--}}
         <div class="d-flex flex-row-reverse mt-5">
             <div class="rectangle-dot row mt-5 gx-1" style="width: 20%; ">
-                <div class="col-2">
+                <div class="col-2 rectangle-sec-6p2" id="1">
                     <div class="rectangle-red-s6  w-100 first-rectangle-6"></div>
                 </div>
-                <div class="col-2">
+                <div class="col-2 rectangle-sec-6p2" id="2">
                     <div class="rectangle-red-s6  grey w-100"></div>
                 </div>
-                <div class="col-2">
+                <div class="col-2 rectangle-sec-6p2" id="3">
                     <div class="rectangle-red-s6  grey w-100"></div>
                 </div>
-                <div class="col-2">
+                <div class="col-2 rectangle-sec-6p2" id="4">
                     <div class="rectangle-red-s6   grey w-100"></div>
                 </div>
-                <div class="col-2">
+                <div class="col-2 rectangle-sec-6p2" id="5">
                     <div class="rectangle-red-s6  grey w-100"></div>
                 </div>
-                <div class="col-2">
+                <div class="col-2 rectangle-sec-6p2" id="6">
                     <div class="rectangle-red-s6  grey w-100 last-rectangle-6"></div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="col-6 d-flex align-items-center justify-content-start position-relative">
-        <img src="{{asset('images/sec6/pic1p2.png')}}" alt="" class="s6p2-img img-fluid  s6p2-img-first">
-        <img src="{{asset('images/sec6/pic2p2.png')}}" alt="" class="s6p2-img img-fluid  d-none">
-        <img src="{{asset('images/sec6/pic3p2.png')}}" alt="" class="s6p2-img img-fluid  d-none">
-        <img src="{{asset('images/sec6/pic4p2.png')}}" alt=""
-             class="s6p2-img img-fluid s6p2-img-last d-none">
-        <button class="btn btn-outline position-absolute top-50 start-84 translate-middle next-6-2">
-            <img src="{{asset('images/arrow.svg')}}" alt="" style="width: 70px;" class=""></button>
+    <div class="col-6 d-flex align-items-center justify-content-start">
+        <img src="{{asset('images/sec6/pic1p2.png')}}" alt="" class="s6p2-img img-fluid  s6p2-img-first" id="1">
+        <img src="{{asset('images/sec6/pic2p2.png')}}" alt="" class="s6p2-img img-fluid  d-none" id="2">
+        <img src="{{asset('images/sec6/pic3p2.png')}}" alt="" class="s6p2-img img-fluid  d-none" id="3">
+        <img src="{{asset('images/sec6/pic2p2.png')}}" alt="" class="s6p2-img img-fluid  d-none" id="4">
+        <img src="{{asset('images/sec6/pic1p2.png')}}" alt="" class="s6p2-img img-fluid  d-none" id="5">
+        <img src="{{asset('images/sec6/pic4p2.png')}}" alt="" class="s6p2-img img-fluid s6p2-img-last d-none" id="6">
+{{--        <button class="btn btn-outline position-absolute top-50 start-84 translate-middle next-6-2">--}}
+{{--            <img src="{{asset('images/arrow.svg')}}" alt="" style="width: 70px;" class=""></button>--}}
     </div>
 
 </div>
@@ -468,7 +482,7 @@
             </div>
         </div>
         <div class="rectangle-dot row pt-5 gx-1 justify-content-center" style="width: 100%;">
-            <div class="col-2">
+            <div class="col-2 ">
                 <div class="yellow-rectangle w-100 first_rectangle_y"></div>
             </div>
             <div class="col-2">
@@ -578,6 +592,22 @@
 </div>
 <script>
     $(document).ready(function () {
+        $('.rectangle-sec-6p1').click(function() {
+            let idRectangleS6p1 = $(this).attr("id");
+            let idImgSec2S6p1 = $('.s6p1-img:not(.d-none)').attr("id");
+            if (idRectangleS6p1 > idImgSec2S6p1) {
+                let countSecS6p1 =  idRectangleS6p1 - idImgSec2S6p1;
+                for (let i = 0; i < countSecS6p1 ; i++) {
+                    s6p1slideToNextImage();
+                }
+            }
+            if (idRectangleS6p1 < idImgSec2S6p1) {
+                let countSecS6p1 =  idImgSec2S6p1 - idRectangleS6p1;
+                for (let i = 0; i < countSecS6p1 ; i++) {
+                    s6p1slideToPrevImage();
+                }
+            }
+        });
         $('.next-6-1').click(function () {
             s6p1slideToNextImage();
         });
@@ -730,6 +760,23 @@
 
 <script>
     $(document).ready(function () {
+
+        $('.rectangle-sec-6p2').click(function() {
+            let idRectangleS6p2 = $(this).attr("id");
+            let idImgSecS6p2 = $('.s6p2-img:not(.d-none)').attr("id");
+            if (idRectangleS6p2 > idImgSecS6p2) {
+                let countSecS6p2 =  idRectangleS6p2 - idImgSecS6p2;
+                for (let i = 0; i < countSecS6p2 ; i++) {
+                    s6p2slideToNextImage();
+                }
+            }
+            if (idRectangleS6p2 < idImgSecS6p2) {
+                let countSecS6p2 =  idImgSecS6p2 - idRectangleS6p2;
+                for (let i = 0; i < countSecS6p2 ; i++) {
+                    s6p2slideToPrevImage();
+                }
+            }
+        });
         $('.next-6-2').click(function () {
             s6p2slideToNextImage();
         });
