@@ -53,8 +53,9 @@
 THẺ TẠM TRƯỚC KHI NHẬN THẺ CHÍNH,
 THẺ TẠM CÓ QUYỀN TƯƠNG ĐƯƠNG THẺ CHÍNH)" transform="translate(3474.511 444.236)" fill="#e7c57e" font-size="16"
                     font-family="Mulish-ExtraBold, Mulish" font-weight="800" letter-spacing="0.025em">
-                    <tspan x="52" y="16" font-size="25">03 THÁNG</tspan>
-                    <tspan y="16" xml:space="preserve" fill="#fff">(KHÁCH HÀNG SẼ ĐƯỢC CẤP </tspan>
+                    <tspan x="52" y="16" font-size="25">03 </tspan>
+                    <tspan y="16" font-size="16">THÁNG</tspan>
+                    <tspan y="16" xml:space="preserve" fill="#fff"> (KHÁCH HÀNG SẼ ĐƯỢC CẤP </tspan>
                     <tspan fill="#fff">
                         <tspan x="72.738" y="44">THẺ TẠM TRƯỚC KHI NHẬN THẺ CHÍNH,</tspan>
                         <tspan x="35.178" y="72">THẺ TẠM CÓ QUYỀN TƯƠNG ĐƯƠNG THẺ CHÍNH)</tspan>

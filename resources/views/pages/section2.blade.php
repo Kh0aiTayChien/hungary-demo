@@ -310,7 +310,7 @@
 
     </div>
 </div>
-<div class=" section_2_mobile col-12" style="width: 100% ">
+<div class=" section_2_mobile col-12" style="width: 100% " id="sec2">
     <img src="{{asset('images/question_mobile.svg')}}" alt="" class="img-fluid  pt-4 ps-4 pe-4 ">
     <div class="d-flex justify-content-center pt-3 col-12">
 

@@ -27,20 +27,23 @@
     </nav>
     <nav>
         <ul class="hide iconmb">
-            <li class="contact">
-                <a href="https://www.facebook.com/profile.php?id=100089937085400" target="_blank">
-                    <img class="iconfb" src="{{asset('images/fbicon.svg')}}" alt="fb link">
-                </a>
+            <li class="contact linetop">
+                <a href="#sec2" class="linktext"><p>VỀ BĐS CƯ TRÚ</p></a>
             </li>
-            <li class="contact">
-                <a href="https://www.tiktok.com/@cen_global.official?_t=8bo75BiH9DV&_r=1" target="_blank">
-                    <img class="icontiktok" src="{{asset('images/tiktokicon.svg')}}">
-                </a>
+            <li class="contact linemenu">
+                <a href="#sec3" class="linktext"><p>VỀ CHƯƠNG TRÌNH</p></a>
             </li>
-            <li class="contact">
-                <a href="https://zalo.me/0965691688" target="_blank">
-                    <img class="iconzalo" src="{{asset('images/zaloicon.svg')}}">
-                </a>
+            <li class="contact linemenu">
+                <a href="#sec5" class="linktext"><p>TỔNG QUAN BĐS HUNGARY</p></a>
+            </li>
+            <li class="contact linemenu">
+                <a href="#sec6" class="linktext"><p>LỢI ÍCH VÀ QUYỀN LỢI</p></a>
+            </li>
+            <li class="contact linemenu">
+                <a href="#sec9" class="linktext"><p>ĐIỀU KIỆN VÀ QUY TRÌNH</p></a>
+            </li>
+            <li class="contact linemenu">
+                <a href="#addInformationmb" class="linktext"><p>LIÊN HỆ</p></a>
             </li>
         </ul>
     </nav>
@@ -64,16 +67,30 @@
     <div class="button1Pospc">
         <button class="button1" onclick="scrollToElement('addInformationpc')">
             <img src="{{asset('images/Group 401.svg')}}" class="buttonIMG">
+{{--            <p class="buttontest">NHẬN THÔNG TIN</p>--}}
         </button>
     </div>
     <div class="button1Posmb">
         <button class="button1" onclick="scrollToElement('addInformationmb')">
-            <img src="{{asset('images/Group 401.svg')}}" class="buttonIMG">
+{{--            <img src="{{asset('images/Group 401.svg')}}" class="buttonIMG">--}}
+            <p class="buttontest">NHẬN THÔNG TIN</p>
         </button>
     </div>
+
     <div>
-        <a href="tel:0965691688" class="phone">
+        <a href="https://www.facebook.com/profile.php?id=100089937085400" target="_blank">
+            <img class="iconfb iconmb" src="{{asset('images/fbicon.svg')}}" alt="fb link">
+        </a>
+        <a href="https://www.tiktok.com/@cen_global.official?_t=8bo75BiH9DV&_r=1" target="_blank">
+            <img class="icontiktok iconmb" src="{{asset('images/tiktokicon.svg')}}">
+        </a>
+        <a href="https://zalo.me/0965691688" target="_blank">
+            <img class="iconzalo iconmb" src="{{asset('images/zaloicon.svg')}}">
+        </a>
+        <a href="tel:0965691688" class="phone contactIcon">
             <img class="phoneNumber" src="{{asset('images/phoneNumber.svg')}}">
+            {{--            <button class="phoneNumber" onclick="window.location.href='tel:0353973355'"><p class="phoneText">--}}
+            {{--                    0353973355</p></button>--}}
             <img class="phoneIcon" src="{{asset('images/phoneIcon.svg')}}">
         </a>
     </div>
@@ -116,6 +133,7 @@
         // });
 
     });
+
     function scrollToElement(addInformationpc) {
         var element = $("#" + addInformationpc);
         if (element.length) {
@@ -124,6 +142,7 @@
             }, 200);
         }
     }
+
     function scrollToSection(addInformationmb) {
         var section = $("#" + addInformationmb);
         if (section.length) {
@@ -132,4 +151,5 @@
             }, 200);
         }
     }
+
 </script>

@@ -1,5 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1139.412" height="377.309"
      viewBox="0 0 1139.412 377.309">
+    <style>
+        @font-face {
+        font-family: 'Mulish-SemiBold';
+        src: url("/fonts/Mulish-SemiBold.ttf");
+        }
+
+        text {
+        font-family: 'Mulish-SemiBold', sans-serif;
+        }
+    </style>
     <defs>
         <clipPath id="clip-path">
             <path id="Path_37" data-name="Path 37"
@@ -40,9 +50,10 @@
                 <g id="Group_49" data-name="Group 49">
                     <text id="TÀI_KHOẢN_NH_VIỆT_NAM:_400.000_EUR_KHOẢNG_10_TỶ_VNĐ_" data-name="TÀI KHOẢN NH VIỆT NAM: 400.000 EUR
 (KHOẢNG 10 TỶ VNĐ)" transform="translate(1445.116 1293.06)" fill="#fff" font-size="31"
-                          font-family="Mulish-ExtraBold, Mulish" font-weight="800" letter-spacing="0.05em">
+                          font-weight="800" letter-spacing="0.05em">
                         <tspan x="120.371" y="31">TÀI KHOẢN NH VIỆT NAM:</tspan>
-                        <tspan y="31" fill="#e7c57e" font-size="45">400.000 EUR</tspan>
+                        <tspan y="31" fill="#e7c57e" font-size="45"> 400.000 </tspan>
+                        <tspan y="31" fill="#e7c57e" font-size="31">EUR</tspan>
                         <tspan x="325.715" y="87.873">(KHOẢNG 10 TỶ VNĐ)</tspan>
                     </text>
                 </g>
