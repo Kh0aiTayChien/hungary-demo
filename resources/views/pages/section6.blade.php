@@ -215,9 +215,11 @@
 
 <div class="section_6 row position-relative">
 <div class="position-absolute top-50">
-    <button class="btn btn-outline start-20 translate-middle prev-6-1 fb-arrow-left circle-fb">
+    <button class="btn btn-outline start-20 translate-middle prev-6-1 circle-fb relative">
+        <div class="fb-arrow-left absolute"></div>
     </button>
-    <button class="btn btn-outline start-80 translate-middle next-6-1 fb-arrow-right circle-fb">
+    <button class="btn btn-outline start-80 translate-middle next-6-1 circle-fb relative">
+        <div class="fb-arrow-right absolute"></div>
     </button>
 </div>
 
@@ -316,9 +318,11 @@
 
 <div class="section_6-2 position-relative row">
     <div class="position-absolute top-50">
-        <button class="btn btn-outline start-20 translate-middle prev-6-2 fb-arrow-left circle-fb">
+        <button class="btn btn-outline start-20 translate-middle prev-6-2 circle-fb">
+            <div class="fb-arrow-left absolute"></div>
         </button>
-        <button class="btn btn-outline start-80 translate-middle next-6-2 fb-arrow-right circle-fb">
+        <button class="btn btn-outline start-80 translate-middle next-6-2 circle-fb">
+            <div class="fb-arrow-right absolute"></div>
         </button>
     </div>
     <div class="col-6 p-5 " style="margin-top: 3%" >
@@ -408,15 +412,23 @@
 </div>
 
 <div class="section_6-mobile" id="sec6">
-    <div class="container-fluid p-5 position-relative justify-content-center">
+    <div class="container-fluid p-5 position-relative justify-content-center ">
+        <div class="position-absolute top-50 w-100" style="margin-left: -10%">
+            <button class="btn btn-outline prev-6-1 circle-fb" >
+                <div class="fb-arrow-left "></div>
+            </button>
+            <button class="btn btn-outline  next-6-1 circle-fb" style="margin-left: 80%">
+                <div class="fb-arrow-right "></div>
+            </button>
+        </div>
         <img src="{{asset('images/sec6/header-1.svg')}}" alt="" class="img-fluid header-1 pb-3 sm-image-header-mobile">
         <div class="header-rectangle"></div>
         <div class="text_content_1 text-justify text-white pt-3 mulish-semi font-15" style="width: 100%">
             Chương trình đầu tư BĐS lấy thẻ cư trú với chi phí đầu tư hợp lí,
             đảm bảo an toàn với chính sách NHẬN THẺ CƯ TRÚ TRƯỚC – MUA BẤT ĐỘNG SẢN SAU
         </div>
-        <button class="btn btn-outline position-absolute top-50 start-0 start-5 translate-middle prev-6-1">
-            <img src="{{asset('images/left-arrow.svg')}}" alt="" style="height: 50px"></button>
+{{--        <button class="btn btn-outline position-absolute top-50 start-0 start-5 translate-middle prev-6-1">--}}
+{{--            <img src="{{asset('images/left-arrow.svg')}}" alt="" style="height: 50px"></button>--}}
         <div class="d-flex align-items-center justify-content-end mt-4">
             <img src="{{asset('images/sec6/pic1.png')}}" alt="" class="s6p1-img img-fluid  s6p1-img-first">
             <img src="{{asset('images/sec6/pic2.png')}}" alt="" class="s6p1-img img-fluid  d-none">
@@ -425,8 +437,8 @@
             <img src="{{asset('images/sec6/pic5.png')}}" alt="" class="s6p1-img img-fluid  d-none">
             <img src="{{asset('images/sec6/pic6.png')}}" alt="" class="s6p1-img img-fluid s6p1-img-last d-none">
         </div>
-        <button class="btn btn-outline position-absolute top-50 start-85 translate-middle next-6-1">
-            <img src="{{asset('images/arrow.svg')}}" alt="" style="height: 50px"></button>
+{{--        <button class="btn btn-outline position-absolute top-50 start-85 translate-middle next-6-1">--}}
+{{--            <img src="{{asset('images/arrow.svg')}}" alt="" style="height: 50px"></button>--}}
         <div class="s6p1-content  first_content_s6 text-center ">
             <div class=" text-yellow header-1 mulish-bold ">
                 MỨC GIÁ HỢP LÝ
@@ -505,6 +517,14 @@
 </div>
 <div class="section_6-2-mobile">
     <div class="container-fluid p-5 position-relative justify-content-center">
+        <div class="position-absolute w-100" style="margin-left: -10%; margin-top: 55%">
+            <button class="btn btn-outline prev-6-2 circle-fb" >
+                <div class="fb-arrow-left "></div>
+            </button>
+            <button class="btn btn-outline  next-6-2 circle-fb" style="margin-left: 80%">
+                <div class="fb-arrow-right "></div>
+            </button>
+        </div>
         <div class="d-flex flex-row-reverse ">
             <img src="{{asset('images/sec6/header-2.png')}}" alt=""
                  class="img-fluid header-1 pb-3 sm-image-header-mobile">
@@ -512,18 +532,20 @@
         <div class="d-flex flex-row-reverse">
             <div class="header-rectangle"></div>
         </div>
-        <button class="btn btn-outline position-absolute top-30 start-0 start-20 translate-middle prev-6-2">
-            <img src="{{asset('images/left-arrow.svg')}}" alt="" class="" style="height: 50px">
-        </button>
+{{--        <button class="btn btn-outline position-absolute top-30 start-0 start-20 translate-middle prev-6-2">--}}
+{{--            <img src="{{asset('images/left-arrow.svg')}}" alt="" class="" style="height: 50px">--}}
+{{--        </button>--}}
         <div class="d-flex align-items-center justify-content-end mt-4">
             <img src="{{asset('images/sec6/pic1p2.png')}}" alt="" class="s6p2-img img-fluid  s6p2-img-first">
             <img src="{{asset('images/sec6/pic2p2.png')}}" alt="" class="s6p2-img img-fluid  d-none">
             <img src="{{asset('images/sec6/pic3p2.png')}}" alt="" class="s6p2-img img-fluid  d-none">
+            <img src="{{asset('images/sec6/pic2p2.png')}}" alt="" class="s6p2-img img-fluid  d-none">
+            <img src="{{asset('images/sec6/pic1p2.png')}}" alt="" class="s6p2-img img-fluid  d-none">
             <img src="{{asset('images/sec6/pic4p2.png')}}" alt="" class="s6p2-img img-fluid s6p2-img-last d-none">
         </div>
-        <button class="btn btn-outline position-absolute top-10 start-84 translate-middle next-6-2">
-            <img src="{{asset('images/arrow.svg')}}" alt="" class="" style="width: 50px">
-        </button>
+{{--        <button class="btn btn-outline position-absolute top-10 start-84 translate-middle next-6-2 ">--}}
+{{--            <img src="{{asset('images/arrow.svg')}}" alt="" class="" style="width: 50px">--}}
+{{--        </button>--}}
         <div class="s6p2-content s6p2-first-content text-center">
             <div class="  header-1 mulish-bold" style="height: 2rem">
                 1 NGƯỜi ĐẦU TƯ - 3 THẾ HỆ CÙNG HƯỞNG
