@@ -10,12 +10,12 @@
 </div>
 
 <div class="sec9mb" id="sec9">
-    <img src="{{asset('images/Group 62(1).svg')}}" class="headersec9mb">
+    <object data="{{asset('images/Group 62(1).svg')}}" class="headersec9mb"></object>
     <img src="{{asset('images/Group 591.svg')}}" class="header2sec9mb">
     <img src="{{asset('images/Group 671.svg')}}" class="header3sec9mb">
     <img src="{{asset('images/Group 52.svg')}}" class="header3sec9mb">
     <object data="{{asset('images/Group 62.svg')}}" class="header4sec9mb"></object>
-    <object data="{{asset('images/Group 63 (1).svg')}}" class="line1sec9mb"></object>
+    <object data="{{asset('images/Group 63 (1).svg')}}" class="line1sec9mb linetopsec9mb"></object>
     <p class="testlinesec9mb">
         Nhà đầu tư kí hợp đồng và đặt cọc tiền làm thẻ
     </p>

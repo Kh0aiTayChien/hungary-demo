@@ -30,9 +30,6 @@
         src: url("/fonts/Mulish-SemiBold.ttf");
         }
 
-<!--        text {-->
-<!--        font-family: 'Mulish-SemiBold', sans-serif;-->
-<!--        }-->
     </style>
     <g id="Group_16" data-name="Group 16" transform="translate(-2725.511 -1870.185)">
         <rect id="Rectangle_7" data-name="Rectangle 7" width="450.657" height="106.605" rx="9.884"
@@ -42,8 +39,8 @@
             <rect id="Rectangle_8" data-name="Rectangle 8" width="450.657" height="106.605" rx="9.884"
                   transform="translate(2729.511 1874.185)" fill="#e7c57e"/>
             <text id="_096.569.1688" data-name="096.569.1688" transform="translate(2821.164 1946.672)"
-                  font-size="58" font-family="Mulish-SemiBold, Mulish" font-weight="bold" letter-spacing="0.05em">
-                <tspan x="-65" y="0">096.569.1688</tspan>
+                  font-size="53" font-family="Mulish-SemiBold, Mulish" font-weight="bold" letter-spacing="0.05em">
+                <tspan x="-55" y="0">096.569.1688</tspan>
             </text>
         </g>
     </g>
