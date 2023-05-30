@@ -25,7 +25,7 @@
             </li>
             <li class="contact">
                 <a href="# ">
-                    <img class="iconup" src="{{asset('images/ButtonUp.svg')}}">
+                    <img class="iconup" src="{{asset('images/buttonUp.svg')}}">
                 </a>
             </li>
         </ul>
