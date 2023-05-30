@@ -87,7 +87,7 @@
 
 .lineSec4mb {
     display: none;
-}
+}class="text_content_4 text-justify mt-2"
 
 @media screen and (max-aspect-ratio: 3/2) {
     .lineRight {
