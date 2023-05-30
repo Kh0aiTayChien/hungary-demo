@@ -157,6 +157,15 @@ body {
     z-index: 9999;
 }
 
+.iconup {
+    bottom: 140px;
+    right: 2.5%;
+    position: fixed;
+    width: 2vw;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    z-index: 9999;
+}
+
 .phone {
     text-decoration: none;
     list-style-type: none;
@@ -169,10 +178,12 @@ body {
 
 .phoneNumber {
     width: 12vw;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
 }
 
 .phoneIcon {
     width: 4vw;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
 }
 
 ul.hide {
@@ -211,7 +222,7 @@ ul.iconmb {
     }
     .introName {
         width: 60vw;
-        margin-top: 3%;
+        margin-top: 5%;
     }
     .slogan1 {
         width: 62vw;
@@ -239,6 +250,9 @@ ul.iconmb {
     }
     .iconzalo {
         margin-top: 32%;
+    }
+    .iconup {
+        bottom: 110px;
     }
 }
 
@@ -338,7 +352,7 @@ ul.iconmb {
 
     .sloganmb {
         display: block;
-        margin-top: 50%;
+        margin-top: 40%;
     }
 
     .namemb {
@@ -368,7 +382,7 @@ ul.iconmb {
         justify-content: center;
     }
     .button1 {
-        margin-top: 8%;
+        margin-top: 15%;
         width: 55vw;
         height: 6vh;
     }
