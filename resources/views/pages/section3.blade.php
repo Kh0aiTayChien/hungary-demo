@@ -2,10 +2,10 @@
     <div class="sec3ImgPc">
         <img src="{{asset('images/Group 70.svg')}}" class="sec3ImgPcLeft col-12">
     </div>
-    <div class="sec3ImgPc">
-        <img src="{{asset('images/headersec3.png')}}" class="sec3ImgPRight1"><br>
-        <img src="{{asset('images/headersec3(1).png')}}" class="sec3ImgPRight2">
-        <ul class="textsec3">
+    <div class="sec3ImgPc ">
+        <img src="{{asset('images/headersec3.png')}}" class="sec3ImgPRight1 aniUtil_dramatic ani_slideInDown"><br>
+        <img src="{{asset('images/headersec3(1).png')}}" class="sec3ImgPRight2 aniUtil_dramatic ani_slideInDown">
+        <ul class="textsec3 aniUtil_dramatic ani_slideInRight">
             <li>
                 <p class="textlinesec3">
                     Đầu tư cư trú Hungary đang là chương trình duy nhất cho phép Nhà đầu tư
@@ -32,27 +32,27 @@
     </div>
 </div>
 
-<div class="sec3Mb" id="sec3">
-    <img src="{{asset('images/headersec3mb.png')}}" class="sec3ImgPRight1mb">
-    <img src="{{asset('images/headersec3mb(1).png')}}" class="sec3ImgPRight2mb">
-    <img src="{{asset('images/Group 49.svg')}}" class="sec3Imgmb">
+<div class="sec3Mb " id="sec3">
+    <img src="{{asset('images/headersec3mb.png')}}" class="sec3ImgPRight1mb aniUtil_dramatic ani_backInDown">
+    <img src="{{asset('images/headersec3mb(1).png')}}" class="sec3ImgPRight2mb aniUtil_dramatic ani_backInDown">
+    <img src="{{asset('images/Group 49.svg')}}" class="sec3Imgmb aniUtil_dramatic ani_backInDown">
     <ul class="textsec3mb">
         <li>
-            <p class="textlinesec3mb">
+            <p class="textlinesec3mb aniUtil_dramatic ani_backInRight">
                 Đầu tư cư trú Hungary đang là chương trình duy nhất cho phép Nhà đầu tư
                 nhận thẻ cư trú trước - đầu tư bất động sản bất kì sau, đảm bảo an toàn và
                 quyền lợi tối đa cho nhà đầu tư.
             </p>
         </li>
         <li>
-            <p class="textlinesec3mb">
+            <p class="textlinesec3mb aniUtil_dramatic ani_backInRight">
                 Với tổng chi phí tối thiểu 240.000 EUR bao gồm thẻ cư trú và đầu tư bất
                 động sản, đây là chương trình cư trú có mức giá THẤP NHẤT - thủ tục ĐƠN
                 GIẢN NHẤT - xử lý hồ sơ NHANH NHẤT trên thị trường Châu Âu.
             </p>
         </li>
         <li>
-            <p class="textlinesec3mb">
+            <p class="textlinesec3mb aniUtil_dramatic ani_backInRight">
                 Chỉ với 90 ngày xét duyệt, nhà đầu tư đã nắm trong tay tấm thẻ cư trú Hun-
                 gary quyền lực, sẵn sàng sở hữu ngay bất động sản giữa lòng thủ đô Buda-
                 pest hoa lệ và cùng gia đình tận hưởng đặc quyền của công dân toàn cầu.

@@ -1,4 +1,4 @@
-<div class="section1">
+<div class="section1" id=" ">
     <div class="bannerSec1">
         <img src="{{asset('images/bannerSec1.png')}}" class="backGround1">
     </div>
@@ -10,17 +10,22 @@
         <ul class="iconpc">
             <li class="contact">
                 <a href="https://www.facebook.com/profile.php?id=100089937085400" target="_blank">
-                    <img class="iconfb" src="{{asset('images/fb.png')}}" alt="fb link">
+                    <img class="iconfb animate__animated animate__backInRight" src="{{asset('images/fb.png')}}" alt="fb link">
                 </a>
             </li>
             <li class="contact">
                 <a href="https://www.tiktok.com/@cen_global.official?_t=8bo75BiH9DV&_r=1" target="_blank">
-                    <img class="icontiktok" src="{{asset('images/tiktokicon.svg')}}">
+                    <img class="icontiktok animate__animated animate__backInRight" src="{{asset('images/tiktokicon.svg')}}">
                 </a>
             </li>
             <li class="contact">
                 <a href="https://zalo.me/0965691688" target="_blank">
-                    <img class="iconzalo" src="{{asset('images/zaloicon.svg')}}">
+                    <img class="iconzalo animate__animated animate__backInRight" src="{{asset('images/zaloicon.svg')}}">
+                </a>
+            </li>
+            <li class="contact">
+                <a href="# ">
+                    <img class="iconup" src="{{asset('images/ButtonUp.svg')}}">
                 </a>
             </li>
         </ul>
@@ -48,13 +53,13 @@
         </ul>
     </nav>
     <div class="name">
-        <img src="{{asset('images/introName.png')}}" class="introName">
+        <img src="{{asset('images/introName.png')}}" class="introName animate__animated animate__slideInDown">
     </div>
     <div class="line1">
-        <img src="{{asset('images/slogan1.png')}}" class="slogan1">
+        <img src="{{asset('images/slogan1.png')}}" class="slogan1 animate__animated animate__slideInDown">
     </div>
     <div class="line2">
-        <img src="{{asset('images/slogan2.png')}}" class="slogan2">
+        <img src="{{asset('images/slogan2.png')}}" class="slogan2 animate__animated animate__slideInDown">
     </div>
     <div class="sloganmb">
         <div class="namemb">
@@ -79,15 +84,15 @@
 
     <div>
         <a href="https://www.facebook.com/profile.php?id=100089937085400" target="_blank">
-            <img class="iconfb iconmb" src="{{asset('images/fbicon.svg')}}" alt="fb link">
+            <img class="iconfb iconmb animate__animated animate__backInRight" src="{{asset('images/fbicon.svg')}}" alt="fb link">
         </a>
         <a href="https://www.tiktok.com/@cen_global.official?_t=8bo75BiH9DV&_r=1" target="_blank">
-            <img class="icontiktok iconmb" src="{{asset('images/tiktokicon.svg')}}">
+            <img class="icontiktok iconmb animate__animated animate__backInRight" src="{{asset('images/tiktokicon.svg')}}">
         </a>
         <a href="https://zalo.me/0965691688" target="_blank">
-            <img class="iconzalo iconmb" src="{{asset('images/zaloicon.svg')}}">
+            <img class="iconzalo iconmb animate__animated animate__backInRight" src="{{asset('images/zaloicon.svg')}}">
         </a>
-        <a href="tel:0965691688" class="phone contactIcon">
+        <a href="tel:0965691688" class="phone contactIcon animate__animated animate__backInLeft">
             <img class="phoneNumber" src="{{asset('images/phoneNumber.svg')}}">
             {{--            <button class="phoneNumber" onclick="window.location.href='tel:0353973355'"><p class="phoneText">--}}
             {{--                    0353973355</p></button>--}}
