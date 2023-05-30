@@ -26,8 +26,9 @@
         margin-left: 80%
     }
     .start-20 {
-        margin-left: 8%
+        margin-left: 7%
     }
+
     .top-30 {
         margin-top: 35%;
     }
@@ -214,16 +215,16 @@
 </style>
 
 <div class="section_6 row position-relative">
-<div class="position-absolute top-50">
-    <button class="btn btn-outline start-20 translate-middle prev-6-1 circle-fb relative">
-        <div class="fb-arrow-left absolute"></div>
+<div class="position-absolute top-50 " style="z-index: 999;">
+    <button class="btn btn-outline start-20 translate-middle prev-6-1  ">
+        <img src="{{asset('images/circle-l.png')}}" alt="" style="height: 3.5rem">
     </button>
-    <button class="btn btn-outline start-80 translate-middle next-6-1 circle-fb relative">
-        <div class="fb-arrow-right absolute"></div>
+    <button class="btn btn-outline start-80 translate-middle next-6-1 ">
+        <img src="{{asset('images/circle-r.png')}}" alt="" style="height: 3.5rem">
     </button>
 </div>
 
-    <div class="col-6 d-flex align-items-center justify-content-end  mb-4">
+    <div class="col-6 d-flex align-items-center justify-content-end  mb-4 ani_fadeInLeft">
         <img src="{{asset('images/sec6/pic1.png')}}" alt="" class="s6p1-img img-fluid  s6p1-img-first" id="1">
         <img src="{{asset('images/sec6/pic2.png')}}" alt="" class="s6p1-img img-fluid  d-none " id="2">
         <img src="{{asset('images/sec6/pic3.png')}}" alt="" class="s6p1-img img-fluid  d-none" id="3">
@@ -232,8 +233,8 @@
         <img src="{{asset('images/sec6/pic6.png')}}" alt="" class="s6p1-img img-fluid  s6p1-img-last d-none" id="6">
 
     </div>
-    <div class="col-6 p-5  " style="height: 100%; margin-top: 2%">
-        <img src="{{asset('images/sec6/header-1.svg')}}" alt="" class="img-fluid header-1 pb-3 sm-image-header pt-5">
+    <div class="col-6 p-5  " style="height: 100%; margin-top: 2%" class="">
+        <img src="{{asset('images/sec6/header-1.svg')}}" alt="" class="img-fluid header-1 pb-3 sm-image-header pt-5 ani_slideInRight">
         <div class="header-rectangle"></div>
         <div class="text_content_1 text-justify text-white pt-3 mulish-semi " style="width: 70%">
             Chương trình đầu tư BĐS lấy thẻ cư trú với chi phí đầu tư hợp lí,
@@ -317,16 +318,16 @@
 </div>
 
 <div class="section_6-2 position-relative row">
-    <div class="position-absolute top-50">
-        <button class="btn btn-outline start-20 translate-middle prev-6-2 circle-fb">
-            <div class="fb-arrow-left absolute"></div>
+    <div class="position-absolute top-50" style="z-index: 999;">
+        <button class="btn btn-outline start-20 translate-middle prev-6-2  ">
+            <img src="{{asset('images/circle-l.png')}}" alt="" style="height: 3.5rem">
         </button>
-        <button class="btn btn-outline start-80 translate-middle next-6-2 circle-fb">
-            <div class="fb-arrow-right absolute"></div>
+        <button class="btn btn-outline start-80 translate-middle next-6-2 ">
+            <img src="{{asset('images/circle-r.png')}}" alt="" style="height: 3.5rem; ">
         </button>
     </div>
     <div class="col-6 p-5 " style="margin-top: 3%" >
-        <div class="d-flex flex-row-reverse pt-5">
+        <div class="d-flex flex-row-reverse pt-5 ani_slideInLeft">
             <img src="{{asset('images/sec6/header-2.png')}}" alt="" class="img-fluid header-1 pb-3 ">
         </div>
         <div class="d-flex flex-row-reverse">
@@ -398,7 +399,7 @@
             </div>
         </div>
     </div>
-    <div class="col-6 d-flex align-items-center justify-content-start">
+    <div class="col-6 d-flex align-items-center justify-content-start ani_slideInRight">
         <img src="{{asset('images/sec6/pic1p2.png')}}" alt="" class="s6p2-img img-fluid  s6p2-img-first" id="1">
         <img src="{{asset('images/sec6/pic2p2.png')}}" alt="" class="s6p2-img img-fluid  d-none" id="2">
         <img src="{{asset('images/sec6/pic3p2.png')}}" alt="" class="s6p2-img img-fluid  d-none" id="3">
@@ -413,23 +414,25 @@
 
 <div class="section_6-mobile" id="sec6">
     <div class="container-fluid p-5 position-relative justify-content-center ">
-        <div class="position-absolute top-50 w-100" style="margin-left: -10%">
-            <button class="btn btn-outline prev-6-1 circle-fb" >
-                <div class="fb-arrow-left "></div>
+        <div class="position-absolute top-50 w-100 d-flex flex-nowrap justify-content-between" style="margin-left: -10%">
+            <button class="btn btn-outline prev-6-1 position-relative" style="margin-left: 1%">
+                <img src="{{asset('images/circle-l.png')}}" alt="" style="height: 2.5rem; margin-left: 20%"
+                     class="position-absolute top-50 translate-middle">
             </button>
-            <button class="btn btn-outline  next-6-1 circle-fb" style="margin-left: 80%">
-                <div class="fb-arrow-right "></div>
+            <button class="btn btn-outline next-6-1 position-relative" style="margin-right: 10%">
+                <img src="{{asset('images/circle-r.png')}}" alt="" style="height: 2.7rem; margin-right: 20%"
+                     class="position-absolute top-50 start-100 translate-middle">
             </button>
         </div>
-        <img src="{{asset('images/sec6/header-1.svg')}}" alt="" class="img-fluid header-1 pb-3 sm-image-header-mobile">
+        <img src="{{asset('images/sec6/header-1.svg')}}" alt="" class="img-fluid header-1 pb-3 sm-image-header-mobile ani_slideInDown">
         <div class="header-rectangle"></div>
-        <div class="text_content_1 text-justify text-white pt-3 mulish-semi font-15" style="width: 100%">
+        <div class="text_content_1 text-justify text-white pt-3 mulish-semi font-15 ani_slideInLeft" style="width: 100%">
             Chương trình đầu tư BĐS lấy thẻ cư trú với chi phí đầu tư hợp lí,
             đảm bảo an toàn với chính sách NHẬN THẺ CƯ TRÚ TRƯỚC – MUA BẤT ĐỘNG SẢN SAU
         </div>
 {{--        <button class="btn btn-outline position-absolute top-50 start-0 start-5 translate-middle prev-6-1">--}}
 {{--            <img src="{{asset('images/left-arrow.svg')}}" alt="" style="height: 50px"></button>--}}
-        <div class="d-flex align-items-center justify-content-end mt-4">
+        <div class="d-flex align-items-center justify-content-end mt-4 ani_slideInRight">
             <img src="{{asset('images/sec6/pic1.png')}}" alt="" class="s6p1-img img-fluid  s6p1-img-first">
             <img src="{{asset('images/sec6/pic2.png')}}" alt="" class="s6p1-img img-fluid  d-none">
             <img src="{{asset('images/sec6/pic3.png')}}" alt="" class="s6p1-img img-fluid  d-none">
@@ -517,17 +520,19 @@
 </div>
 <div class="section_6-2-mobile">
     <div class="container-fluid p-5 position-relative justify-content-center">
-        <div class="position-absolute w-100" style="margin-left: -10%; margin-top: 55%">
-            <button class="btn btn-outline prev-6-2 circle-fb" >
-                <div class="fb-arrow-left "></div>
+        <div class="position-absolute top-50 w-100 d-flex flex-nowrap justify-content-between" style="margin-left: -10%">
+            <button class="btn btn-outline prev-6-2 position-relative" style="margin-left: 1%">
+                <img src="{{asset('images/circle-l.png')}}" alt="" style="height: 2.5rem; margin-left: 20%"
+                     class="position-absolute top-50 translate-middle">
             </button>
-            <button class="btn btn-outline  next-6-2 circle-fb" style="margin-left: 80%">
-                <div class="fb-arrow-right "></div>
+            <button class="btn btn-outline next-6-2 position-relative" style="margin-right: 10%">
+                <img src="{{asset('images/circle-r.png')}}" alt="" style="height: 2.7rem; margin-right: 10%"
+                     class="position-absolute top-50 start-100 translate-middle">
             </button>
         </div>
         <div class="d-flex flex-row-reverse ">
             <img src="{{asset('images/sec6/header-2.png')}}" alt=""
-                 class="img-fluid header-1 pb-3 sm-image-header-mobile">
+                 class="img-fluid header-1 pb-3 sm-image-header-mobile ani_slideInDown">
         </div>
         <div class="d-flex flex-row-reverse">
             <div class="header-rectangle"></div>
@@ -535,7 +540,7 @@
 {{--        <button class="btn btn-outline position-absolute top-30 start-0 start-20 translate-middle prev-6-2">--}}
 {{--            <img src="{{asset('images/left-arrow.svg')}}" alt="" class="" style="height: 50px">--}}
 {{--        </button>--}}
-        <div class="d-flex align-items-center justify-content-end mt-4">
+        <div class="d-flex align-items-center justify-content-end mt-4 ani_slideInLeft">
             <img src="{{asset('images/sec6/pic1p2.png')}}" alt="" class="s6p2-img img-fluid  s6p2-img-first">
             <img src="{{asset('images/sec6/pic2p2.png')}}" alt="" class="s6p2-img img-fluid  d-none">
             <img src="{{asset('images/sec6/pic3p2.png')}}" alt="" class="s6p2-img img-fluid  d-none">
