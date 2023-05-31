@@ -29,32 +29,32 @@
 
 <div class="sec5mb" id="sec5">
     <img src="{{asset('images/Group 59.png')}}" class="topbannersec5mb">
-    <img src="{{asset('images/Group 13.png')}}" class="tongquanmb aniUtil_dramatic ani_backInDown">
+    <img src="{{asset('images/Group 13.png')}}" class="tongquanmb ">
     <div class="line1sec5mb">
-        <div class="line1tongquanmb aniUtil_dramatic ani_slideInRight">
+        <div class="line1tongquanmb  ">
             <object data="{{asset('images/Group 124.svg')}}" class="line1dot1mb"></object>
             <object data="{{asset('images/Group 125.svg')}}" class="line1dot12mb"></object>
         </div>
-        <div class="line2tongquanmb aniUtil_dramatic ani_slideInLeft">
+        <div class="line2tongquanmb  ">
             <object data="{{asset('images/Group 126.svg')}}" class="line2dot1mb"></object>
             <object data="{{asset('images/Group 127.svg')}}" class="line2dot12mb"></object>
         </div>
-        <div class="line3tongquanmb aniUtil_dramatic ani_slideInRight">
+        <div class="line3tongquanmb  ">
             <object data="{{asset('images/Group 128.svg')}}" class="line3dot1mb"></object>
             <object data="{{asset('images/Group 129.svg')}}" class="line3dot12mb"></object>
             <br>
             <object data="{{asset('images/Group 131.svg')}}" class="line3dot123mb"></object>
         </div>
     </div>
-    <img src="{{asset('images/Group 29.png')}}" class="tongquan2mb aniUtil_dramatic ani_backInDown">
+    <img src="{{asset('images/Group 29.png')}}" class="tongquan2mb  ">
     <div class="line2sec5mb">
-        <object data="{{asset('images/Group 132.svg')}}" class="line4dot1mbtop aniUtil_dramatic ani_fadeIn"></object>
-        <object data="{{asset('images/Group 133.svg')}}" class="line4dot1mb aniUtil_dramatic ani_fadeIn"></object>
-        <object data="{{asset('images/Group 134.svg')}}" class="line4dot1mb aniUtil_dramatic ani_fadeIn"></object>
-        <object data="{{asset('images/Group 135.svg')}}" class="line4dot1mb aniUtil_dramatic ani_fadeIn"></object>
-        <object data="{{asset('images/Group 137.svg')}}" class="line4dot1mb aniUtil_dramatic ani_fadeIn"></object>
-        <object data="{{asset('images/Group 138.svg')}}" class="line4dot1mb aniUtil_dramatic ani_fadeIn"></object>
+        <object data="{{asset('images/Group 132.svg')}}" class="line4dot1mbtop  "></object>
+        <object data="{{asset('images/Group 133.svg')}}" class="line4dot1mb  "></object>
+        <object data="{{asset('images/Group 134.svg')}}" class="line4dot1mb  "></object>
+        <object data="{{asset('images/Group 135.svg')}}" class="line4dot1mb  "></object>
+        <object data="{{asset('images/Group 137.svg')}}" class="line4dot1mb  "></object>
+        <object data="{{asset('images/Group 138.svg')}}" class="line4dot1mb  "></object>
         <object data="{{asset('images/Group 139.svg')}}"
-                class="line4dot1mb footersec5 aniUtil_dramatic ani_fadeIn"></object>
+                class="line4dot1mb footersec5  "></object>
     </div>
 </div>

@@ -42,6 +42,11 @@
         height: 5.038px;
         background-color: #bc202e;
     }
+    .mobile-header-rectangle {
+        width: 110px;
+        height: 3.038px !important;
+        background-color: #bc202e;
+    }
 
     .grey {
         background-color: #404041;
@@ -263,9 +268,9 @@
 </style>
 <div class="section_2 position-relative row padding-sec2 ">
     <div class="side_content col-6 h-100 ">
-        <img src="{{asset('images/question.svg')}}" alt="" class="img-fluid img-sec2 ani_fadeInLeft " style="">
-        <div class=" content first_content ani_fadeIn">
-            <div class=" text-danger h5 header-1 mulish-bold" style="margin-top: 5%;">
+        <img src="{{asset('images/question.svg')}}" alt="" class="img-fluid img-sec2 aniUtil_dramatic  ani_fadeInLeft " style="">
+        <div class=" content first_content  aniUtil_dramatic ani_fadeInLeft">
+            <div class=" text-red h5 header-1 mulish-bold" style="margin-top: 5%;">
                 DẠNG ĐỊNH CƯ ƯU VIỆT NHẤT
             </div>
             <div class="header-rectangle sp2-height" style="width: 40%"></div>
@@ -282,7 +287,7 @@
         </div>
 
         <div class=" content d-none ani_fadeIn">
-            <div class=" text-danger h5 header-2 mulish-bold" style="margin-top: 5%;">
+            <div class=" text-red h5 header-2 mulish-bold" style="margin-top: 5%;">
                 BẢO VỆ NHÀ ĐẦU TƯ - TẠM TRÚ TRƯỚC BIẾN ĐỘNG
             </div>
             <div class="header-rectangle" style="width: 70%"></div>
@@ -299,7 +304,7 @@
         </div>
 
         <div class=" content d-none ani_fadeIn">
-            <div class=" text-danger h5 header-3 mulish-bold " style="margin-top: 5%;">
+            <div class=" text-red h5 header-3 mulish-bold " style="margin-top: 5%;">
                 MÓN QUÀ ƯU GIÁ TRỊ - PHƯƠNG ÁN B - CỦA ĐỂ DÀNH
             </div>
             <div class="header-rectangle" style="width: 75%"></div>
@@ -314,7 +319,7 @@
         </div>
 
         <div class=" content d-none ani_fadeIn">
-            <div class=" text-danger h5 header-4 mulish-bold" style="margin-top: 5%;">
+            <div class=" text-red h5 header-4 mulish-bold" style="margin-top: 5%;">
                 DU LỊCH MIỄN THỊ THỰC - TỰ DO KHÁM PHÁ
             </div>
             <div class="header-rectangle" style="width: 65%"></div>
@@ -349,7 +354,7 @@
             </div>
         </div>
     </div>
-    <div class="side_content col-6 row ani_fadeInDown" style="padding: 0 0 5% 2% ;position: relative">
+    <div class="side_content col-6 row  aniUtil_dramatic ani_fadeInDown" style="padding: 0 0 5% 2% ;position: relative">
         <img src="{{asset('images/pic_1.png')}}" alt="" class="img-fluid img-pc-sec-2 side-img col-8 pic_1" id="1">
         <img src="{{asset('images/pic_2.png')}}" alt="" class="img-fluid img-pc-sec-2 side-img col-8 d-none" id="2">
         <img src="{{asset('images/pic_3.png')}}" alt="" class="img-fluid img-pc-sec-2 side-img col-8 d-none" id="3">
@@ -368,8 +373,8 @@
     </div>
 </div>
 <div class=" section_2_mobile col-12" style="width: 100% " id="sec2">
-    <img src="{{asset('images/question_mobile.svg')}}" alt="" class="img-fluid  pt-4 ps-4 pe-4 ani_slideInDown">
-    <div class="d-flex justify-content-center pt-3 col-12 ani_slideInLeft">
+    <img src="{{asset('images/question_mobile.svg')}}" alt="" class="img-fluid  pt-4 ps-4 pe-4 ">
+    <div class="d-flex justify-content-center pt-3 col-12 ">
 
         <div class="col-2 me-2 position-relative next_img_content overflow-hidden d-flex justify-item-center">
             <img src="{{asset('images/sec2/s2pic4.png')}}" alt="" style=""
@@ -404,14 +409,14 @@
         </div>
 
     </div>
-    <div class="ps-5 pe-5 ani_slideInRight">
+    <div class="ps-5 pe-5 ">
         <div class=" content first_content ">
-            <div class="text-danger  header-2 center d-flex justify-content-center
+            <div class="text-red  header-2 center d-flex justify-content-center
                 align-items-center pt-3 mulish-bold" style="margin-top: 5%; height: 5rem">
                 <p class="text-center">DẠNG ĐỊNH CƯ ƯU VIỆT NHẤT</p>
             </div>
             <div class="d-flex justify-content-center pb-3">
-                <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 50%;">
+                <div class="mobile-header-rectangle sp2-height" style="width: 50%"></div>
             </div>
             <div class="text_content_1 text-justify font-15 sp2-height-m">
                 Vượt trên các dạng định cư ĐOÀN TỤ - KỸ NĂNG - DU HỌC - DOANH NHÂN (ĐẦU TƯ)
@@ -426,12 +431,12 @@
         </div>
 
         <div class=" content d-none">
-            <div class="text-danger  header-2 center d-flex justify-content-center
+            <div class="text-red  header-2 center d-flex justify-content-center
                 align-items-center pt-3 mulish-bold" style="margin-top: 5%;">
                 <p class="text-center">BẢO VỆ NHÀ ĐẦU TƯ - TẠM TRÚ TRƯỚC BIỂN ĐỘNG</p>
             </div>
             <div class="d-flex justify-content-center pb-3">
-                <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 50%;">
+                <div class="mobile-header-rectangle sp2-height" style="width: 50%"></div>
             </div>
             <div class="text_content_2 text-justify font-15 sp2-height-m">
                 Các hoạt động đầu cơ, thổi giá, thị trường bất động sản trong nước đã chạm đỉnh và sẽ khó xuất hiện
@@ -446,13 +451,13 @@
         </div>
 
         <div class=" content d-none">
-            <div class=" text-danger  header-3 center d-flex justify-content-center
+            <div class=" text-red  header-3 center d-flex justify-content-center
                 align-items-center pt-3 mulish-bold"
                  style="margin-top: 5%;">
                 <p class="text-center">MÓN QUÀ ƯU GIÁ TRỊ PHƯƠNG ÁN B - CỦA ĐỂ DÀNH</p>
             </div>
             <div class="d-flex justify-content-center pb-3 ">
-                <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 50%;">
+                <div class="mobile-header-rectangle sp2-height" style="width: 50%"></div>
             </div>
             <div class="text_content_3 text-justify font-15 sp2-height-m">
                 Một món quà tinh thần mang ý nghĩa sâu sắc khi giúp thế hệ mai sau
@@ -467,14 +472,14 @@
 
         <div class=" content d-none last_content">
             <div
-                class=" text-danger header-4 center d-flex justify-content-center
+                class=" text-red header-4 center d-flex justify-content-center
                     align-items-center pt-3 mulish-bold"
                 style="margin-top: 5%;">
                 <p class="text-center">DU LỊCH MIỄN THỊ THỰC- TỰ DO KHÁM PHÁ</p>
             </div>
 
             <div class="d-flex justify-content-center pb-3 ">
-                <img src="{{asset('images/red_line.svg')}}" alt="" class="" style="width: 50%;">
+                <div class="mobile-header-rectangle sp2-height" style="width: 50%"></div>
             </div>
             <div class="text_content_4 text-justify font-15 sp2-height-m">
                 Người thành công trong xã hội đều mong muốn đạt được mục tiêu: mang lại

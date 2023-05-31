@@ -224,7 +224,7 @@
     </button>
 </div>
 
-    <div class="col-6 d-flex align-items-center justify-content-end  mb-4 ani_fadeInLeft">
+    <div class="col-6 d-flex align-items-center justify-content-end  mb-4 aniUtil_dramatic ani_fadeInLeft">
         <img src="{{asset('images/sec6/pic1.png')}}" alt="" class="s6p1-img img-fluid  s6p1-img-first" id="1">
         <img src="{{asset('images/sec6/pic2.png')}}" alt="" class="s6p1-img img-fluid  d-none " id="2">
         <img src="{{asset('images/sec6/pic3.png')}}" alt="" class="s6p1-img img-fluid  d-none" id="3">
@@ -234,13 +234,13 @@
 
     </div>
     <div class="col-6 p-5  " style="height: 100%; margin-top: 2%" class="">
-        <img src="{{asset('images/sec6/header-1.svg')}}" alt="" class="img-fluid header-1 pb-3 sm-image-header pt-5 ani_slideInRight">
+        <img src="{{asset('images/sec6/header-1.svg')}}" alt="" class="img-fluid header-1 pb-3 sm-image-header pt-5  aniUtil_dramatic ani_slideInRight">
         <div class="header-rectangle"></div>
-        <div class="text_content_1 text-justify text-white pt-3 mulish-semi " style="width: 70%">
+        <div class="text_content_1 text-justify text-white pt-3 mulish-semi aniUtil_dramatic ani_slideInRight" style="width: 70%">
             Chương trình đầu tư BĐS lấy thẻ cư trú với chi phí đầu tư hợp lí,
             đảm bảo an toàn với chính sách NHẬN THẺ CƯ TRÚ TRƯỚC – MUA BẤT ĐỘNG SẢN SAU
         </div>
-        <div class="s6p1-content  first_content_s6">
+        <div class="s6p1-content  first_content_s6 aniUtil_dramatic ani_slideInRight ">
             <div class=" text-yellow header-1 mulish-bold ">
                 MỨC GIÁ HỢP LÝ
             </div>
@@ -249,7 +249,7 @@
                 có thể khai thác cho thuê ngay
             </div>
         </div>
-        <div class="s6p1-content  d-none">
+        <div class="s6p1-content  d-none aniUtil_dramatic ani_slideInRight">
             <div class=" text-yellow header-1 mulish-bold ">
                 PHÁP LÝ BĐS
             </div>
@@ -257,7 +257,7 @@
                 Sở hữu vĩnh viễn, pháp lý được công khai minh bạch trên hệ thống dữ liệu của chính phủ Hungary
             </div>
         </div>
-        <div class="s6p1-content  d-none">
+        <div class="s6p1-content  d-none aniUtil_dramatic ani_slideInRight">
             <div class=" text-yellow header-1 mulish-bold ">
                 VỊ TRÍ ĐẮC ĐỊA
             </div>
@@ -267,7 +267,7 @@
                 nhà hàng, trung tâm mua sắm
             </div>
         </div>
-        <div class="s6p1-content d-none">
+        <div class="s6p1-content d-none aniUtil_dramatic ani_slideInRight">
             <div class=" text-yellow header-1 mulish-bold ">
                 LỢI NHUẬN CHO THUÊ
             </div>
@@ -276,7 +276,7 @@
                 (trung bình 5.8% - 8.4%/ năm tuỳ vị trí & diện tích)
             </div>
         </div>
-        <div class="s6p1-content  d-none">
+        <div class="s6p1-content  d-none aniUtil_dramatic ani_slideInRight">
             <div class=" text-yellow header-1 mulish-bold ">
                 HỖ TRỢ QUẢN LÝ VÀ VẬN HÀNH
             </div>
@@ -285,7 +285,7 @@
                 và khai thác tiềm năng BĐS tối đa
             </div>
         </div>
-        <div class="s6p1-content  last-content-s6 d-none">
+        <div class="s6p1-content  last-content-s6 d-none aniUtil_dramatic ani_slideInRight">
             <div class=" text-yellow header-1 mulish-bold ">
                 GIÁ TRỊ TĂNG TRƯỞNG
             </div>
@@ -327,13 +327,13 @@
         </button>
     </div>
     <div class="col-6 p-5 " style="margin-top: 3%" >
-        <div class="d-flex flex-row-reverse pt-5 ani_slideInLeft">
+        <div class="d-flex flex-row-reverse pt-5 aniUtil_dramatic ani_slideInLeft">
             <img src="{{asset('images/sec6/header-2.png')}}" alt="" class="img-fluid header-1 pb-3 ">
         </div>
         <div class="d-flex flex-row-reverse">
             <div class="header-rectangle"></div>
         </div>
-        <div class="s6p2-content s6p2-first-content">
+        <div class="s6p2-content s6p2-first-content aniUtil_dramatic ani_slideInLeft">
             <div class="  header-1 d-flex flex-row-reverse mulish-bold">
                 1 NGƯỜi ĐẦU TƯ - 3 THẾ HỆ CÙNG HƯỞNG
             </div>
@@ -343,7 +343,7 @@
                 </div>
             </div>
         </div>
-        <div class=" s6p2-content  d-none">
+        <div class=" s6p2-content  d-none aniUtil_dramatic ani_slideInLeft">
             <div class="  header-1 d-flex flex-row-reverse mulish-bold">
                 MÔI TRƯỜNG SỐNG HOÀN HẢO
             </div>
@@ -354,7 +354,7 @@
                 </div>
             </div>
         </div>
-        <div class="  s6p2-content d-none">
+        <div class="  s6p2-content d-none aniUtil_dramatic ani_slideInLeft">
             <div class="  header-1 d-flex flex-row-reverse mulish-bold">
                 TỰ DO ĐI LẠI KHÔNG CẦN VISA
             </div>
@@ -364,7 +364,7 @@
                 </div>
             </div>
         </div>
-        <div class=" s6p2-content last-content-s6p2 d-none">
+        <div class=" s6p2-content last-content-s6p2 d-none aniUtil_dramatic ani_slideInLeft">
             <div class="  header-1 d-flex flex-row-reverse mulish-bold">
                 GIA HẠN SAU 3 NĂM
             </div>
@@ -374,8 +374,7 @@
                 </div>
             </div>
         </div>
-{{--        <button class="btn btn-outline position-absolute top-50 start-0 start-20 translate-middle prev-6-2">--}}
-{{--            <img src="{{asset('images/left-arrow.svg')}}" alt="" style="width: 70px" class=""></button>--}}
+
         <div class="d-flex flex-row-reverse mt-5">
             <div class="rectangle-dot row mt-5 gx-1" style="width: 20%; ">
                 <div class="col-2 rectangle-sec-6p2" id="1">
@@ -399,7 +398,7 @@
             </div>
         </div>
     </div>
-    <div class="col-6 d-flex align-items-center justify-content-start ani_slideInRight">
+    <div class="col-6 d-flex align-items-center justify-content-start  aniUtil_dramatic ani_slideInRight">
         <img src="{{asset('images/sec6/pic1p2.png')}}" alt="" class="s6p2-img img-fluid  s6p2-img-first" id="1">
         <img src="{{asset('images/sec6/pic2p2.png')}}" alt="" class="s6p2-img img-fluid  d-none" id="2">
         <img src="{{asset('images/sec6/pic3p2.png')}}" alt="" class="s6p2-img img-fluid  d-none" id="3">
@@ -424,7 +423,7 @@
                      class="position-absolute top-50 start-100 translate-middle">
             </button>
         </div>
-        <img src="{{asset('images/sec6/header-1.svg')}}" alt="" class="img-fluid header-1 pb-3 sm-image-header-mobile ani_slideInDown">
+        <img src="{{asset('images/sec6/header-1.svg')}}" alt="" class="img-fluid header-1 pb-3 sm-image-header-mobile ">
         <div class="header-rectangle"></div>
         <div class="text_content_1 text-justify text-white pt-3 mulish-semi font-15 ani_slideInLeft" style="width: 100%">
             Chương trình đầu tư BĐS lấy thẻ cư trú với chi phí đầu tư hợp lí,
@@ -432,7 +431,7 @@
         </div>
 {{--        <button class="btn btn-outline position-absolute top-50 start-0 start-5 translate-middle prev-6-1">--}}
 {{--            <img src="{{asset('images/left-arrow.svg')}}" alt="" style="height: 50px"></button>--}}
-        <div class="d-flex align-items-center justify-content-end mt-4 ani_slideInRight">
+        <div class="d-flex align-items-center justify-content-end mt-4 ">
             <img src="{{asset('images/sec6/pic1.png')}}" alt="" class="s6p1-img img-fluid  s6p1-img-first">
             <img src="{{asset('images/sec6/pic2.png')}}" alt="" class="s6p1-img img-fluid  d-none">
             <img src="{{asset('images/sec6/pic3.png')}}" alt="" class="s6p1-img img-fluid  d-none">
@@ -532,7 +531,7 @@
         </div>
         <div class="d-flex flex-row-reverse ">
             <img src="{{asset('images/sec6/header-2.png')}}" alt=""
-                 class="img-fluid header-1 pb-3 sm-image-header-mobile ani_slideInDown">
+                 class="img-fluid header-1 pb-3 sm-image-header-mobile ">
         </div>
         <div class="d-flex flex-row-reverse">
             <div class="header-rectangle"></div>
@@ -540,7 +539,7 @@
 {{--        <button class="btn btn-outline position-absolute top-30 start-0 start-20 translate-middle prev-6-2">--}}
 {{--            <img src="{{asset('images/left-arrow.svg')}}" alt="" class="" style="height: 50px">--}}
 {{--        </button>--}}
-        <div class="d-flex align-items-center justify-content-end mt-4 ani_slideInLeft">
+        <div class="d-flex align-items-center justify-content-end mt-4 ">
             <img src="{{asset('images/sec6/pic1p2.png')}}" alt="" class="s6p2-img img-fluid  s6p2-img-first">
             <img src="{{asset('images/sec6/pic2p2.png')}}" alt="" class="s6p2-img img-fluid  d-none">
             <img src="{{asset('images/sec6/pic3p2.png')}}" alt="" class="s6p2-img img-fluid  d-none">
