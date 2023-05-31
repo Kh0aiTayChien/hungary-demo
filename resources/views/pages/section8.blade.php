@@ -20,7 +20,7 @@
 </div>
 
 <div class="sec8mb">
-    <img src="{{asset('images/Group 25.png')}}" class="headersec8mb aniUtil_dramatic ani_backInDown">
-    <img src="{{asset('images/Group 9.svg')}}" class="bannersec8mb aniUtil_dramatic ani_backInDown">
-    <object data="{{asset('images/Group 27(1).svg')}}" class="contentsec8mb aniUtil_dramatic ani_fadeInLeft"></object>
+    <img src="{{asset('images/Group 25.png')}}" class="headersec8mb  ">
+    <img src="{{asset('images/Group 9.svg')}}" class="bannersec8mb  ">
+    <object data="{{asset('images/Group 27(1).svg')}}" class="contentsec8mb  "></object>
 </div>

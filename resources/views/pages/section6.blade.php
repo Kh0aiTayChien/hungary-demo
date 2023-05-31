@@ -425,7 +425,7 @@
         </div>
         <img src="{{asset('images/sec6/header-1.svg')}}" alt="" class="img-fluid header-1 pb-3 sm-image-header-mobile ">
         <div class="header-rectangle"></div>
-        <div class="text_content_1 text-justify text-white pt-3 mulish-semi font-15 ani_slideInLeft" style="width: 100%">
+        <div class="text_content_1 text-justify text-white pt-3 mulish-semi font-15 " style="width: 100%">
             Chương trình đầu tư BĐS lấy thẻ cư trú với chi phí đầu tư hợp lí,
             đảm bảo an toàn với chính sách NHẬN THẺ CƯ TRÚ TRƯỚC – MUA BẤT ĐỘNG SẢN SAU
         </div>
