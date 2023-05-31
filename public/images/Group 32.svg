@@ -1,4 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="958.834" height="205.554" viewBox="0 0 958.834 205.554">
+    <style>
+        @font-face {
+        font-family: 'Mulish-ExtraBold';
+        src: url("/fonts/Mulish-ExtraBold.ttf");
+        }
+
+    </style>
     <g id="Group_32" data-name="Group 32" transform="translate(-105.893 -1123.604)">
         <text id="_04_" data-name="04 " transform="translate(105.893 1195.604)" fill="#bc202e" font-size="90"
               font-family="Mulish-ExtraBold, sans-serif" font-weight="800">

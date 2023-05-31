@@ -5,9 +5,13 @@
         font-family: 'Mulish-SemiBold';
         src: url("/fonts/Mulish-SemiBold.ttf");
         }
-
-        text {
-        font-family: 'Mulish-SemiBold', sans-serif;
+        @font-face {
+        font-family: 'Mulish-ExtraBold';
+        src: url("/fonts/Mulish-ExtraBold.ttf");
+        }
+        .text2 {
+        font-family: Mulish-ExtraBold, sans-serif;
+        font-weight: bold;
         }
     </style>
     <defs>
@@ -45,11 +49,11 @@
             <tspan x="0" y="39">CHI PHÍ LÀM THẺ</tspan>
         </text>
         <g id="Group_58" data-name="Group 58">
-            <text id="CHI_PHÍ_LÀM_THẺ:_65.000_EUR_ĐẦU_TƯ_BĐS_TỐI_THIỂU:_175.000_EUR_TỔNG_CHI_PHÍ_TỐI_THIỂU_240.000_EUR_"
+            <text class="text2" id="CHI_PHÍ_LÀM_THẺ:_65.000_EUR_ĐẦU_TƯ_BĐS_TỐI_THIỂU:_175.000_EUR_TỔNG_CHI_PHÍ_TỐI_THIỂU_240.000_EUR_"
                   data-name="CHI PHÍ LÀM THẺ: 65.000 EUR
 ĐẦU TƯ BĐS TỐI THIỂU: 175.000 EUR
 (TỔNG CHI PHÍ TỐI THIỂU 240.000 EUR)" transform="translate(1448.109 530.541)" fill="#fff" font-size="31"
-                  font-weight="800" letter-spacing="0.05em">
+                  letter-spacing="0.05em">
                 <tspan x="200" y="31">CHI PHÍ LÀM THẺ:</tspan>
                 <tspan y="31" fill="#e7c57e" font-size="45">65.000</tspan>
                 <tspan y="31" fill="#e7c57e" font-size="31"> EUR</tspan>

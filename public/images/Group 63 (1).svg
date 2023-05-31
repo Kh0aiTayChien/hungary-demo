@@ -1,4 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="959.374" height="148.887" viewBox="0 0 959.374 148.887">
+    <style>
+        @font-face {
+        font-family: 'Mulish-ExtraBold';
+        src: url("/fonts/Mulish-ExtraBold.ttf");
+        }
+    </style>
     <g id="Group_63" data-name="Group 63" transform="translate(-105.354 -1581.745)">
         <text id="KÝ_HỢP_ĐỒNG_ĐẶT_CỌC" data-name="KÝ HỢP ĐỒNG &amp; ĐẶT CỌC" transform="translate(285.728 1642.597)"
               fill="#e7c57e" font-size="45" font-family="Mulish-ExtraBold, Mulish" font-weight="800">

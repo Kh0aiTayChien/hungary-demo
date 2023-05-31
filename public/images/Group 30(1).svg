@@ -1,14 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="958.834" height="265.75" viewBox="0 0 958.834 245.75">
+    <style>
+        @font-face {
+        font-family: 'Mulish-ExtraBold';
+        src: url("/fonts/Mulish-ExtraBold.ttf");
+        }
+
+    </style>
     <g id="Group_30" data-name="Group 30" transform="translate(-105.894 -416.372)">
         <circle id="Ellipse_1" data-name="Ellipse 1" cx="1" cy="6.016" r="6.016"
                 transform="translate(228.672 455.278)" fill="none" stroke="#be1e2d" stroke-miterlimit="10"
                 stroke-width="0.633"/>
         <text id="QUYỀN_LỢI_ĐẦU_TƯ" data-name="QUYỀN LỢI ĐẦU TƯ" transform="translate(285.728 473.325)" fill="#bc202e"
-              font-size="45" font-family="Mulish-ExtraBold, sans-serif" font-weight="800">
+              font-family="Mulish-ExtraBold, sans-serif" font-size="45" font-weight="bold">
             <tspan x="-15" y="0">QUYỀN LỢI ĐẦU TƯ</tspan>
         </text>
         <text id="_01" data-name="01" transform="translate(105.894 488.372)" fill="#bc202e" font-size="90"
-              font-family="Mulish-ExtraBold, sans-serif" font-weight="800">
+              font-family="Mulish-ExtraBold, sans-serif" font-weight="bold">
             <tspan x="0" y="0">01</tspan>
         </text>
 

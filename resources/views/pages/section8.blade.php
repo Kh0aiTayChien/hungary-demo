@@ -20,7 +20,7 @@
 </div>
 
 <div class="sec8mb">
-    <img src="{{asset('images/Group 25.png')}}" class="headersec8mb  ">
-    <img src="{{asset('images/Group 9.svg')}}" class="bannersec8mb  ">
-    <object data="{{asset('images/Group 27(1).svg')}}" class="contentsec8mb  "></object>
+    <img src="{{asset('images/Group 25.png')}}" class="headersec8mb">
+    <img src="{{asset('images/Group 9.svg')}}" class="bannersec8mb">
+    <object data="{{asset('images/Group 27(1).svg')}}" class="contentsec8mb"></object>
 </div>

@@ -5,9 +5,12 @@
         font-family: 'Mulish-SemiBold';
         src: url("/fonts/Mulish-SemiBold.ttf");
         }
-
-        text {
-        font-family: 'Mulish-SemiBold', sans-serif;
+        @font-face {
+        font-family: 'Mulish-ExtraBold';
+        src: url("/fonts/Mulish-ExtraBold.ttf");
+        }
+        .text2 {
+        font-family: Mulish-SemiBold, Mulish;
         }
     </style>
     <defs>
@@ -46,16 +49,16 @@
                 <tspan x="0" y="34">QUẢN LÝ VẬN HÀNH BĐS</tspan>
             </text>
             <g id="Group_36" data-name="Group 36">
-                <text
+                <text class="text2"
                     id="Hỗ_trợ_đóng_thuế_và_các_dịch_vụ_cần_thiết_liên_quan_đến_tài_sản_BĐS_Hỗi_trợ_quản_lý_cho_thuê_trọn_gói_sản_phẩm_Nhận_báo_cáo_dòng_tiền_kết_quả_kinh_doanh_cho_thuê_BĐS_định_kỳ_3_tháng_lần_"
                     data-name="Hỗ trợ đóng thuế và các dịch vụ cần thiết liên quan đến tài sản BĐS
 Hỗi trợ quản lý cho thuê trọn gói sản phẩm
 Nhận báo cáo dòng tiền &amp; kết quả kinh doanh cho thuê BĐS định kỳ 3 tháng/lần "
                     transform="translate(171.75 1557.905)" fill="#fff" font-size="36">
-                    <tspan x="0" y="37" letter-spacing="0.05em">Hỗ trợ đóng thuế và các dịch vụ cần thiết liên quan</tspan>
+                    <tspan x="0" y="37" word-spacing="0.16em">Hỗ trợ đóng thuế và các dịch vụ cần thiết liên quan</tspan>
                     <tspan x="0" y="85">đến tài sản BĐS</tspan>
                     <tspan x="0" y="133">Hỗi trợ quản lý cho thuê trọn gói sản phẩm</tspan>
-                    <tspan x="0" y="181" letter-spacing="0.055em">Nhận báo cáo dòng tiền &amp; kết quả kinh doanh cho</tspan>
+                    <tspan x="0" y="181" word-spacing="0.2em">Nhận báo cáo dòng tiền &amp; kết quả kinh doanh cho</tspan>
                     <tspan x="0" y="229">thuê BĐS định kỳ 3 tháng/lần</tspan>
                 </text>
                 <circle id="Ellipse_5" data-name="Ellipse 5" cx="6.86" cy="6.86" r="6.86"

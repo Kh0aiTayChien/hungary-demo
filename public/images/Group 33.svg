@@ -1,12 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="958.833" height="240.71" viewBox="0 0 958.833 240.71">
+    <style>
+        @font-face {
+        font-family: 'Mulish-ExtraBold';
+        src: url("/fonts/Mulish-ExtraBold.ttf");
+        }
+
+    </style>
     <g id="Group_33" data-name="Group 33" transform="translate(-105.894 -1317.048)">
         <text id="HỖ_TRỢ_QUẢN_LÝ_VẬN_HÀNH" data-name="HỖ TRỢ QUẢN LÝ &amp; VẬN HÀNH"
               transform="translate(285.728 1374.43)" fill="#bc202e" font-size="45"
-              font-family="Mulish-ExtraBold, sans-serif" font-weight="800">
+              font-family="Mulish-ExtraBold, Mulish" font-weight="800">
             <tspan x="-15" y="0">HỖ TRỢ QUẢN LÝ &amp; VẬN HÀNH</tspan>
         </text>
         <text id="_05" data-name="05" transform="translate(105.894 1389.048)" fill="#bc202e" font-size="90"
-              font-family="Mulish-ExtraBold, sans-serif" font-weight="800">
+              font-family="Mulish-ExtraBold, Mulish" font-weight="800">
             <tspan x="0" y="0">05</tspan>
         </text>
 

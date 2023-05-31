@@ -84,13 +84,13 @@
 
     <div>
         <a href="https://www.facebook.com/profile.php?id=100089937085400" target="_blank">
-            <img class="iconfb iconmb animate__animated animate__backInRight" src="{{asset('images/fbicon.svg')}}" alt="fb link">
+            <img class="iconfb iconmb" src="{{asset('images/fbicon.svg')}}" alt="fb link">
         </a>
         <a href="https://www.tiktok.com/@cen_global.official?_t=8bo75BiH9DV&_r=1" target="_blank">
-            <img class="icontiktok iconmb animate__animated animate__backInRight" src="{{asset('images/tiktokicon.svg')}}">
+            <img class="icontiktok iconmb" src="{{asset('images/tiktokicon.svg')}}">
         </a>
         <a href="https://zalo.me/0965691688" target="_blank">
-            <img class="iconzalo iconmb animate__animated animate__backInRight" src="{{asset('images/zaloicon.svg')}}">
+            <img class="iconzalo iconmb" src="{{asset('images/zaloicon.svg')}}">
         </a>
         <a href="tel:0965691688" class="phone contactIcon animate__animated animate__backInLeft">
             <img class="phoneNumber" src="{{asset('images/phoneNumber.svg')}}">

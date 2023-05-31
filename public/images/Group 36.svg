@@ -1,4 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="955.834" height="270.534" viewBox="0 0 955.834 235.534">
+    <style>
+        @font-face {
+        font-family: 'Mulish-ExtraBold';
+        src: url("/fonts/Mulish-ExtraBold.ttf");
+        }
+
+    </style>
     <g id="Group_36" data-name="Group 36" transform="translate(-105.894 -650.927)">
         <circle id="Ellipse_2" data-name="Ellipse 2" cx="1" cy="6.016" r="6.016"
                 transform="translate(228.672 690.145)" fill="none" stroke="#be1e2d" stroke-miterlimit="10"
@@ -8,7 +15,7 @@
             <tspan x="0" y="0">02</tspan>
         </text>
         <text id="QUYỀN_LỢI_CƯ_TRÚ" data-name="QUYỀN LỢI CƯ TRÚ" transform="translate(285.728 707.881)" fill="#bc202e"
-              font-size="45" font-family="Mulish-ExtraBold, sans-serif" font-weight="800">
+              font-size="45" font-family="Mulish-ExtraBold, Mulish" font-weight="800">
             <tspan x="-15" y="0">QUYỀN LỢI CƯ TRÚ</tspan>
         </text>
 
