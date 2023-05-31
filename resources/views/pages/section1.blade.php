@@ -10,17 +10,17 @@
         <ul class="iconpc">
             <li class="contact">
                 <a href="https://www.facebook.com/profile.php?id=100089937085400" target="_blank">
-                    <img class="iconfb animate__animated animate__backInRight" src="{{asset('images/fb.png')}}" alt="fb link">
+                    <img class="iconfb" src="{{asset('images/fb.png')}}" alt="fb link">
                 </a>
             </li>
             <li class="contact">
                 <a href="https://www.tiktok.com/@cen_global.official?_t=8bo75BiH9DV&_r=1" target="_blank">
-                    <img class="icontiktok animate__animated animate__backInRight" src="{{asset('images/tiktokicon.svg')}}">
+                    <img class="icontiktok" src="{{asset('images/tiktokicon.svg')}}">
                 </a>
             </li>
             <li class="contact">
                 <a href="https://zalo.me/0965691688" target="_blank">
-                    <img class="iconzalo animate__animated animate__backInRight" src="{{asset('images/zaloicon.svg')}}">
+                    <img class="iconzalo" src="{{asset('images/zaloicon.svg')}}">
                 </a>
             </li>
             <li class="contact">
@@ -70,13 +70,13 @@
         </div>
     </div>
     <div class="button1Pospc">
-        <button class="button1" onclick="scrollToElement('addInformationpc')">
-            <img src="{{asset('images/Group 401.svg')}}" class="buttonIMG">
+        <button class="button1 pulse" id="myButton" onclick="scrollToElement('addInformationpc')">
+            <img src="{{asset('images/Group 401.svg')}}" class="buttonIMG ani_headShake aniUtil_onMouse aniUtil_active aniUtil_onMouseRepeat">
 {{--            <p class="buttontest">NHẬN THÔNG TIN</p>--}}
         </button>
     </div>
     <div class="button1Posmb">
-        <button class="button1" onclick="scrollToElement('addInformationmb')">
+        <button class="button1" id="myButton" onclick="scrollToElement('addInformationmb')">
 {{--            <img src="{{asset('images/Group 401.svg')}}" class="buttonIMG">--}}
             <p class="buttontest">NHẬN THÔNG TIN</p>
         </button>
@@ -92,7 +92,7 @@
         <a href="https://zalo.me/0965691688" target="_blank">
             <img class="iconzalo iconmb" src="{{asset('images/zaloicon.svg')}}">
         </a>
-        <a href="tel:0965691688" class="phone contactIcon animate__animated animate__backInLeft">
+        <a href="tel:0965691688" class="phone contactIcon">
             <img class="phoneNumber" src="{{asset('images/phoneNumber.svg')}}">
             {{--            <button class="phoneNumber" onclick="window.location.href='tel:0353973355'"><p class="phoneText">--}}
             {{--                    0353973355</p></button>--}}
@@ -156,5 +156,4 @@
             }, 200);
         }
     }
-
 </script>
