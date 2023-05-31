@@ -91,7 +91,7 @@
 </style>
 <div class="section10 d-flex justify-content-center align-items-center  " style="">
     <div class=" row " style="width: 60%; margin-top: 5%">
-        <div class="col-6 ani_slideInLeft">
+        <div class="col-6 aniUtil_dramatic  ani_slideInLeft">
             <div>
                 <img src="{{asset('images/sec10/donvidoitac1.svg')}}" alt="" class="" style="width: 35%">
             </div>
@@ -119,7 +119,7 @@
             </div>
 
         </div>
-        <div class="col-6 ani_slideInRight">
+        <div class="col-6 aniUtil_dramatic ani_slideInRight">
             <div>
                 <img src="{{asset('images/sec10/dangkidenhan1.svg')}}" alt="" class="" style="height: 100%">
             </div>
@@ -170,7 +170,7 @@
     </div>
 </div>
 <div class="section10-mobile d-flex justify-content-center " id="addInformationmb">
-    <div class="p-5 ani_slideInLeft">
+    <div class="p-5 ">
         <div>
             <img src="{{asset('images/sec10/dangkidenhan1.svg')}}" alt="" class="" style="width: 100%">
         </div>
@@ -218,7 +218,7 @@
             </div>
         </form>
     </div>
-    <div class="ps-5 pe-5 pb-5  ani_slideInRight" style="width: 100%; margin-bottom: 15%">
+    <div class="ps-5 pe-5 pb-5  " style="width: 100%; margin-bottom: 15%">
         <div class="">
             <div>
                 <img src="{{asset('images/sec10/donvidoitac1.svg')}}" alt="" class="" style="width: 40%">
