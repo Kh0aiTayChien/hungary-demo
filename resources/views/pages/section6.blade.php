@@ -22,9 +22,11 @@
     .start-84 {
         margin-left: 84%
     }
-    .start-80{
+
+    .start-80 {
         margin-left: 80%
     }
+
     .start-20 {
         margin-left: 7%
     }
@@ -36,6 +38,7 @@
     .top-10 {
         margin-top: -30%;
     }
+
     .start-5 {
         margin-left: 5%
     }
@@ -191,40 +194,47 @@
         max-width: 100%; /* Đặt kích thước tùy ý, ví dụ: 50% */
         height: auto; /* Đảm bảo tỷ lệ hình ảnh không bị méo */
     }
-     .text_content_1{
+
+    .text_content_1 {
         font-size: 15px;
     }
-    .s6p1-img{
+
+    .s6p1-img {
         height: 80%;
     }
-    .s6p2-img{
+
+    .s6p2-img {
         height: 80%;
-     }
-    .sp6-height{
+    }
+
+    .sp6-height {
         height: 2rem;
     }
-    .sp6-height-m{
+
+    .sp6-height-m {
         height: 6rem;
     }
-    .s6p2-height-m{
-      height: 2rem;
+
+    .s6p2-height-m {
+        height: 2rem;
     }
-    .top-45{
+
+    .top-45 {
         margin-top: 1%;
     }
 </style>
 
 <div class="section_6 row position-relative">
-<div class="position-absolute top-50 " style="z-index: 999;">
-    <button class="btn btn-outline start-20 translate-middle prev-6-1  ">
-        <img src="{{asset('images/circle-l.png')}}" alt="" style="height: 3.5rem">
-    </button>
-    <button class="btn btn-outline start-80 translate-middle next-6-1 ">
-        <img src="{{asset('images/circle-r.png')}}" alt="" style="height: 3.5rem">
-    </button>
-</div>
+    <div class="position-absolute top-50 " style="z-index: 999;">
+        <button class="btn btn-outline start-20 translate-middle prev-6-1  ">
+            <img src="{{asset('images/circle-l.png')}}" alt="" style="height: 3.5rem">
+        </button>
+        <button class="btn btn-outline start-80 translate-middle next-6-1 ">
+            <img src="{{asset('images/circle-r.png')}}" alt="" style="height: 3.5rem">
+        </button>
+    </div>
 
-    <div class="col-6 d-flex align-items-center justify-content-end  mb-4 aniUtil_dramatic ani_fadeInLeft">
+    <div class="col-6 d-flex align-items-center justify-content-end  mb-4">
         <img src="{{asset('images/sec6/pic1.png')}}" alt="" class="s6p1-img img-fluid  s6p1-img-first" id="1">
         <img src="{{asset('images/sec6/pic2.png')}}" alt="" class="s6p1-img img-fluid  d-none " id="2">
         <img src="{{asset('images/sec6/pic3.png')}}" alt="" class="s6p1-img img-fluid  d-none" id="3">
@@ -234,13 +244,15 @@
 
     </div>
     <div class="col-6 p-5  " style="height: 100%; margin-top: 2%" class="">
-        <img src="{{asset('images/sec6/header-1.svg')}}" alt="" class="img-fluid header-1 pb-3 sm-image-header pt-5  aniUtil_dramatic ani_slideInRight">
+        <img src="{{asset('images/sec6/header-1.svg')}}" alt=""
+             class="img-fluid header-1 pb-3 sm-image-header pt-5">
         <div class="header-rectangle"></div>
-        <div class="text_content_1 text-justify text-white pt-3 mulish-semi aniUtil_dramatic ani_slideInRight" style="width: 70%">
+        <div class="text_content_1 text-justify text-white pt-3 mulish-semi"
+             style="width: 70%">
             Chương trình đầu tư BĐS lấy thẻ cư trú với chi phí đầu tư hợp lí,
             đảm bảo an toàn với chính sách NHẬN THẺ CƯ TRÚ TRƯỚC – MUA BẤT ĐỘNG SẢN SAU
         </div>
-        <div class="s6p1-content  first_content_s6 aniUtil_dramatic ani_slideInRight ">
+        <div class="s6p1-content  first_content_s6">
             <div class=" text-yellow header-1 mulish-bold ">
                 MỨC GIÁ HỢP LÝ
             </div>
@@ -249,7 +261,7 @@
                 có thể khai thác cho thuê ngay
             </div>
         </div>
-        <div class="s6p1-content  d-none aniUtil_dramatic ani_slideInRight">
+        <div class="s6p1-content  d-none">
             <div class=" text-yellow header-1 mulish-bold ">
                 PHÁP LÝ BĐS
             </div>
@@ -257,7 +269,7 @@
                 Sở hữu vĩnh viễn, pháp lý được công khai minh bạch trên hệ thống dữ liệu của chính phủ Hungary
             </div>
         </div>
-        <div class="s6p1-content  d-none aniUtil_dramatic ani_slideInRight">
+        <div class="s6p1-content  d-none">
             <div class=" text-yellow header-1 mulish-bold ">
                 VỊ TRÍ ĐẮC ĐỊA
             </div>
@@ -267,7 +279,7 @@
                 nhà hàng, trung tâm mua sắm
             </div>
         </div>
-        <div class="s6p1-content d-none aniUtil_dramatic ani_slideInRight">
+        <div class="s6p1-content d-none">
             <div class=" text-yellow header-1 mulish-bold ">
                 LỢI NHUẬN CHO THUÊ
             </div>
@@ -276,7 +288,7 @@
                 (trung bình 5.8% - 8.4%/ năm tuỳ vị trí & diện tích)
             </div>
         </div>
-        <div class="s6p1-content  d-none aniUtil_dramatic ani_slideInRight">
+        <div class="s6p1-content  d-none">
             <div class=" text-yellow header-1 mulish-bold ">
                 HỖ TRỢ QUẢN LÝ VÀ VẬN HÀNH
             </div>
@@ -285,7 +297,7 @@
                 và khai thác tiềm năng BĐS tối đa
             </div>
         </div>
-        <div class="s6p1-content  last-content-s6 d-none aniUtil_dramatic ani_slideInRight">
+        <div class="s6p1-content  last-content-s6 d-none">
             <div class=" text-yellow header-1 mulish-bold ">
                 GIÁ TRỊ TĂNG TRƯỞNG
             </div>
@@ -326,14 +338,14 @@
             <img src="{{asset('images/circle-r.png')}}" alt="" style="height: 3.5rem; ">
         </button>
     </div>
-    <div class="col-6 p-5 " style="margin-top: 3%" >
-        <div class="d-flex flex-row-reverse pt-5 aniUtil_dramatic ani_slideInLeft">
+    <div class="col-6 p-5 " style="margin-top: 3%">
+        <div class="d-flex flex-row-reverse pt-5">
             <img src="{{asset('images/sec6/header-2.png')}}" alt="" class="img-fluid header-1 pb-3 ">
         </div>
         <div class="d-flex flex-row-reverse">
             <div class="header-rectangle"></div>
         </div>
-        <div class="s6p2-content s6p2-first-content aniUtil_dramatic ani_slideInLeft">
+        <div class="s6p2-content s6p2-first-content">
             <div class="  header-1 d-flex flex-row-reverse mulish-bold">
                 1 NGƯỜi ĐẦU TƯ - 3 THẾ HỆ CÙNG HƯỞNG
             </div>
@@ -343,7 +355,7 @@
                 </div>
             </div>
         </div>
-        <div class=" s6p2-content  d-none aniUtil_dramatic ani_slideInLeft">
+        <div class=" s6p2-content  d-none">
             <div class="  header-1 d-flex flex-row-reverse mulish-bold">
                 MÔI TRƯỜNG SỐNG HOÀN HẢO
             </div>
@@ -354,7 +366,7 @@
                 </div>
             </div>
         </div>
-        <div class="  s6p2-content d-none aniUtil_dramatic ani_slideInLeft">
+        <div class="  s6p2-content d-none">
             <div class="  header-1 d-flex flex-row-reverse mulish-bold">
                 TỰ DO ĐI LẠI KHÔNG CẦN VISA
             </div>
@@ -364,7 +376,7 @@
                 </div>
             </div>
         </div>
-        <div class=" s6p2-content last-content-s6p2 d-none aniUtil_dramatic ani_slideInLeft">
+        <div class=" s6p2-content last-content-s6p2 d-none">
             <div class="  header-1 d-flex flex-row-reverse mulish-bold">
                 GIA HẠN SAU 3 NĂM
             </div>
@@ -398,22 +410,23 @@
             </div>
         </div>
     </div>
-    <div class="col-6 d-flex align-items-center justify-content-start  aniUtil_dramatic ani_slideInRight">
+    <div class="col-6 d-flex align-items-center justify-content-start">
         <img src="{{asset('images/sec6/pic1p2.png')}}" alt="" class="s6p2-img img-fluid  s6p2-img-first" id="1">
         <img src="{{asset('images/sec6/pic2p2.png')}}" alt="" class="s6p2-img img-fluid  d-none" id="2">
         <img src="{{asset('images/sec6/pic3p2.png')}}" alt="" class="s6p2-img img-fluid  d-none" id="3">
         <img src="{{asset('images/sec6/pic2p2.png')}}" alt="" class="s6p2-img img-fluid  d-none" id="4">
         <img src="{{asset('images/sec6/pic1p2.png')}}" alt="" class="s6p2-img img-fluid  d-none" id="5">
         <img src="{{asset('images/sec6/pic4p2.png')}}" alt="" class="s6p2-img img-fluid s6p2-img-last d-none" id="6">
-{{--        <button class="btn btn-outline position-absolute top-50 start-84 translate-middle next-6-2">--}}
-{{--            <img src="{{asset('images/arrow.svg')}}" alt="" style="width: 70px;" class=""></button>--}}
+        {{--        <button class="btn btn-outline position-absolute top-50 start-84 translate-middle next-6-2">--}}
+        {{--            <img src="{{asset('images/arrow.svg')}}" alt="" style="width: 70px;" class=""></button>--}}
     </div>
 
 </div>
 
 <div class="section_6-mobile" id="sec6">
     <div class="container-fluid p-5 position-relative justify-content-center ">
-        <div class="position-absolute top-50 w-100 d-flex flex-nowrap justify-content-between" style="margin-left: -10%">
+        <div class="position-absolute top-50 w-100 d-flex flex-nowrap justify-content-between"
+             style="margin-left: -10%">
             <button class="btn btn-outline prev-6-1 position-relative" style="margin-left: 1%">
                 <img src="{{asset('images/circle-l.png')}}" alt="" style="height: 2.5rem; margin-left: 20%"
                      class="position-absolute top-50 translate-middle">
@@ -429,8 +442,8 @@
             Chương trình đầu tư BĐS lấy thẻ cư trú với chi phí đầu tư hợp lí,
             đảm bảo an toàn với chính sách NHẬN THẺ CƯ TRÚ TRƯỚC – MUA BẤT ĐỘNG SẢN SAU
         </div>
-{{--        <button class="btn btn-outline position-absolute top-50 start-0 start-5 translate-middle prev-6-1">--}}
-{{--            <img src="{{asset('images/left-arrow.svg')}}" alt="" style="height: 50px"></button>--}}
+        {{--        <button class="btn btn-outline position-absolute top-50 start-0 start-5 translate-middle prev-6-1">--}}
+        {{--            <img src="{{asset('images/left-arrow.svg')}}" alt="" style="height: 50px"></button>--}}
         <div class="d-flex align-items-center justify-content-end mt-4 ">
             <img src="{{asset('images/sec6/pic1.png')}}" alt="" class="s6p1-img img-fluid  s6p1-img-first">
             <img src="{{asset('images/sec6/pic2.png')}}" alt="" class="s6p1-img img-fluid  d-none">
@@ -439,13 +452,15 @@
             <img src="{{asset('images/sec6/pic5.png')}}" alt="" class="s6p1-img img-fluid  d-none">
             <img src="{{asset('images/sec6/pic6.png')}}" alt="" class="s6p1-img img-fluid s6p1-img-last d-none">
         </div>
-{{--        <button class="btn btn-outline position-absolute top-50 start-85 translate-middle next-6-1">--}}
-{{--            <img src="{{asset('images/arrow.svg')}}" alt="" style="height: 50px"></button>--}}
+        {{--        <button class="btn btn-outline position-absolute top-50 start-85 translate-middle next-6-1">--}}
+        {{--            <img src="{{asset('images/arrow.svg')}}" alt="" style="height: 50px"></button>--}}
         <div class="s6p1-content  first_content_s6 text-center ">
             <div class=" text-yellow header-1 mulish-bold ">
                 MỨC GIÁ HỢP LÝ
             </div>
-            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m mulish-semi font-15" style="width: 100%">
+            <div
+                class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m mulish-semi font-15"
+                style="width: 100%">
                 Chỉ từ 175.000 eur đã có thể sở hữu ngay bđs vĩnh viễn,
                 có thể khai thác cho thuê ngay
             </div>
@@ -454,7 +469,9 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 PHÁP LÝ BĐS
             </div>
-            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m mulish-semi font-15" style="width: 100%">
+            <div
+                class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m mulish-semi font-15"
+                style="width: 100%">
                 Sở hữu vĩnh viễn, pháp lý được công khai minh bạch trên hệ thống dữ liệu của chính phủ Hungary
             </div>
         </div>
@@ -462,7 +479,9 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 VỊ TRÍ ĐẮC ĐỊA
             </div>
-            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m mulish-semi font-15" style="width: 100%">
+            <div
+                class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m mulish-semi font-15"
+                style="width: 100%">
                 Nằm giữa trung tâm downtown thủ đô Budapest – thành phố cổ kính
                 được mệnh danh là “Paris vùng Đông Âu” với nhiều điểm du lịch nổi tiếng,
                 nhà hàng, trung tâm mua sắm
@@ -472,7 +491,9 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 LỢI NHUẬN CHO THUÊ
             </div>
-            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m mulish-semi font-15" style="width: 100%">
+            <div
+                class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m mulish-semi font-15"
+                style="width: 100%">
                 Cam kết tỷ suất lợi nhuận cho thuê cao nhất Châu Âu
                 (trung bình 5.8% - 8.4%/ năm tuỳ vị trí & diện tích)
             </div>
@@ -481,7 +502,9 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 HỖ TRỢ QUẢN LÝ VÀ VẬN HÀNH
             </div>
-            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m mulish-semi font-15" style="width: 100%">
+            <div
+                class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m mulish-semi font-15"
+                style="width: 100%">
                 Có đội ngũ quản lý & vận hành cho thuê trọn gói, đảm bảo uy tín
                 và khai thác tiềm năng BĐS tối đa
             </div>
@@ -490,7 +513,9 @@
             <div class=" text-yellow header-1 mulish-bold ">
                 GIÁ TRỊ TĂNG TRƯỞNG
             </div>
-            <div class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m mulish-semi font-15" style="width: 100%">
+            <div
+                class="text_content_1 text-justify-center pt-1 text-center text-yellow sp6-height-m mulish-semi font-15"
+                style="width: 100%">
                 BĐS Hungary tăng giá top 2 Châu Âu. Tỷ lệ tăng giá trong 5 năm
                 từ 2018 – 2022 là 45.64%, trung bình tăng 9.1%/ năm.
             </div>
@@ -519,7 +544,8 @@
 </div>
 <div class="section_6-2-mobile">
     <div class="container-fluid p-5 position-relative justify-content-center">
-        <div class="position-absolute top-50 w-100 d-flex flex-nowrap justify-content-between" style="margin-left: -10%">
+        <div class="position-absolute top-50 w-100 d-flex flex-nowrap justify-content-between"
+             style="margin-left: -10%">
             <button class="btn btn-outline prev-6-2 position-relative" style="margin-left: 1%">
                 <img src="{{asset('images/circle-l.png')}}" alt="" style="height: 2.5rem; margin-left: 20%"
                      class="position-absolute top-50 translate-middle">
@@ -536,9 +562,9 @@
         <div class="d-flex flex-row-reverse">
             <div class="header-rectangle"></div>
         </div>
-{{--        <button class="btn btn-outline position-absolute top-30 start-0 start-20 translate-middle prev-6-2">--}}
-{{--            <img src="{{asset('images/left-arrow.svg')}}" alt="" class="" style="height: 50px">--}}
-{{--        </button>--}}
+        {{--        <button class="btn btn-outline position-absolute top-30 start-0 start-20 translate-middle prev-6-2">--}}
+        {{--            <img src="{{asset('images/left-arrow.svg')}}" alt="" class="" style="height: 50px">--}}
+        {{--        </button>--}}
         <div class="d-flex align-items-center justify-content-end mt-4 ">
             <img src="{{asset('images/sec6/pic1p2.png')}}" alt="" class="s6p2-img img-fluid  s6p2-img-first">
             <img src="{{asset('images/sec6/pic2p2.png')}}" alt="" class="s6p2-img img-fluid  d-none">
@@ -547,15 +573,15 @@
             <img src="{{asset('images/sec6/pic1p2.png')}}" alt="" class="s6p2-img img-fluid  d-none">
             <img src="{{asset('images/sec6/pic4p2.png')}}" alt="" class="s6p2-img img-fluid s6p2-img-last d-none">
         </div>
-{{--        <button class="btn btn-outline position-absolute top-10 start-84 translate-middle next-6-2 ">--}}
-{{--            <img src="{{asset('images/arrow.svg')}}" alt="" class="" style="width: 50px">--}}
-{{--        </button>--}}
+        {{--        <button class="btn btn-outline position-absolute top-10 start-84 translate-middle next-6-2 ">--}}
+        {{--            <img src="{{asset('images/arrow.svg')}}" alt="" class="" style="width: 50px">--}}
+        {{--        </button>--}}
         <div class="s6p2-content s6p2-first-content text-center">
             <div class="  header-1 mulish-bold" style="height: 2rem">
                 1 NGƯỜi ĐẦU TƯ - 3 THẾ HỆ CÙNG HƯỞNG
             </div>
             <div class="">
-                <div class="text_content_1 text-justify text-center pt-3 s6p2-height-m mulish-semi font-15" >
+                <div class="text_content_1 text-justify text-center pt-3 s6p2-height-m mulish-semi font-15">
                     Thẻ cư trú cấp cho vợ chồng, con cái và bố mẹ 2 bên (có điều kiện cụ thể)
                 </div>
             </div>
@@ -565,7 +591,8 @@
                 MÔI TRƯỜNG SỐNG HOÀN HẢO
             </div>
             <div class="d-flex flex-row-reverse">
-                <div class="text_content_1 text-justify text-center pt-3 text-justify-center s6p2-height-m mulish-semi font-15">
+                <div
+                    class="text_content_1 text-justify text-center pt-3 text-justify-center s6p2-height-m mulish-semi font-15">
                     Không khí trong lành, Chế độ an sinh xã hội tốt, Giáo dục công cấp 1-3 hoàn toàn miễn phí,
                     Chăm sóc y tế theo hệ thống chuẩn Châu Âu
                 </div>
@@ -576,7 +603,7 @@
                 TỰ DO ĐI LẠI KHÔNG CẦN VISA
             </div>
             <div class=" text-justify-center">
-                <div class="text_content_1 text-justify text-center pt-3 s6p2-height-m mulish-semi font-15" >
+                <div class="text_content_1 text-justify text-center pt-3 s6p2-height-m mulish-semi font-15">
                     TỰ DO ĐI LẠI 27 NƯỚC KHỐI SCHENGEN & khu vực Balkan không cần xin visa
                 </div>
             </div>
@@ -586,7 +613,8 @@
                 GIA HẠN SAU 3 NĂM
             </div>
             <div class="">
-                <div class="text_content_1 text-justify text-center pt-3 text-justify-center s6p2-height-m mulish-semi font-15" >
+                <div
+                    class="text_content_1 text-justify text-center pt-3 text-justify-center s6p2-height-m mulish-semi font-15">
                     Sau 3 năm cư trú tại Hungary có thể lên thẻ thường trú nhân
                 </div>
             </div>
@@ -618,18 +646,18 @@
 </div>
 <script>
     $(document).ready(function () {
-        $('.rectangle-sec-6p1').click(function() {
+        $('.rectangle-sec-6p1').click(function () {
             let idRectangleS6p1 = $(this).attr("id");
             let idImgSec2S6p1 = $('.s6p1-img:not(.d-none)').attr("id");
             if (idRectangleS6p1 > idImgSec2S6p1) {
-                let countSecS6p1 =  idRectangleS6p1 - idImgSec2S6p1;
-                for (let i = 0; i < countSecS6p1 ; i++) {
+                let countSecS6p1 = idRectangleS6p1 - idImgSec2S6p1;
+                for (let i = 0; i < countSecS6p1; i++) {
                     s6p1slideToNextImage();
                 }
             }
             if (idRectangleS6p1 < idImgSec2S6p1) {
-                let countSecS6p1 =  idImgSec2S6p1 - idRectangleS6p1;
-                for (let i = 0; i < countSecS6p1 ; i++) {
+                let countSecS6p1 = idImgSec2S6p1 - idRectangleS6p1;
+                for (let i = 0; i < countSecS6p1; i++) {
                     s6p1slideToPrevImage();
                 }
             }
@@ -712,6 +740,7 @@
                 }
             }
         });
+
         function s6p1slideToNextImage() {
             let currentImage = $('.s6p1-img:not(.d-none)');
             let nextImage = currentImage.next('.s6p1-img');
@@ -787,18 +816,18 @@
 <script>
     $(document).ready(function () {
 
-        $('.rectangle-sec-6p2').click(function() {
+        $('.rectangle-sec-6p2').click(function () {
             let idRectangleS6p2 = $(this).attr("id");
             let idImgSecS6p2 = $('.s6p2-img:not(.d-none)').attr("id");
             if (idRectangleS6p2 > idImgSecS6p2) {
-                let countSecS6p2 =  idRectangleS6p2 - idImgSecS6p2;
-                for (let i = 0; i < countSecS6p2 ; i++) {
+                let countSecS6p2 = idRectangleS6p2 - idImgSecS6p2;
+                for (let i = 0; i < countSecS6p2; i++) {
                     s6p2slideToNextImage();
                 }
             }
             if (idRectangleS6p2 < idImgSecS6p2) {
-                let countSecS6p2 =  idImgSecS6p2 - idRectangleS6p2;
-                for (let i = 0; i < countSecS6p2 ; i++) {
+                let countSecS6p2 = idImgSecS6p2 - idRectangleS6p2;
+                for (let i = 0; i < countSecS6p2; i++) {
                     s6p2slideToPrevImage();
                 }
             }
@@ -882,6 +911,7 @@
                 }
             }
         });
+
         function s6p2slideToNextImage() {
             let currentImage = $('.s6p2-img:not(.d-none)');
             let nextImage = currentImage.next('.s6p2-img');

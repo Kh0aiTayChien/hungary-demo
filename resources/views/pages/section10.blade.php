@@ -91,7 +91,7 @@
 </style>
 <div class="section10 d-flex justify-content-center align-items-center  " style="">
     <div class=" row " style="width: 60%; margin-top: 5%">
-        <div class="col-6 aniUtil_dramatic  ani_slideInLeft">
+        <div class="col-6">
             <div>
                 <img src="{{asset('images/sec10/donvidoitac1.svg')}}" alt="" class="" style="width: 35%">
             </div>
@@ -119,7 +119,7 @@
             </div>
 
         </div>
-        <div class="col-6 aniUtil_dramatic ani_slideInRight">
+        <div class="col-6">
             <div>
                 <img src="{{asset('images/sec10/dangkidenhan1.svg')}}" alt="" class="" style="height: 100%">
             </div>
