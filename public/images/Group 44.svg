@@ -5,9 +5,12 @@
         font-family: 'Mulish-SemiBold';
         src: url("/fonts/Mulish-SemiBold.ttf");
         }
-
-        text {
-        font-family: 'Mulish-SemiBold', sans-serif;
+        @font-face {
+        font-family: 'Mulish-ExtraBold';
+        src: url("/fonts/Mulish-ExtraBold.ttf");
+        }
+        .text2 {
+        font-family: Mulish-SemiBold, Mulish;
         }
     </style>
     <defs>
@@ -48,24 +51,23 @@
                 <tspan x="0" y="33">ĐẦU TƯ BẤT ĐỘNG SẢN</tspan>
             </text>
             <g id="Group_42" data-name="Group 42">
-                <text
+                <text class="text2"
                     id="Nhà_đầu_tư_có_thể_chọn_mua_bất_động_sản_trực_tuyến_tại_Việt_Nam_Công_ty_sẽ_đồng_hành_và_hướng_dẫn_tận_tình_nếu_Nhà_đầu_tư_có_nhu_cầu_trực_tiếp_tới_Hungary_Mọi_thủ_tục_pháp_lý_sẽ_có_luật_sư_ủy_quyền_hoàn_thiện"
                     data-name="Nhà đầu tư có thể chọn mua bất động sản trực tuyến tại Việt Nam
 Công ty sẽ đồng hành và hướng dẫn tận tình nếu Nhà đầu tư có nhu cầu trực tiếp tới Hungary
 Mọi thủ tục pháp lý sẽ có luật sư ủy quyền hoàn thiện" transform="translate(171.75 1097.965)" fill="#fff"
                     font-size="36">
-                    <tspan x="0" y="37">Nhà đầu tư có thể chọn mua bất động sản trực tuyến tại</tspan>
-                    <tspan x="0" y="85">Việt Nam</tspan>
-                    <tspan x="0" y="133" letter-spacing="0.02em">Công ty sẽ đồng hành và hướng dẫn tận tình nếu Nhà</tspan>
+                    <tspan x="0" y="37" word-spacing="0.08em">Nhà đầu tư có thể chọn mua bất động sản trực tuyến</tspan>
+                    <tspan x="0" y="85"> tại Việt Nam</tspan>
+                    <tspan x="0" y="133" letter-spacing="0.01em">Công ty sẽ đồng hành và hướng dẫn tận tình nếu Nhà</tspan>
                     <tspan x="0" y="181">đầu tư có nhu cầu trực tiếp tới Hungary</tspan>
-                    <tspan x="0" y="229">Mọi thủ tục pháp lý sẽ có luật sư ủy quyền hoàn thiện</tspan>
+                    <tspan x="0" y="229" letter-spacing="0.01em">Mọi thủ tục pháp lý sẽ có luật sư ủy quyền hoàn thiện</tspan>
                 </text>
                 <circle id="Ellipse_8" data-name="Ellipse 8" cx="6.501" cy="6.501" r="6.501"
                         transform="translate(140.996 1118.719)" fill="#e7c57e"/>
             </g>
         </g>
-        <circle id="Ellipse_9" data-name="Ellipse 9" cx="6.501" cy="6.501" r="6.501"
-                transform="translate(140.996 1166.883)" fill="#e7c57e"/>
+
         <circle id="Ellipse_10" data-name="Ellipse 10" cx="6.501" cy="6.501" r="6.501"
                 transform="translate(140.996 1215.218)" fill="#e7c57e"/>
         <circle id="Ellipse_11" data-name="Ellipse 11" cx="6.501" cy="6.501" r="6.501"

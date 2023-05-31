@@ -5,9 +5,12 @@
         font-family: 'Mulish-SemiBold';
         src: url("/fonts/Mulish-SemiBold.ttf");
         }
-
-        text {
-        font-family: 'Mulish-SemiBold', sans-serif;
+        @font-face {
+        font-family: 'Mulish-ExtraBold';
+        src: url("/fonts/Mulish-ExtraBold.ttf");
+        }
+        .text2 {
+        font-family: Mulish-ExtraBold, Mulish;
         }
     </style>
     <defs>
@@ -49,13 +52,13 @@
         <g id="Group_66" data-name="Group 66">
             <g id="Group_65" data-name="Group 65">
                 <g id="Group_64" data-name="Group 64">
-                    <text
+                    <text class="text2"
                         id="_03_THÁNG_KHÁCH_HÀNG_SẼ_ĐƯỢC_CẤP_THẺ_TẠM_TRƯỚC_KHI_NHẬN_THẺ_CHÍNH_THẺ_TẠM_CÓ_QUYỀN_TƯƠNG_ĐƯƠNG_THẺ_CHÍNH_"
                         data-name="03 THÁNG (KHÁCH HÀNG SẼ ĐƯỢC CẤP
 THẺ TẠM TRƯỚC KHI NHẬN THẺ CHÍNH,
 THẺ TẠM CÓ QUYỀN TƯƠNG ĐƯƠNG THẺ CHÍNH)" transform="translate(1445.116 894.508)" fill="#e7c57e" font-size="31"
                         font-weight="800" letter-spacing="0.05em">
-                        <tspan x="110.854" y="31" font-size="45">03 </tspan>
+                        <tspan x="160.854" y="31" font-size="45">03 </tspan>
                         <tspan y="31" font-size="31">THÁNG </tspan>
                         <tspan y="31" xml:space="preserve" fill="#fff">(KHÁCH HÀNG SẼ ĐƯỢC CẤP </tspan>
                         <tspan fill="#fff">

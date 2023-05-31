@@ -1,10 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="761.717" height="256.382" viewBox="0 0 761.717 256.382">
-  <g id="Group_39" data-name="Group 39" transform="translate(-105.894 -131.253)">
-    <g id="Group_13" data-name="Group 13" transform="translate(-2211.915)">
-      <text id="_6" data-name="6" transform="translate(2317.809 337.635)" fill="#be1e2d" font-size="250.141" font-family="BeautiqueDisplay-Black, Beautique Display" font-weight="800" letter-spacing="0.04em"><tspan x="0" y="0">6</tspan></text>
-      <text id="ĐẶC_QUYỀN" data-name="ĐẶC QUYỀN" transform="translate(2490.526 195.253)" fill="#be1e2d" font-size="61.034" font-family="BeautiqueDisplay-Black, Beautique Display" font-weight="800" letter-spacing="0.04em"><tspan x="0" y="0">ĐẶC QUYỀN</tspan></text>
-      <text id="CỦA_NHÀ_ĐẦU_TƯ" data-name="CỦA NHÀ ĐẦU TƯ" transform="translate(2490.526 277.833)" fill="#be1e2d" font-size="61.034" font-family="BeautiqueDisplay-Black, Beautique Display" font-weight="800" letter-spacing="0.04em"><tspan x="0" y="0">CỦA NHÀ ĐẦU TƯ</tspan></text>
-      <text id="KHI_ĐỒNG_HÀNH_CÙNG_CHÚNG_TÔI" data-name="KHI ĐỒNG HÀNH CÙNG CHÚNG TÔI" transform="translate(2495.424 336.363)" font-size="31.077" font-family="SVN-GilroyMediumItalic, SVN-Gilroy" font-weight="500" font-style="italic" letter-spacing="0.04em"><tspan x="0" y="0">KHI ĐỒNG HÀNH CÙNG CHÚNG TÔI</tspan></text>
+    <style>
+        @font-face {
+        font-family: 'SVN-Gilroy Medium Italic';
+        src: url("/fonts/SVN-Gilroy Medium Italic.otf");
+        }
+        @font-face {
+        font-family: 'BeautiqueDisplay-Black';
+        src: url("/fonts/BeautiqueDisplay-Black-BF63fd5fa82b67d.otf");
+        }
+        .text1 {
+        font-family: BeautiqueDisplay-Black, Beautique Display;
+        }
+    </style>
+    <g id="Group_39" data-name="Group 39" transform="translate(-105.894 -131.253)">
+        <g id="Group_13" data-name="Group 13" transform="translate(-2211.915)">
+            <text class="text1" id="_6" data-name="6" transform="translate(2317.809 337.635)" fill="#be1e2d" font-size="250.141"
+                  font-weight="800" letter-spacing="0.04em">
+                <tspan x="0" y="0">6</tspan>
+            </text>
+            <text id="ĐẶC_QUYỀN" data-name="ĐẶC QUYỀN" transform="translate(2490.526 195.253)" fill="#be1e2d"
+                  font-size="61.034" font-family="BeautiqueDisplay-Black, BeautiqueDisplay" font-weight="800"
+                  letter-spacing="0.04em">
+                <tspan x="0" y="0">ĐẶC QUYỀN</tspan>
+            </text>
+            <text id="CỦA_NHÀ_ĐẦU_TƯ" data-name="CỦA NHÀ ĐẦU TƯ" transform="translate(2490.526 277.833)" fill="#be1e2d"
+                  font-size="61.034" font-family="BeautiqueDisplay-Black, BeautiqueDisplay" font-weight="800"
+                  letter-spacing="0.04em">
+                <tspan x="0" y="0">CỦA NHÀ ĐẦU TƯ</tspan>
+            </text>
+            <text id="KHI_ĐỒNG_HÀNH_CÙNG_CHÚNG_TÔI" data-name="KHI ĐỒNG HÀNH CÙNG CHÚNG TÔI"
+                  transform="translate(2495.424 336.363)" font-size="31.077"
+                  font-family="SVN-GilroyMediumItalic, SVN-Gilroy" font-weight="500" font-style="italic"
+                  letter-spacing="0.04em">
+                <tspan x="0" y="0">KHI ĐỒNG HÀNH CÙNG CHÚNG TÔI</tspan>
+            </text>
+        </g>
     </g>
-  </g>
 </svg>

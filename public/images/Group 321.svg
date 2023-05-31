@@ -5,9 +5,12 @@
         font-family: 'Mulish-SemiBold';
         src: url("/fonts/Mulish-SemiBold.ttf");
         }
-
-        text {
-        font-family: 'Mulish-SemiBold', sans-serif;
+        @font-face {
+        font-family: 'Mulish-ExtraBold';
+        src: url("/fonts/Mulish-ExtraBold.ttf");
+        }
+        .text2 {
+        font-family: Mulish-SemiBold, Mulish;
         }
     </style>
     <defs>
@@ -49,20 +52,21 @@
                 <tspan x="0" y="34">LÀM THẺ CƯ TRÚ</tspan>
             </text>
             <g id="Group_30" data-name="Group 30">
-                <text
+                <text class="text2"
                     id="Nhà_đầu_tư_sẽ_được_hướng_dẫn_chi_tiết_các_bước_thu_thập_hồ_sơ_Mọi_thủ_tục_đều_có_thể_được_thực_hiện_tại_Việt_Nam_Nếu_nộp_hồ_sơ_tại_Hungary_Nhà_đầu_tư_không_cần_phải_phỏng_vấn_Cam_kết_hoàn_tiền_100_nếu_không_được_cấp_thẻ_cư_trú"
                     data-name="Nhà đầu tư sẽ được hướng dẫn chi tiết các bước thu thập hồ sơ
 Mọi thủ tục đều có thể được thực hiện tại Việt Nam
 Nếu nộp hồ sơ tại Hungary, Nhà đầu tư không cần phải phỏng vấn
-Cam kết hoàn tiền 100% nếu không được cấp thẻ cư trú" transform="translate(171.75 580.894)" fill="#fff" font-size="36"
-                    >
-                    <tspan x="0" y="37" letter-spacing="0.035em">Nhà đầu tư sẽ được hướng dẫn chi tiết các bước thu</tspan>
+Cam kết hoàn tiền 100% nếu không được cấp thẻ cư trú" transform="translate(171.75 580.894)" fill="#fff" font-size="36 "
+                >
+                    <tspan x="0" y="37" word-spacing="0.15em">Nhà đầu tư sẽ được hướng dẫn chi tiết các bước thu
+                    </tspan>
                     <tspan x="0" y="85">thập hồ sơ</tspan>
                     <tspan x="0" y="133"
                            xml:space="preserve">Mọi thủ tục đều có thể được thực hiện tại Việt Nam  </tspan>
-                    <tspan x="0" y="181" letter-spacing="0.01em">Nếu nộp hồ sơ tại Hungary, Nhà đầu tư không cần phải</tspan>
+                    <tspan x="0" y="181">Nếu nộp hồ sơ tại Hungary, Nhà đầu tư không cần phải</tspan>
                     <tspan x="0" y="229">phỏng vấn</tspan>
-                    <tspan x="0" y="277">Cam kết hoàn tiền 100% nếu không được cấp thẻ cư trú</tspan>
+                    <tspan x="0" y="277" font-size="35.5">Cam kết hoàn tiền 100% nếu không được cấp thẻ cư trú</tspan>
                 </text>
             </g>
         </g>

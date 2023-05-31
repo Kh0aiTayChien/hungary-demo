@@ -1,7 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="958.834" height="257.815" viewBox="0 0 958.834 257.815">
+    <style>
+        @font-face {
+        font-family: 'Mulish-ExtraBold';
+        src: url("/fonts/Mulish-ExtraBold.ttf");
+        }
+
+    </style>
     <g id="Group_31" data-name="Group 31" transform="translate(-105.894 -890.24)">
         <text id="THỦ_TỤC_TINH_GỌN_NHANH_CHÓNG" data-name="THỦ TỤC TINH GỌN NHANH CHÓNG"
-              transform="translate(285.728 944.685)" fill="#bc202e" font-size="45"
+              transform="translate(285.728 944.685)" fill="#bc202e" font-size="44"
               font-family="Mulish-ExtraBold, sans-serif" font-weight="800">
             <tspan x="-15" y="0">THỦ TỤC TINH GỌN NHANH CHÓNG</tspan>
         </text>

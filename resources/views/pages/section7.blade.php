@@ -175,7 +175,7 @@
 </div>
 
 <div class="sec7mb">
-    <img src="{{asset('images/Group 40.svg')}}" class="headersec7mb">
+    <object data="{{asset('images/Group 40.svg')}}" class="headersec7mb"></object>
     <object class="line1sec7mb" data="{{asset('images/Group 30(1).svg')}}" type="image/svg+xml"></object>
     <p class="testlinesec7mb">
         Sở hữu tài sản vĩnh viễn giữa trung tâm thủ đô, Budapest, cam kết BĐS tăng trưởng ổn định &amp; tỉ suất lợi
