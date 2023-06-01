@@ -161,8 +161,8 @@
 (loại hình căn hộ, thủ tục đăng ký, hợp đồng, v.v.)"></textarea>
                 </div>
                 <div class="form-group mt-2" id="addInformationpc">
-                    <button type="submit" class="btn btn-submit form-control" style="background-color: #E7C57E">
-                        <p class="submit-text">NHẬN THÔNG TIN</p>
+                    <button type="submit" class="btn btn-submit form-control pulse" style="background-color: #E7C57E">
+                        <p class="submit-text ani_headShake aniUtil_onMouse aniUtil_active aniUtil_onMouseRepeat">NHẬN THÔNG TIN</p>
                     </button>
                 </div>
             </form>
@@ -212,7 +212,7 @@
                 <textarea style="font-size: 14px" class="form-control form-control-last" name="care" placeholder="Anh/chị đang quan tâm tới vấn đề gì của chương trình? (loại hình căn hộ, thủ tục đăng ký, hợp đồng, v.v.)"></textarea>
             </div>
             <div class="form-group mt-2 ">
-                <button type="submit" class="btn btn-submit form-control d-flex justify-content-center align-items-center" style="background-color: #E7C57E">
+                <button type="submit" class="btn btn-submit form-control d-flex justify-content-center align-items-center " style="background-color: #E7C57E">
                     <p class="submit-text-m text-center-align" style="margin: 0 auto;">NHẬN THÔNG TIN</p>
                 </button>
             </div>
