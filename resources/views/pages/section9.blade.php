@@ -5,7 +5,7 @@
         <img src="{{asset('images/Group 59.svg')}}" class="header3sec9pc aniUtil_dramatic ani_slideInLeft">
     </div>
     <div class="mt-4">
-        <object data="{{asset('images/Asset 2.svg')}}" class="contentsec9pc aniUtil_dramatic ani_slideInRight"></object>
+        <object data="{{asset('images/Asset 2.svg')}}" class="contentsec9pc"></object>
     </div>
 </div>
 

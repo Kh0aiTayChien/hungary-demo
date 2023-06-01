@@ -121,6 +121,44 @@ body {
     height: 6vh;
     background: #E7C57E;
     border: none;
+    transition: transform 0.3s;
+}
+
+.pulse {
+    background: #E7C57E;
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    animation: bling 1.5s infinite;
+}
+
+@-webkit-keyframes bling {
+    0% {
+        color: yellow;
+        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    }
+    70% {
+        color: yellow;
+        -webkit-box-shadow: 0 0 0 15px rgba(204,169,44, 0);
+    }
+    100% {
+        color: yellow;
+        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+}
+@keyframes bling {
+    0% {
+        color: yellow;
+        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    }
+    70% {
+        color: yellow;
+        -moz-box-shadow: 0 0 0 15px rgba(204,169,44, 0);
+        box-shadow: 0 0 0 15px rgba(204,169,44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
 }
 
 .buttonIMG {
@@ -208,9 +246,12 @@ ul.iconmb {
     font-family: Mulish-ExtraBold, sans-serif;
     opacity: 85%;
 }
+
 .iconmb {
     display: none;
 }
+
+
 @media screen and (max-aspect-ratio: 3/2) {
     .logoCen {
         height: 80px;

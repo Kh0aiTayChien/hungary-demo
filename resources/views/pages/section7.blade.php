@@ -68,7 +68,7 @@
 </style>
 <div class="sec7pc relative ">
     <img class="headersec7pc absolute aniUtil_dramatic ani_slideInDown" src="{{ asset('images/Group 27.svg') }}">
-    <div class="row absolute gx-0 row-sec-7  aniUtil_dramatic ani_slideInLeft" >
+    <div class="row absolute gx-0 row-sec-7" >
         <div class="col-2 d-flex flex-column align-items-center" style="align-self: flex-end;">
             <p class="text-justify mulish-semi">Sở hữu tài sản vĩnh viễn giữa trung tâm thủ đô Budapest, cam kết BĐS tăng trưởng ổn
                 định & tỉ suất lợi nhuận cao nhất châu Âu. Nói không với BĐS xa xôi, hẻo lánh, pháp lý không rõ ràng</p>
@@ -102,7 +102,7 @@
             06
         </div>
     </div>
-    <div class="row absolute gx-0 aniUtil_dramatic  ani_slideInRight" style="margin: 0 7% 0 11%; height: 10%">
+    <div class="row absolute gx-0" style="margin: 0 7% 0 11%; height: 10%">
         <div class="col-2 mulish-bold text-red center-content">
             <div class="line-l"></div>
             <div class="circle"></div>
@@ -134,7 +134,7 @@
             <div class="line-r"></div>
         </div>
     </div>
-    <div class="row absolute  aniUtil_dramatic ani_slideInLeft" style="margin: 0 7% 0 11%; height: 20%">
+    <div class="row absolute" style="margin: 0 7% 0 11%; height: 20%">
         <div class="col-2 tinos text-red " style="font-size: 100px">
             <p style="margin-top: -2rem">01</p>
         </div>
