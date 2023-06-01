@@ -127,7 +127,7 @@ body {
 .pulse {
     background: #E7C57E;
     box-shadow: 0 0 0 rgba(204,169,44, 0.4);
-    animation: bling 2s infinite;
+    animation: bling 1.5s infinite;
 }
 
 @-webkit-keyframes bling {
@@ -156,7 +156,6 @@ body {
         box-shadow: 0 0 0 15px rgba(204,169,44, 0);
     }
     100% {
-        color: yellow;
         -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
         box-shadow: 0 0 0 0 rgba(204,169,44, 0);
     }
@@ -247,6 +246,7 @@ ul.iconmb {
     font-family: Mulish-ExtraBold, sans-serif;
     opacity: 85%;
 }
+
 .iconmb {
     display: none;
 }

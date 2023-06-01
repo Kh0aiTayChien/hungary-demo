@@ -71,13 +71,14 @@
     </div>
     <div class="button1Pospc">
         <button class="button1 pulse" id="myButton" onclick="scrollToElement('addInformationpc')">
-            <img src="{{asset('images/Group 401.svg')}}" class="buttonIMG ani_headShake aniUtil_onMouse aniUtil_active aniUtil_onMouseRepeat">
-{{--            <p class="buttontest">NHẬN THÔNG TIN</p>--}}
+            <img src="{{asset('images/Group 401.svg')}}"
+                    class="buttonIMG ani_headShake aniUtil_onMouse aniUtil_active aniUtil_onMouseRepeat">
+{{--                        <p class="buttontest ani_headShake aniUtil_onMouse aniUtil_active aniUtil_onMouseRepeat">NHẬN THÔNG TIN</p>--}}
         </button>
     </div>
     <div class="button1Posmb">
-        <button class="button1" id="myButton" onclick="scrollToElement('addInformationmb')">
-{{--            <img src="{{asset('images/Group 401.svg')}}" class="buttonIMG">--}}
+        <button class="button1 pulse" id="myButton" onclick="scrollToElement('addInformationmb')">
+            {{--            <img src="{{asset('images/Group 401.svg')}}" class="buttonIMG">--}}
             <p class="buttontest">NHẬN THÔNG TIN</p>
         </button>
     </div>
