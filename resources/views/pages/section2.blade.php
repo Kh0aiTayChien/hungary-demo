@@ -23,6 +23,7 @@
     .btn:focus {
         box-shadow: none !important;
     }
+
     .btn-submit {
         opacity: 1 !important
     }
@@ -42,6 +43,7 @@
         height: 5.038px;
         background-color: #bc202e;
     }
+
     .mobile-header-rectangle {
         width: 110px;
         height: 3.038px !important;
@@ -74,11 +76,13 @@
         font-family: 'Mulish-SemiBold', sans-serif;
         width: 80%;
     }
+
     @media screen and (max-width: 1400px) {
         .content {
             width: 100%;
         }
     }
+
     .fade-out {
         opacity: 0;
         transition: opacity 0.25s ease;
@@ -147,6 +151,7 @@
             opacity: 50%;
         }
     }
+
     @media screen and (min-width: 450px) {
         .next-img {
             width: 150%;
@@ -194,28 +199,41 @@
     .sp2-height-m {
         height: 18rem;
     }
-    .padding-sec2{
+
+    .padding-sec2 {
         padding: 5% 0 0 14.6%
     }
-    .img-sec2{
+
+    .img-sec2 {
         width: 80%
     }
-    .rectangle-style-s2{
-        width: 12%; font-size: 25px;  font-family: 'Mulish-SemiBold', sans-serif;  top: 79%;
+
+    .rectangle-style-s2 {
+        width: 12%;
+        font-size: 25px;
+        font-family: 'Mulish-SemiBold', sans-serif;
+        top: 79%;
         left: 14.5%;
     }
+
     @media screen and (max-width: 1600px) {
         .padding-sec2 {
             padding: 5% 0 0 5.6%
         }
-        .img-sec2{
+
+        .img-sec2 {
             width: 60%
         }
-        .rectangle-style-s2{
-            width: 12%; font-size: 25px;  font-family: 'Mulish-SemiBold', sans-serif;  top: 79%;
+
+        .rectangle-style-s2 {
+            width: 12%;
+            font-size: 25px;
+            font-family: 'Mulish-SemiBold', sans-serif;
+            top: 79%;
             left: 6%;
         }
     }
+
     .fb-arrow-right {
         background-image: url({{asset('images/circle-r.png')}});
         background-size: auto;
@@ -224,6 +242,7 @@
         background-repeat: no-repeat;
         display: inline-block;
     }
+
     .fb-arrow-left {
         background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/fxdCboHHQwb.png);
         background-position: -58px -26px;
@@ -244,7 +263,8 @@
         /*box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);*/
         opacity: 0.7;
     }
-    .circle-fb-mb{
+
+    .circle-fb-mb {
         scale: 120%;
         width: 24px;
         height: 24px;
@@ -257,29 +277,34 @@
     .btn {
         opacity: 0.7;
     }
+
     .btn:hover {
         opacity: 1;
     }
 
-    .rectangle-sec-2:hover{
+    .rectangle-sec-2:hover {
         cursor: pointer;
     }
 
 </style>
+
 <div class="section_2 position-relative row padding-sec2 ">
     <div class="side_content col-6 h-100 ">
-        <img src="{{asset('images/question.svg')}}" alt="" class="img-fluid img-sec2 aniUtil_dramatic  ani_fadeInLeft " style="">
+        <img src="{{asset('images/question.svg')}}" alt=""
+             class="img-fluid img-sec2 aniUtil_dramatic  ani_fadeInLeft " style="">
         <div class=" content first_content  aniUtil_dramatic ani_fadeInLeft">
             <div class=" text-red h5 header-1 mulish-bold" style="margin-top: 5%;">
                 DẠNG ĐỊNH CƯ ƯU VIỆT NHẤT
             </div>
             <div class="header-rectangle sp2-height" style="width: 40%"></div>
             <div class="text_content_1 text-justify sp2-height mt-2">
-                Vượt trên các dạng định cư ĐOÀN TỤ - KỸ NĂNG - DU HỌC - DOANH NHÂN (ĐẦU TƯ) đều có những điểm khó khăn
+                Vượt trên các dạng định cư ĐOÀN TỤ - KỸ NĂNG - DU HỌC - DOANH NHÂN (ĐẦU TƯ) đều có những điểm khó
+                khăn
                 nhất
                 định. Và việc làm thẻ cư trú kèm mua BDS đang là ƯU VIỆT NHẤT.
                 <br><br>
-                Thủ tục dễ dàng nhất - Chi phí đăng ký và duy trì thẻ hợp lý - Con đường rẻ hơn để vào Châu Âu so với
+                Thủ tục dễ dàng nhất - Chi phí đăng ký và duy trì thẻ hợp lý - Con đường rẻ hơn để vào Châu Âu so
+                với
                 các
                 chương trình/ đất nước khác.
                 Hungary có mức chi tiêu rẻ và người dân bản địa thân thiện với người nhập cư.
@@ -311,7 +336,8 @@
             <div class="text_content_3 text-justify sp2-height  mt-2">
                 Một món quà tinh thần mang ý nghĩa sâu sắc khi giúp thế hệ mai sau
                 được tiếp cận với nền văn minh hiện đại, được tiếp thu những tư tưởng tân tiến,
-                xu hướng ngày càng nhiều gia đình Việt Nam tạo điều kiện cho con em học tập và sinh sống ở nước ngoài.
+                xu hướng ngày càng nhiều gia đình Việt Nam tạo điều kiện cho con em học tập và sinh sống ở nước
+                ngoài.
                 <br><br>
                 Hungary là một trong những nước có cộng đồng người Việt lớn nhất Châu Âu.
                 Nơi người dân bản địa hòa đồng với người nhập cư.
@@ -330,7 +356,8 @@
                 <br><br>
                 Bước đầu hòa nhập với cuộc sống và học tập tại nước ngoài để thành công dân toàn cầu tương lai.
                 Du lịch tự do/ du lịch y tế/ mua sắm cao cấp nhất: khả năng đi lại
-                giữa các quốc gia phát triển mà không cần xin Visa chắc chắn là một tài sản vô giá đối với bất cứ ai.
+                giữa các quốc gia phát triển mà không cần xin Visa chắc chắn là một tài sản vô giá đối với bất cứ
+                ai.
             </div>
         </div>
 
@@ -354,7 +381,8 @@
             </div>
         </div>
     </div>
-    <div class="side_content col-6 row  aniUtil_dramatic ani_fadeInDown" style="padding: 0 0 5% 2% ;position: relative">
+    <div class="side_content col-6 row  aniUtil_dramatic ani_fadeInDown"
+         style="padding: 0 0 5% 2% ;position: relative">
         <img src="{{asset('images/pic_1.png')}}" alt="" class="img-fluid img-pc-sec-2 side-img col-8 pic_1" id="1">
         <img src="{{asset('images/pic_2.png')}}" alt="" class="img-fluid img-pc-sec-2 side-img col-8 d-none" id="2">
         <img src="{{asset('images/pic_3.png')}}" alt="" class="img-fluid img-pc-sec-2 side-img col-8 d-none" id="3">
@@ -372,6 +400,7 @@
         </div>
     </div>
 </div>
+
 <div class=" section_2_mobile col-12" style="width: 100% " id="sec2">
     <img src="{{asset('images/question_mobile.svg')}}" alt="" class="img-fluid  pt-4 ps-4 pe-4 ">
     <div class="d-flex justify-content-center pt-3 col-12 ">
@@ -517,18 +546,18 @@
 
 <script>
     $(document).ready(function () {
-        $('.rectangle-sec-2').click(function() {
+        $('.rectangle-sec-2').click(function () {
             let idRectangle = $(this).attr("id");
             let idImgSec2 = $('.img-pc-sec-2:not(.d-none)').attr("id");
             if (idRectangle > idImgSec2) {
-                let countSec2 =  idRectangle - idImgSec2;
-                for (let i = 0; i < countSec2 ; i++) {
+                let countSec2 = idRectangle - idImgSec2;
+                for (let i = 0; i < countSec2; i++) {
                     slideToNextImage();
                 }
             }
             if (idRectangle < idImgSec2) {
-                let countSec2 =  idImgSec2 - idRectangle;
-                for (let i = 0; i < countSec2 ; i++) {
+                let countSec2 = idImgSec2 - idRectangle;
+                for (let i = 0; i < countSec2; i++) {
                     slideToPrevImage();
                 }
             }
